@@ -1,0 +1,30 @@
+{
+    "id": "d5188d2b-0b6d-4a91-a487-bd5d991e78b7",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "d5188d2b-0b6d-4a91-a487-bd5d991e78b7",
+    "children": [
+        "f738fbcd-6133-44da-9943-e46e433fa4cd",
+        "4c611cf2-0b03-44d8-9439-40f701446c03",
+        "6ee81644-c5a8-4f09-a75b-4a865e320d30",
+        "3ba04596-4b5a-4b91-9b8e-e7e112b824b0",
+        "b07ebc87-2df7-4650-bf95-a2177ed33735",
+        "9b932187-4787-4ed9-9903-d96a8c66a59b",
+        "d950cb4e-b834-466c-b0fd-b1756b406ab8",
+        "f8d7f1ee-46c6-4bcf-b384-1bc4df6511c4",
+        "ca25ac99-4b35-41f1-af48-4936b2f9ee00",
+        "ba918d19-bb53-40db-a278-38a14c4b7e2b",
+        "dfd98e1b-3ba5-4c38-875f-785c66b2d685",
+        "2d57c343-952a-4e45-9f2f-fc01c39b7a77",
+        "bda9ab06-90de-4aa8-94ac-438d7fcfb976",
+        "218829ee-e2f4-44aa-a59e-76b83b56872f",
+        "02b54188-3164-43b9-bbdc-dc80c4dcebe2",
+        "58952117-4492-44f9-9d2b-b2405a264712",
+        "2a043983-7643-4866-a95f-a03cfffd9184",
+        "ec38e112-46d1-4ba9-90ac-03cd89998e22"
+    ],
+    "filterType": "GMSprite",
+    "folderName": "Drifting Dynamo",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

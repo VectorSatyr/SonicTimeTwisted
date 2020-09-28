@@ -1,0 +1,32 @@
+{
+    "id": "f5e99d79-d753-4d43-8d46-357fa65bafc6",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "f5e99d79-d753-4d43-8d46-357fa65bafc6",
+    "children": [
+        "9514badc-07d1-4cd0-9c21-07d706f6ea6e",
+        "f0bd6e16-de3a-41b6-9e90-a9f7f822d6f0",
+        "b55fabac-6c94-4273-90bc-6da61900c434",
+        "01886689-1a39-49fb-b9e1-944cd2a7a0f9",
+        "c0e32d94-9b1e-495a-877c-a18abeadd840",
+        "2d638c03-d247-44ce-bafa-2a97406f222d",
+        "33dcea5e-b981-4f65-8fc1-c3a637824fae",
+        "38cb46b4-2c95-48f4-b3b9-93a0617b33bb",
+        "b6aa0c6c-55fe-4511-bea9-631d0a8b78a3",
+        "c109c23d-4561-48c8-b6b6-cdd7e0fcc5f0",
+        "6846e3b0-8bc5-4bb3-bf5d-03dbba34f055",
+        "dde0642d-617d-4a8a-93ea-4b12f40c96bd",
+        "2d6f2a02-42cf-429e-9707-ceb862941596",
+        "a0205596-f771-4cf8-9e78-43a4e63b4141",
+        "83c8841b-f1b5-4bf7-84c8-a8d6b22b2ef6",
+        "69a7b276-0c59-4982-ac19-482b1f0fb049",
+        "bae53da4-f6ca-4ea3-8e3e-e6fab1edb45e",
+        "00b80c2b-4d28-4402-a466-05787de2fc56",
+        "9f027834-ebb7-4b32-a012-c24189071714",
+        "a1f5eba6-56ad-4e98-b264-ed796099c24f"
+    ],
+    "filterType": "GMScript",
+    "folderName": "State Change",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

@@ -1,0 +1,30 @@
+{
+    "id": "e0581c8d-3431-4e0c-8e72-99649f035211",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "e0581c8d-3431-4e0c-8e72-99649f035211",
+    "children": [
+        "4bf73211-3972-4ffb-9469-72e8440108b6",
+        "8966c0a6-55b0-4a51-8237-c61f7808d5a9",
+        "b42ee8e9-cdca-4f27-9500-aa882c531b7f",
+        "ef501c5c-3b77-47e9-ac7b-bc9c16d710fe",
+        "2a611f95-59a8-4741-986b-2b3be3742662",
+        "6d2a8d64-308e-4998-acfa-a2d85b3dda5f",
+        "29f0d9e0-27ea-48ae-bd5e-bb89b7b591a5",
+        "1c14b99d-0b6b-4d06-9f45-49e1f07b529c",
+        "fe97340f-b1de-4825-a642-5b16499b6645",
+        "980a1a63-0215-416a-8e62-36308b880ff3",
+        "b3c9e561-4eff-49d0-b60d-fc1df4ae48fb",
+        "ef4a4600-6886-44ec-b6b9-51a46e8dfcca",
+        "df9e34b5-3eaf-4dca-bc1d-f4d5367a46ba",
+        "6e9ad555-15ca-45bc-8c06-6effd7d56825",
+        "22d8a7e1-5ac1-4f52-8ac6-69866645045c",
+        "60c18966-6ad2-4b34-9f2e-652cdb7cf50e",
+        "3ee65663-bf49-4b46-9010-ba5a8fdc9ef6",
+        "434393af-771e-4318-a235-a8109d15cfdf"
+    ],
+    "filterType": "GMObject",
+    "folderName": "Tidal Tubes",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

@@ -1,0 +1,1 @@
+climbable=true;layer=2;

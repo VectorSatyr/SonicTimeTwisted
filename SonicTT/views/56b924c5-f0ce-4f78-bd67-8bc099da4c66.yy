@@ -1,0 +1,32 @@
+{
+    "id": "56b924c5-f0ce-4f78-bd67-8bc099da4c66",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "56b924c5-f0ce-4f78-bd67-8bc099da4c66",
+    "children": [
+        "e19e7955-7db1-44f6-af23-72af06e4be12",
+        "cf5e6146-9ba1-4823-86df-d12d2d7d2be8",
+        "97e8ba99-7b01-4a43-aa25-2858cbf7be54",
+        "d7cdc6a9-a504-4f97-aea7-a68882f17aec",
+        "94dfa315-a877-4580-8b8c-f51390861348",
+        "3f9e1690-7167-4f59-a722-7471140ee71e",
+        "264b9a59-d4c3-47ed-9a6f-955d1813b225",
+        "0b13ad0a-c2b2-4dcc-a485-75f0f9238dbe",
+        "46d9937d-3fc1-4968-a805-7a04574d4467",
+        "d437b161-abe0-4b8c-99ea-52a3639fb284",
+        "a2b97254-8d52-4388-a412-64e9364f9ed5",
+        "d59841a7-99d2-4781-bf19-d4594a175f93",
+        "0551b7ed-2a66-421d-b6ca-30fae0df2901",
+        "52956412-6a54-47b3-88ce-8bc6f0a9567a",
+        "a98d46de-7c2b-4521-87b0-2bc9bff0a856",
+        "66b9514c-8a23-4c5e-bf14-1cc303ed926d",
+        "65b219c2-222f-4283-9484-367fcefdb1f6",
+        "8d9e32fc-8399-401e-959b-eb0867879468",
+        "731e8e78-229f-406d-84eb-f95db5539224",
+        "af4dd737-8cc6-4493-8260-e1dfb7a6e967"
+    ],
+    "filterType": "GMObject",
+    "folderName": "Transitions",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
