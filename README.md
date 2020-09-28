@@ -1,11 +1,7 @@
-<img src="https://github.com/VectorSatyr/SonicTimeTwisted/blob/master/.github/TimeTwistedLogo.png" alt="Sonic Time Twisted Logo" width="134px" height="66px" class="center"/>
+<div style="text-align:center"><img src="https://github.com/VectorSatyr/SonicTimeTwisted/blob/master/.github/TimeTwistedLogo.png" alt="Sonic Time Twisted Logo" width="536px" height="274px"/></div>
 
-> A classic-style Sonic fangame epic with time travel, accurate
-> physics, custom pixel art, a fully original CD-quality soundtrack,
-> and sprawling zones with loops, gizmos, alternate routes, and hidden
-> secrets! Stop Metal Sonic from capturing the Time Stones and
-> resurrecting his former master.
-​
+> A classic-style Sonic fangame epic with time travel, accurate physics, custom pixel art, a fully original CD-quality soundtrack, and sprawling zones with loops, gizmos, alternate routes, and hidden secrets! Stop Metal Sonic from capturing the Time Stones and resurrecting his former master.
+
 ## How to play
 
 Playable binaries are available in the [Releases](https://github.com/VectorSatyr/SonicTimeTwisted/releases) section; if not, visit [Overbound Game Studios](https://overboundstudio.com/index.php?action=game_page&id=1) to play the original 2017 release of the game.
