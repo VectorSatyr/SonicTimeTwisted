@@ -9,6 +9,8 @@ var temp_Wave_1 = 0; // standard wave
 var temp_Wave_2 = 0; // spikes
 var temp_Wave_3 = 0; // larger wave
 
+if (surface_exists(tt_surface))
+{
 surface_set_target(tt_surface);
     draw_clear_alpha(0, 0);
     if (__view_get( e__VW.YView, 0 ) < room_height - __view_get( e__VW.HView, 0 ) - 64)
@@ -64,6 +66,7 @@ surface_set_target(tt_surface);
         temp_Sign = -1;
     }*/
 surface_reset_target();
+}
 // draw the sprite mirrored on the y axis to create the zipper shape
 //draw_sprite_ext(spr, floor(image_index), xoffset, 0, 1, 1, 0, c_white, 1);
 //draw_sprite_ext(spr, floor(image_index), 0, 1, 1, 1, 0, c_white, 1); // ORIGINAL IMAGE
