@@ -1,7 +1,7 @@
 action_inherited();
 image_speed=0;
 through=true;
-layer=4;
+depth_mask=4;
 remove=0;
 
 timeline_index = animFlippingPlatform;

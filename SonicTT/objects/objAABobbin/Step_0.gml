@@ -26,6 +26,6 @@ if type>0
     if image_xscale>1 depth = -1; else depth = 1;
 
     // negate collision if too far back
-    layer = 3*(image_xscale>0.85 and image_xscale<1.15);
+    depth_mask = 3*(image_xscale>0.85 and image_xscale<1.15);
 }
 

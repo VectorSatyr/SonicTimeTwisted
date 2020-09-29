@@ -1,2 +1,2 @@
-layer = 3;
+depth_mask = 3;
 

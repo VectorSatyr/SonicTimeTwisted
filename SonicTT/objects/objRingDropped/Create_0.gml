@@ -3,5 +3,5 @@ image_speed = 0.75;
 gravity = 0.09375;
 remove = 0;
 reaction_script = player_reaction_ring;
-layer = 3;
+depth_mask = 3;
 action_set_alarm(256, 0);

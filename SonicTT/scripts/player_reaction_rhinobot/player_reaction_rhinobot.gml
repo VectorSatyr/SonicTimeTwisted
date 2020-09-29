@@ -8,7 +8,7 @@ with instance_create(x, y, objRhinobot)
     gravity = 0.21875;
     state = 2;
     facing = -1;
-    layer = 2;
+    depth_mask = 2;
 }
 
 // sound

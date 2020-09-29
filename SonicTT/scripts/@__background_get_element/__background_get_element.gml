@@ -59,7 +59,7 @@ for(__i = 0; __i < __layerlistlength; __i++)
 if (__layerid != -1)
 {
 	// We have a winner!
-	// Get id of background element on this layer
+	// Get id of background element on this depth_mask
 	var __els = layer_get_all_elements(__layerid);
 	var __elslength = array_length_1d(__els);
 	for(__i = 0; __i < __elslength; __i++)
@@ -74,7 +74,7 @@ if (__layerid != -1)
 }
 else
 {
-	// Need to construct a new layer with a new background
+	// Need to construct a new depth_mask with a new background
 	var __newback = __background_set_element(__bind, false, false, -1, 0, 0, true, true,1,1, false, 0, 0, $ffffff, 1);
 	__result[0] = __newback[0];
 	__result[1] = __newback[1];

@@ -1,1 +1,1 @@
-climbable=1;layer=2;
+climbable=1;depth_mask=2;

@@ -59,7 +59,7 @@ for(__i = 0; __i < __layerlistlength; __i++)
 		
 		__isforeground[__slot] = true;
 		
-		// Could check the contents of this layer to see if it has a single background element on it but that's probably overkill		
+		// Could check the contents of this depth_mask to see if it has a single background element on it but that's probably overkill		
 	}
 	else if (string_pos(__bgstring, __layername) > 0)
 	{
@@ -72,7 +72,7 @@ for(__i = 0; __i < __layerlistlength; __i++)
 		
 		__isforeground[__slot] = false;
 		
-		// Could check the contents of this layer to see if it has a single background element on it but that's probably overkill		
+		// Could check the contents of this depth_mask to see if it has a single background element on it but that's probably overkill		
 	}
 	else if (string_pos(__colstring, __layername) > 0)
 	{
@@ -125,12 +125,12 @@ if (__collayer != -1)
 }
 
 
-// Construct our layer name and depth
+// Construct our depth_mask name and depth
 var __layername;
 var __layerdepth;
 if (__bind == -1)
 {
-	// This is the background colour layer
+	// This is the background colour depth_mask
 	__layername = __colstring;
 	__layerdepth = __farthestdepth;
 }
@@ -165,7 +165,7 @@ if (__layerid != -1)
 }
 __layerid = layer_create(__layerdepth, __layername);
 
-// Set our layer properties
+// Set our depth_mask properties
 layer_x(__layerid, __x);
 layer_y(__layerid, __y);
 layer_hspeed(__layerid, __hspeed);
