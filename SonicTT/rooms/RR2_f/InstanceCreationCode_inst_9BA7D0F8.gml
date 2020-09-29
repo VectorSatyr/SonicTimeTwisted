@@ -1,2 +1,2 @@
 through=1;
-layer=2;
+depth_mask=2;

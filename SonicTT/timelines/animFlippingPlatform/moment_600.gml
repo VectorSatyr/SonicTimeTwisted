@@ -1,5 +1,5 @@
 image_index = 1;
-layer=4;
+depth_mask=4;
 
 with objLevel.player[0] {
         

@@ -1,7 +1,7 @@
 // player_reaction_ring(local_id)
 
-// ignore if layer mismatch
-if not (layer&argument0.layer) return false;
+// ignore if depth_mask mismatch
+if not (depth_mask&argument0.depth_mask) return false;
 
 // abort if ignoring
 if ignore_rings return false;

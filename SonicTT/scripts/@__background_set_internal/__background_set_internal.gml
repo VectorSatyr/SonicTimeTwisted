@@ -14,7 +14,7 @@ var __isfore = __backinfo[2];
 
 if (__prop == e__BG.Foreground)
 {
-	// This requires quite a bit of extra logic (we need to modify our layer list)
+	// This requires quite a bit of extra logic (we need to modify our depth_mask list)
 	if (round(__val) != round(__isfore))
 	{
 		// okay, we have a mismatch

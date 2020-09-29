@@ -1,5 +1,5 @@
 y=ystart;
 x=xstart;
 alarm[3] = 80;
-layer=3;
+depth_mask=3;
 

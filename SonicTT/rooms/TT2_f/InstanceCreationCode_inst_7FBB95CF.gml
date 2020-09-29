@@ -1,2 +1,2 @@
-layer=1;
+depth_mask=1;
 climbable=true;

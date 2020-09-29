@@ -55,10 +55,10 @@ if (timer) {
                     }
 
                     if image_xscale < .84 {
-                        layer = 4;
+                        depth_mask = 4;
                         reaction_script2 = noone;
                     } else {
-                        layer = 3;
+                        depth_mask = 3;
                         //reaction_script2 = player_reaction_golem_hand_target;
                         reaction_script2 = player_reaction_golem_hand;
                     }
@@ -102,7 +102,7 @@ if (timer) {
 
                 with objGolemHand {
                     reaction_script = noone;
-                    layer = 4;
+                    depth_mask = 4;
                     alarm[1] = -1;
                     alarm[0] = -1;
                     reaction_script2 = noone;
@@ -266,7 +266,7 @@ if (timer) {
                     dangerous = false;
                     reaction_script2 = player_reaction_golem_hand_target;
                     reaction_script = player_reaction_golem_hand;
-                    layer = 3;
+                    depth_mask = 3;
                 }
 
                 state = "spin";

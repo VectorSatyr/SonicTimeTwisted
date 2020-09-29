@@ -2,7 +2,7 @@ action_inherited();
 /// Initialize
 reaction_script = -1;
 remove = 1;
-layer = 3;
+depth_mask = 3;
 angled = 0;
 curved = 0;
 through = false;

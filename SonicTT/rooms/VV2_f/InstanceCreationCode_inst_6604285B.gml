@@ -1,3 +1,3 @@
 angled=0;
-layer=2;
+depth_mask=2;
 through=1;
