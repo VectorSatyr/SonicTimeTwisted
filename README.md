@@ -8,10 +8,7 @@ Playable binaries are available in the [Releases](https://github.com/VectorSatyr
 
 ## How to build
 
-1. Download this repository
-2. Install the latest version of [Game Maker Studio 2](https://www.yoyogames.com/)
-3. Open SonicTT.ypp
-4. Follow the instructions for [compiling your game](https://docs2.yoyogames.com/source/_build/1_overview/2_quick_start/6_compiling.html)
+See our [Contribution Guide](https://github.com/VectorSatyr/SonicTimeTwisted/blob/master/CONTRIBUTING.md) for details.
 
 ## Licensing
 
