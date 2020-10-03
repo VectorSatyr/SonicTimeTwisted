@@ -1,23 +1,31 @@
-// player_get_terrain(local_id)
+/// player_get_terrain(local_id)
+var local_id = argument0;
 
-// confirm terrain id
-terrain_id = argument0;
+terrain_id = local_id;
+angle = player_get_terrain_angle(local_id, mask_rotation);
+relative_angle = angle_wrap(angle - gravity_angle());
 
-// calculate terrain angle
-angle = player_get_terrain_angle(terrain_id, mask_rotation);
-relative_angle = angle_wrap(angle-gravity_angle());
+var dsine = sine[mask_rotation];
+var dcosine = cosine[mask_rotation];
 
-// upward terrain height
-while collision_box(offset_x, offset_y, (mask_rotation mod 180), terrain_id)
+// push out while inside
+while (collision_box(offset_x, offset_y, (mask_rotation mod 180) != 0, terrain_id))
 {
-    x -= sine[mask_rotation];
-    y -= cosine[mask_rotation];
+    x -= dsine;
+    y -= dcosine;
 }
 
-// downward terrain height
-while not collision_ray(offset_x, offset_y+1, mask_rotation, terrain_id)
-//while not collision_box(offset_x, offset_y+1, mask_rotation, terrain_id)
+// move down while outside
+var n = 0;
+while (not collision_ray(offset_x, n, mask_rotation, terrain_id))
 {
-    x += sine[mask_rotation];
-    y += cosine[mask_rotation];
+	if (n > offset_y)
+	{
+	    x += dsine;
+	    y += dcosine;
+	}
+	else
+	{
+		++n;
+	}
 }

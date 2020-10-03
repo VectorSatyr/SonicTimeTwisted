@@ -88,7 +88,7 @@
                     "mvc": "1.0",
                     "groupName": "RRZP",
                     "targets": 9223372036854775807,
-                    "autocrop": true,
+                    "autocrop": false,
                     "border": 2,
                     "groupParent": "00000000-0000-0000-0000-000000000000",
                     "mipsToGenerate": 0,
