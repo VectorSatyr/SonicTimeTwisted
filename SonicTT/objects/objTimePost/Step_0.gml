@@ -54,11 +54,17 @@ with (player_id)
 		other.player_id = noone;
 
 		// confirm time travel
+		var tag = other.tag;
+		var time = 0;
+		with (objLevel)
+		{
+			time = timer;
+		}
 		with (objProgram)
 		{
-			spawn_tag = other.tag;
-			spawn_time = objLevel.timer;
-			time_traveling = facing;
+			spawn_tag = tag;
+			spawn_time = time;
+			time_traveling = other.facing;
 			audio_play_sound((in_past) ? sndChantFuture : sndChantPast, 1, false);
 		}
 
