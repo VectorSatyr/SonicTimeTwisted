@@ -1,74 +1,72 @@
-// terrain_angle_get(local_id, default)
+/// player_get_terrain_angle(local_id, orientation)
+var local_id = argument0;
+var orientation = argument1;
 
-// abort on invalid solid
-if argument0<0 return argument1;
+if (not instance_exists(local_id)) return orientation;
 
-// default if not angled
-if (argument0.angled==0) return argument1;
+if (local_id.angled == 0) return orientation;
 
-// default if wrong side
-if (argument1==0 and argument0.image_yscale<0) or (argument1==90 and argument0.image_xscale<0) or
-   (argument1==180 and argument0.image_yscale>0) or (argument1==270 and argument0.image_xscale>0) return argument1;
+var xscale = sign(local_id.image_xscale);
+var yscale = sign(local_id.image_yscale);
 
-// default if out of solid boundary
+if ((orientation == 0 and yscale == -1) or 
+	(orientation == 90 and xscale == -1) or 
+	(orientation == 180 and yscale == 1) or 
+	(orientation == 270 and xscale == 1)) return orientation;
+
+var curve = sign(local_id.curved);
+var slanted = (curve == 0);
+
+var horizontal = (orientation mod 180 != 0);
+
 // out of bounds
-if (argument1 mod 180) {
-    if (argument0.image_yscale < 0 and y - offset_x < argument0.bbox_top - (2 * (argument0.curved == 0))) return argument1;
-    if (argument0.image_yscale > 0 and y + offset_x > argument0.bbox_bottom + (2 * (argument0.curved == 0))) return argument1;
-    if ((argument0.curved == -1) and argument0.image_xscale > 0 and x + offset_y < argument0.bbox_left) return argument1;
-    if ((argument0.curved == -1) and argument0.image_xscale < 0 and x - offset_y > argument0.bbox_right) return argument1;
-}
-else {
-    if (argument0.image_xscale < 0 and x - offset_x < argument0.bbox_left - (2 * (argument0.curved == 0))) return argument1;
-    if (argument0.image_xscale > 0 and x + offset_x > argument0.bbox_right + (2 * (argument0.curved == 0))) return argument1;
-    if ((argument0.curved == -1) and argument0.image_yscale > 0 and y + offset_y < argument0.bbox_top) return argument1;
-    if ((argument0.curved == -1) and argument0.image_yscale < 0 and y - offset_y > argument0.bbox_bottom) return argument1;
-    }
-/*if argument1 mod 180
+if (horizontal)
 {
-    if argument0.image_yscale<0 and y-offset_x<argument0.bbox_top-1 return argument1;
-    if argument0.image_yscale>0 and y+offset_x>argument0.bbox_bottom+1 return argument1;
-    if argument0.curved<0 and argument0.image_xscale>0 and x+offset_y<argument0.bbox_left-1 return argument1;
-    if argument0.curved<0 and argument0.image_xscale<0 and x-offset_y>argument0.bbox_right+1 return argument1;
+	if (yscale == -1 and y - offset_x < local_id.bbox_top - (2 * slanted)) return orientation;
+	if (yscale == 1 and y + offset_x > local_id.bbox_bottom + (2 * slanted)) return orientation;
+	if (curve == -1)
+	{
+		if (xscale == 1 and x + offset_y < local_id.bbox_left) return orientation;
+		if (xscale == -1 and x - offset_y > local_id.bbox_right) return orientation;
+	}
 }
 else
 {
-    if argument0.image_xscale<0 and x-offset_x<argument0.bbox_left-1 return argument1;
-    if argument0.image_xscale>0 and x+offset_x>argument0.bbox_right+1 return argument1;
-    if argument0.curved<0 and argument0.image_yscale>0 and y+offset_y<argument0.bbox_top-1 return argument1;
-    if argument0.curved<0 and argument0.image_yscale<0 and y-offset_y>argument0.bbox_bottom+1 return argument1;
-}*/
+	if (xscale == -1 and x - offset_x < local_id.bbox_left - (2 * slanted)) return orientation;
+	if (xscale == 1 and x + offset_x > local_id.bbox_right + (2 * slanted)) return orientation;
+	if (curve == -1)
+	{
+		if (yscale == 1 and y + offset_y < local_id.bbox_top) return orientation;
+		if (yscale == -1 and y - offset_y > local_id.bbox_bottom) return orientation;
+	}
+}
 
-// position is valid
 var x1, y1, x2, y2;
 
-// calculate based on slant type
-if argument0.angled>0 return angle_wrap(argument0.angled); else
-if abs(argument0.curved)>0
+if (local_id.angled > 0)
 {
-    // set corner offset
-    if (sign(argument0.curved) xor sign(argument0.image_xscale)) x1 = argument0.bbox_left; else x1 = argument0.bbox_right;
-    if (sign(argument0.curved) xor sign(argument0.image_yscale)) y1 = argument0.bbox_top; else y1 = argument0.bbox_bottom;
-
-    // set mask offset
-    x2 = x;
-    y2 = y;
-    if (argument1 mod 180) {if argument0.image_yscale<0 y2 -= offset_x; else y2 += offset_x;} else
-    {if argument0.image_xscale<0 x2 -= offset_x; else x2 += offset_x;}
-
-    // calculate curve angle
-    if sign(argument0.curved) return angle_wrap(round(point_direction(x2, y2, x1, y1))+90); else
-    return angle_wrap(round(point_direction(x1, y1, x2, y2))+90);
+	return angle_wrap(local_id.angled); // pre-defined
+}
+else if (slanted)
+{
+	// triangular slant
+	x1 = (yscale == 1) ? local_id.bbox_left : local_id.bbox_right;
+	y1 = (xscale == 1) ? local_id.bbox_bottom : local_id.bbox_top;
+	x2 = (yscale == 1) ? local_id.bbox_right : local_id.bbox_left;
+	y2 = (xscale == 1) ? local_id.bbox_top : local_id.bbox_bottom;
+	return angle_wrap(round(point_direction(x1, y1, x2, y2)));
 }
 else
 {
-    // set offsets
-    if argument0.image_yscale<0 {x1 = argument0.bbox_right; x2 = argument0.bbox_left;} else {x1 = argument0.bbox_left; x2 = argument0.bbox_right;}
-    if argument0.image_xscale<0 {y1 = argument0.bbox_top; y2 = argument0.bbox_bottom;} else {y1 = argument0.bbox_bottom; y2 = argument0.bbox_top;}
-
-    // calculate slant angle
-    return angle_wrap(round(point_direction(x1, y1, x2, y2)));
+	//  concave / convex curve
+	x1 = (curve xor xscale) ? local_id.bbox_left : local_id.bbox_right;
+	y1 = (curve xor yscale) ? local_id.bbox_top : local_id.bbox_bottom;
+	x2 = x + ((horizontal) ? 0 : (offset_x * xscale));
+	y2 = y + ((horizontal) ? (offset_x * yscale) : 0);
+	return angle_wrap(round(
+		(curve == 1) ? point_direction(x2, y2, x1, y1) :
+		point_direction(x1, y1, x2, y2)) + 90);
 }
 
 // something went wrong
-return argument1;
+return orientation;
