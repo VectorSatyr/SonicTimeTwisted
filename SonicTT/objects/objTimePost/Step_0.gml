@@ -1,80 +1,70 @@
-/// @description  Control player
-
-// custom player state
-with player_id
+/// @description Control
+var pole_dir;
+with (player_id)
 {
-    // rotate around post
-    x = other.x+sine[angle_wrap(timeline_position*30)]*10*facing;
-    if timeline_position>3 and timeline_position<10 depth = other.depth+1; else
-    depth = 0;
+	// rotate around post
+	pole_dir = angle_wrap(timeline_position * 30);
+	x = other.x + dsin(pole_dir) * other.radius * facing;
 
-    // activate on end of animation
-    if timeline_position>=12
-    {
-        // reset time post
-        other.alarm[0] = 40;
-        other.player_id = noone;
+	// jumping
+	if (input_check_pressed(cACTION))
+	{
+		// reset time post
+		other.alarm[0] = other.default_reset_time;
+		other.player_id = noone;
 
-        // confirm time travel
-        objProgram.spawn_tag = other.tag;
-        objProgram.spawn_time = objLevel.timer;
-        objProgram.time_traveling = facing;
+		// detach
+		player_is_jumping();
 
-        // camera
-        camera.alarm[0] = 128;
+		x = other.x;
+		xspeed = other.default_cancel_speed * facing;
+		camera.alarm[0] = -1;
 
-        // audio
-        if objProgram.in_past audio_play_sound(sndChantFuture, 1, false); else
-        audio_play_sound(sndChantPast, 1, false);
+		animation_new = "brake";
+		timeline_speed = 1;	
+		depth = 0;
+		exit;
+	}
 
-        // time travel
-        return player_is_exiting();
-    }
+	// cancelling
+	if (input_axis_x() == -facing)
+	{
+		// reset time post
+		other.alarm[0] = other.default_reset_time;
+		other.player_id = noone;
 
-    // cancelling
-    if (input_axis_x() == -facing)
-    {
-        // reset time post
-        other.alarm[0] = 24;
-        other.player_id = noone;
+		// detach
+		player_is_running();
 
-        // animate
-        animation_new = "brake";
-        timeline_speed = 1;
+		x = other.x;
+		xspeed = other.default_cancel_speed * facing;
+		camera.alarm[0] = -1;
 
-        // movement and collision
-        x = other.x;
-        xspeed = 8*facing;
+		animation_new = "brake";
+		timeline_speed = 1;	
+		depth = 0;
+		exit;
+	}
 
-        // camera
-        camera.alarm[0] = -1;
+	// activate on end of animation
+	if (timeline_position >= 12)
+	{
+		// reset time post
+		other.alarm[0] = other.time_travel_reset_time;
+		other.player_id = noone;
 
-        // other
-        depth = 0;
+		// confirm time travel
+		with (objProgram)
+		{
+			spawn_tag = other.tag;
+			spawn_time = objLevel.timer;
+			time_traveling = facing;
+			audio_play_sound((in_past) ? sndChantFuture : sndChantPast, 1, false);
+		}
 
-        // running
-        return player_is_running();
-    }
-
-    // jumping
-    if input_check_pressed(cACTION)
-    { 
-        // reset time post
-        other.alarm[0] = 24;
-        other.player_id = noone;
-
-        // movement and collision
-        x = other.x;
-        xspeed = 8*facing;
-
-        // camera
-        camera.alarm[0] = -1;
-
-        // other
-        depth = 0;
-
-        // running
-        return player_is_jumping();
-    }
+		// time travel
+		camera.alarm[0] = 128;
+		player_is_exiting();
+		exit;
+	}
 }
-
