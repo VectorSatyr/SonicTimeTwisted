@@ -1,46 +1,55 @@
-/// @description  Control player
-with player_id
+/// @description Control
+with (player_id)
 {
+	// roll off
+	xspeed = other.roll_speed;
+	if (not player_movement_ground())
+	{
+		other.player_id = noone;
+		break;
+	}
 
-    // ground motion
-    xspeed = 0.5*other.image_xscale;
-    
-    // update position
-    if not player_movement_ground() {other.player_id = noone; return false;}
-    
-    // falling
-    //if not landed {other.player_id = noone; return player_is_falling();}
-    if other.image_xscale == 1 {  
-        if bbox_left > other.bbox_right { other.player_id = noone; return player_is_falling(); }
-    }
-    else {
-        if bbox_right < other.bbox_left { other.player_id = noone; return player_is_falling(); }
-    }
-    // release control if not on flipper
-    if (terrain_id!=other.id) {other.player_id = noone; return player_is_rolling();}
+	// detach if not on flipper
+	if (terrain_id != other.id)
+	{
+		if (instance_exists(terrain_id))
+		{
+			player_is_rolling();
+		}
+		else
+		{
+			player_is_falling();
+		}
+		other.player_id = noone;
+		break;
+	}
 
-    // fling upward
-    if input_check_pressed(cACTION)
-    {
-        // states and flags
-        state = player_state_fall;
-        spinning = false;
-        rolling_jump = false;
-        jump_action = true;
+	// fall when out of bounds
+	var xscale = sign(other.image_xscale);
+	if ((xscale == -1 and x + offset_x < other.bbox_left) or
+		(xscale == 1 and x - offset_x > other.bbox_right))
+	{
+		player_is_falling();
+		other.player_id = noone;
+		break;
+	}
 
-        // movement and collision
-        xspeed = (x-other.x)*0.15;
-        yspeed = -14;
+	// fling
+	if (input_check_pressed(cACTION))
+	{
+		state = player_state_fall;
+		spinning = false;
+		rolling_jump = false;
+		jump_action = true;
+		xspeed = (x - other.x) * other.flip_xspeed;
+		yspeed = other.flip_yspeed;
+		player_in_air();
 
-        // set air state
-        player_in_air();
+		audio_play_sound(sndFlipper, 1, false);
 
-        // release control and animate
-        other.timeline_running = true;
-        other.timeline_position = 0;
-        other.player_id = noone;
-        
-        audio_play_sound(sndFlipper,1,false);
-    }
+		other.timeline_running = true;
+		other.timeline_position = 0;
+		other.player_id = noone;
+		break;
+	}
 }
-
