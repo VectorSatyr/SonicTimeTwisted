@@ -1,14 +1,18 @@
+/// @description Shade
+if (view_current == 0)
+{
+	var camera = view_get_camera(0);
+	var xview = camera_get_view_x(camera);
+	var yview = camera_get_view_y(camera);
 
-// draw a dummy background for the effect to cover
-//draw_background_ext(zonebkg, 0, 0, 2, 2, 0, c_white, 1);
-// turn on the time travel effect shader
-shader_set(TimeTravelShader);
-// send the shift amount (for colour cycling) to the shader
-shader_set_uniform_f(param_shift, shift);
-// draw the surface with the zipper animation on it
-// (here it's scaled by 2 just to see it better)
-draw_surface_ext(tt_surface, __view_get( e__VW.XView, 0 )+xoffset, __view_get( e__VW.YView, 0 ), image_xscale, image_yscale, 0, c_white, 1);
-// turn off the shader
-shader_reset();
-
-
+	shader_set(shader);
+	shader_set_uniform_f(param_scl, xscale, yscale);
+	texture_set_stage(param_mask, tx_mask);
+	texture_set_stage(param_grad, tx_grad);
+	shader_set_uniform_f(param_shift, shift);
+	draw_surface_ext(
+		surface, xview + xoffset, yview, 
+		image_xscale, image_yscale, image_angle, image_blend, image_alpha
+	);
+	shader_reset();
+}

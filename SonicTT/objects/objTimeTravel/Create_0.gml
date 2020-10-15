@@ -1,49 +1,49 @@
-action_inherited();
-mode = 1;
-facing = objProgram.time_traveling;
-/// Setup Shader
+/// @description Initialize
+event_inherited();
+image_speed = 0;
+image_xscale = 2;
+image_yscale = 2;
+
+with (objProgram)
+{
+	other.image_xscale *= time_traveling;
+}
+
 /*
 TIME TRAVEL EFFECT
-This effect is achieved by drawing an animation (in this case, a scaled sprite) to a surface.
-This results in a white on transparent image on the surface. When the surface is drawn with the TimeTravelShader applied,
-the white pixels will be replaced with a texture that makes it look like the SCD time travel effect.
+This effect is achieved by drawing an animation (in this case, a scaled sprite)
+to a surface. This results in a white on transparent image on the surface. When
+the surface is drawn with the TimeTravelShader applied, the white pixels will be
+replaced with a texture that makes it look like the SCD time travel effect.
 */
 
-// send some information to the shader; the shader has to be set for this to work
-// (I don't know if this can be screwed up by using other shaders; if so, this info might have to be sent in the draw event...)
-shader_set(TimeTravelShader);
-// send: the scaling of the sparkly SCD texture so it will repeat enough times to not be stretched
-shader_set_uniform_f(shader_get_uniform(TimeTravelShader, "scl"), 426 / background_get_width(tt_texture), 240 / background_get_height(tt_texture));
-// send: the texture index of the sparkly SCD texture
-texture_set_stage(shader_get_sampler_index(TimeTravelShader, "mask"), background_get_texture(tt_texture));
-// send: the texture index of the the gradient used to cycle the colours
-texture_set_stage(shader_get_sampler_index(TimeTravelShader, "grad"), background_get_texture(tt_gradient));
-shader_reset();
+shader = TimeTravelShader;
+param_scl = shader_get_uniform(shader, "scl");					
+param_mask = shader_get_sampler_index(shader, "mask");			
+param_grad = shader_get_sampler_index(shader, "grad");			
+param_shift = shader_get_uniform(shader, "shift");	
 
-// create a surface the size of the screen to draw the effect on
-tt_surface = surface_create(426, 240);
+screen_width = 426;
+screen_height = 240;
+half_height = screen_height * 0.5;
+surface = surface_create(screen_width, screen_height);
+xscale = screen_width / background_get_width(tt_texture);		// the scaling of the sparkly SCD texture so it will repeat enough times to not be stretched
+yscale = screen_height / background_get_height(tt_texture);
+tx_mask = background_get_texture(tt_texture);					// the texture index of the sparkly SCD texture
+tx_grad = background_get_texture(tt_gradient);					// the texture index of the the gradient used to cycle the colours
 
-// I've included two types of "zipper animation" - see step event
-type = false;
-// the image index of the animated sprite that will be drawn to the texture
-image_index = 0;
-image_speed = 0;
-
-// the amount to shift the gradient to cycle the colours; starts at 0
-// it's also used to slide the texture horizontally to give it some motion, but you could use a 2nd value
-// if the speeds need to be tweaked
+/*
+The amount to shift the gradient to cycle the colours. It's also used to slide
+the texture horizontally to give it some motion, but you could use a 2nd value
+if the speeds need to be tweaked
+*/
 shift = 0;
+cycle_speed = 0.01;
 
-// the parameter handle to be used to send the shift amount to the shader later in the draw event
-param_shift = shader_get_uniform(TimeTravelShader, "shift");
-
-image_xscale=2*facing;
-image_yscale=2;
-spr=sprTimeTravelEffect;
-
-if image_xscale == -2 {
-   xoffset=426;
-} else xoffset=0;
-
-/* */
-/*  */
+// transition properties
+state = "exiting";
+xoffset = (sign(image_xscale) == -1) ? screen_width : 0;
+frame_speed = 0.5;
+total_frames = sprite_get_number(sprite_index);
+sprite_xscale = abs(image_xscale);
+sprite_yscale = abs(image_yscale);
