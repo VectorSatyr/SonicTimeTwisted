@@ -1,47 +1,52 @@
-action_inherited();
-// Initialize background
-// parallax_create(tiled, back, left, top, width, height, hspeed, vspeed, relative_x,
-//                  relative_y, absolute_x, absolute_y, separation_x, separation_y);
+/// @description Initialize
+event_inherited();
+image_speed = 0;
 
-// parallax_create_sprite(tiled, sprite, imgspeed, hspeed, vspeed, relative_x, relative_y,
-//                          absolute_x, absolute_y, separation_x, separation_y);
+var back_height = 320;
+var scene_height = 224;
+with (objScreen)
+{
+	scene_height = height;
+}
 
+var relative_y = (room_height - back_height) / (room_height - scene_height);
 
-var relative_y;
-
-// defaults
-surface = -1;
-relative_y = (room_height-320)/(room_height-objScreen.height);
-
+// hills
 parallax_create(1, backPPZHills, 0, 0, 144, 48, 0, 0, 0.86, relative_y, 0, 212, 0, 0);
+
+// mountains
 parallax_create(1, backPPZMountain, 0, 0, 144, 48, 0, 0, 0.9, relative_y, 0, 129, 0, 0);
 
-parallax_create(1, backPPZPipe, 0, 0, 112, 70, 0, 0, .84, relative_y, 0, 260, 0, 0);
+// pipes
+parallax_create(1, backPPZPipe, 0, 0, 112, 70, 0, 0, 0.84, relative_y, 0, 260, 0, 0);
 
 // lava
-parallax_create(1, backPPZLava, 0, 0, 64, 16, -.1, 0, 0.9, relative_y, 0, 170, 0, 0);
-parallax_create(1, backPPZLava, 0, 16, 64, 16, -.15, 0, 0.9, relative_y, 0, 186, 0, 0);
-parallax_create(1, backPPZLava, 0, 32, 64, 32, -.2, 0, 0.9, relative_y, 0, 202, 0, 0);
-parallax_create(1, backPPZLava, 0, 32, 64, 32, -.25, 0, 0.9, relative_y, 0, 234, 0, 0);
+parallax_create(1, backPPZLava, 0, 0, 64, 16, -0.1, 0, 0.9, relative_y, 0, 170, 0, 0);
+parallax_create(1, backPPZLava, 0, 16, 64, 16, -0.15, 0, 0.9, relative_y, 0, 186, 0, 0);
+parallax_create(1, backPPZLava, 0, 32, 64, 32, -0.2, 0, 0.9, relative_y, 0, 202, 0, 0);
+parallax_create(1, backPPZLava, 0, 32, 64, 32, -0.25, 0, 0.9, relative_y, 0, 234, 0, 0);
 
-instance_create(0,0,objPPBackEarth);
+// planet earth
+instance_create(0, 0, objPPBackEarth);
 
-//parallax_create(0, backPPZPlanet, 0, 0, 152, 64, 0, 0, 1, relative_y, 128, 96, 0, 0);
+// nebula shader
+shader = NebulaShader;
+param_warp = shader_get_sampler_index(shader, "warp");
 
-// sun
-//instance_create(0, 0, objNebula);
-
-/// Nebula Shader
-angle_change = 2;
-angle_warp = -15;
-scale = 1.1;
-
-sampler_index_warp = shader_get_sampler_index(NebulaShader, "warp");
-surface_warp = surface_create(256, 256);
-surface_set_target(surface_warp);
-draw_clear_alpha(0, 0);
-surface_reset_target();
-texture_warp = surface_get_texture(surface_warp);
+// nebula properties
+surface = -1;
+temp_surface = -1;
+texture = pointer_null;
+surface_ox = -42;
+surface_oy = -128;
+surface_width = sprite_width * 0.5;
+surface_height = sprite_height * 0.5;
+warp_origin_x = surface_width * 0.5;
+warp_origin_y = surface_height * 0.5;
+warp_scale = 1.1;
+warp_ox = -(warp_origin_x * warp_scale);
+warp_oy = -(warp_origin_y * warp_scale);
+warp_angle = -15;
+whirl_sprite = WhirlSpr;
 whirl_angle = 0;
-
-
+whirl_speed = 2;
