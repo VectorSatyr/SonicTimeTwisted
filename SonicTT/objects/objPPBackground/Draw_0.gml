@@ -1,10 +1,16 @@
-/// @description  Render background to surface
+/// @description Shade
+var camera = view_get_camera(view_current);
+var xview = camera_get_view_x(camera);
+var yview = camera_get_view_y(camera);
 
-shader_set(NebulaShader);
-texture_set_stage(sampler_index_warp, texture_warp);
-draw_background(NebulaBkg, __view_get( e__VW.XView, view_current )-42, __view_get( e__VW.YView, view_current )-128);
+shader_set(shader);
+texture_set_stage(param_warp, texture);
+draw_sprite_ext(
+	sprite_index, image_index, xview + surface_ox, yview + surface_oy,
+	image_xscale, image_yscale, image_angle, image_blend, image_alpha
+);
 shader_reset();
-
-with objParallax event_perform(ev_draw, 0);
-
-
+with (objParallax)
+{
+	event_perform(ev_draw, 0);
+}
