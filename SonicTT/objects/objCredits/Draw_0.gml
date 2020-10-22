@@ -20,7 +20,7 @@ break;
 case 3:
     draw_text_color(__view_get( e__VW.XView, 0 )+160,__view_get( e__VW.YView, 0 )+6,string_hash_to_newline("GAME ART BY"),c_white,c_white,c_yellow,c_yellow,image_alpha);
     draw_text_color(__view_get( e__VW.XView, 0 )+160,__view_get( e__VW.YView, 0 )+28,string_hash_to_newline("BRYCE STOCK \"OVERBOUND\""),c_white,c_white,c_yellow,c_yellow,image_alpha);
-    draw_text_color(__view_get( e__VW.XView, 0 )+160,__view_get( e__VW.YView, 0 )+42,string_hash_to_newline("MARC \"DER ZOCKER\""),c_white,c_white,c_yellow,c_yellow,image_alpha);
+    draw_text_color(__view_get( e__VW.XView, 0 )+160,__view_get( e__VW.YView, 0 )+42,string_hash_to_newline("DEE LITEYEARS"),c_white,c_white,c_yellow,c_yellow,image_alpha);
 break;
 
 case 4:
