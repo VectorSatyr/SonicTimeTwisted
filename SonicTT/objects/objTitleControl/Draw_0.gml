@@ -24,7 +24,7 @@ break;
 case 3: draw_text_color(__view_get( e__VW.XView, 0 )+213,__view_get( e__VW.YView, 0 )+120,string_hash_to_newline("BRYCE STOCK \"OVERBOUND\""),c_white,c_white,c_yellow,c_yellow,1); break;
 case 4: draw_text_color(__view_get( e__VW.XView, 0 )+213, __view_get( e__VW.YView, 0 )+120, string_hash_to_newline("HINCHY"),c_white,c_white,c_yellow,c_yellow,1) break;
 case 5: draw_text_color(__view_get( e__VW.XView, 0 )+213, __view_get( e__VW.YView, 0 )+120, string_hash_to_newline("JOEVAN SALMON-JOHNSON \"VECTORSATYR\""),c_white,c_white,c_yellow,c_yellow,1) break;
-case 6: draw_text_color(__view_get( e__VW.XView, 0 )+213, __view_get( e__VW.YView, 0 )+120, string_hash_to_newline("MARC \"DERZOCKER\""),c_white,c_white,c_yellow,c_yellow,1) break;
+case 6: draw_text_color(__view_get( e__VW.XView, 0 )+213, __view_get( e__VW.YView, 0 )+120, string_hash_to_newline("DEE LITEYEARS"),c_white,c_white,c_yellow,c_yellow,1) break;
 case 7: draw_text_color(__view_get( e__VW.XView, 0 )+213, __view_get( e__VW.YView, 0 )+120, string_hash_to_newline("DEVIN REEVES \"MERCURY\""),c_white,c_white,c_yellow,c_yellow,1)break;
 case 8: draw_text_color(__view_get( e__VW.XView, 0 )+213, __view_get( e__VW.YView, 0 )+120, string_hash_to_newline("SHANE \"SPARKS\""),c_white,c_white,c_yellow,c_yellow,1) break;
 case 12: if pauseState == 3 draw_text_color(__view_get( e__VW.XView, 0 )+213, __view_get( e__VW.YView, 0 )+228, string_hash_to_newline("PRESS START"),c_white,c_white,c_yellow,c_yellow,1); start=true; break;
