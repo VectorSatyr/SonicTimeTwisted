@@ -1,22 +1,25 @@
-action_inherited();
-/// Nebula Shader
-angle_change = 2;
-angle_warp = -15;
-scale = 1.1;
+/// @description Initialize
+event_inherited();
 
-sampler_index_warp = shader_get_sampler_index(NebulaShader, "warp");
-surface_warp = surface_create(256, 256);
-draw_clear_alpha(0, 0);
-surface_reset_target();
-texture_warp = surface_get_texture(surface_warp);
+// nebula shader
+shader = NebulaShader;
+param_warp = shader_get_sampler_index(shader, "warp");
+
+// nebula properties
+surface = -1;
+temp_surface = -1;
+texture = pointer_null;
+surface_ox = -42;
+surface_oy = -128;
+surface_xspeed = -5;
+surface_width = sprite_width * 0.5;
+surface_height = sprite_height * 0.5;
+warp_origin_x = surface_width * 0.5;
+warp_origin_y = surface_height * 0.5;
+warp_scale = 1.1;
+warp_ox = -(warp_origin_x * warp_scale);
+warp_oy = -(warp_origin_y * warp_scale);
+warp_angle = -15;
+whirl_sprite = WhirlSpr;
 whirl_angle = 0;
-
-//var relative_y;
-
-// defaults
-//surface = -1;
-//relative_y = (room_height-320)/(room_height-objScreen.height);
-
-xspeed=-5;
-xoffset=0;
-
+whirl_speed = 2;
