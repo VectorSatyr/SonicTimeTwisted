@@ -1,2 +1,5 @@
+# Ignore "YACC" files (to correct statistics about the repository's contents)
+*.y linguist-vendored
+
 # Auto detect text files and perform LF normalization
 * text=auto
