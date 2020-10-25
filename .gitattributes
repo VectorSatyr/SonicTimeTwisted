@@ -1,5 +1,5 @@
-# Ignore document files (to correct statistics about the repository's contents)
-SonicForGMS.gmx/docs/* linguist-vendored
+# Treat .yy files as GameMaker Language files (to correct statistics about the repository's contents)
+*.yy linguist-language=Game Maker Language
 
 # Auto detect text files and perform LF normalization
 * text=auto
