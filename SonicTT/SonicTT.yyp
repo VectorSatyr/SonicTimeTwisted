@@ -7607,14 +7607,6 @@
             }
         },
         {
-            "Key": "4f223429-1f60-4c63-8961-07a11ac24be9",
-            "Value": {
-                "id": "ca189832-4757-4df2-8c79-b3ea9e2b0833",
-                "resourcePath": "sprites\\sprHudFont\\sprHudFont.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4f28a2b2-d11c-4d32-a5f7-e71be4312fac",
             "Value": {
                 "id": "259f9711-980f-4898-9b34-2f606bb4d094",
