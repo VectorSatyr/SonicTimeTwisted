@@ -6343,14 +6343,6 @@
             }
         },
         {
-            "Key": "4288469c-ed7b-4657-abbd-09859fb05739",
-            "Value": {
-                "id": "6966dadc-b220-490d-b556-050effdd9e85",
-                "resourcePath": "sprites\\sprAct\\sprAct.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "428add60-96cb-49b6-a614-d73b55300e0d",
             "Value": {
                 "id": "cc6e3f88-7251-4318-8073-daf5444f75c1",
