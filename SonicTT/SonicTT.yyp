@@ -3495,14 +3495,6 @@
             }
         },
         {
-            "Key": "268e541d-1432-4bd1-8cd9-5fd85aff97bf",
-            "Value": {
-                "id": "badb33c5-869f-4428-b15c-3a3bd1d2309c",
-                "resourcePath": "sprites\\sprScore\\sprScore.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "26a1b449-0a79-4181-95f8-dfa377fd47af",
             "Value": {
                 "id": "f6f94247-78b6-4386-bf69-dce5a734a163",
