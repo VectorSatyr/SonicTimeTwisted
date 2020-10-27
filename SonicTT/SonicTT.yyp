@@ -8519,14 +8519,6 @@
             }
         },
         {
-            "Key": "57f43f20-e30a-476c-8ec8-d750ee470e92",
-            "Value": {
-                "id": "ebd774f9-6e39-41ba-864b-b75b3e53a797",
-                "resourcePath": "sprites\\sprFlowerSparkCD\\sprFlowerSparkCD.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5810c450-592f-444c-846b-cf227ab80cb3",
             "Value": {
                 "id": "0e4bc8a7-1943-4c42-a45f-a561b28a9e22",
