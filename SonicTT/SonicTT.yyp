@@ -22007,14 +22007,6 @@
             }
         },
         {
-            "Key": "e44b017e-f8cc-476a-90ab-80819cf53df0",
-            "Value": {
-                "id": "892eedfd-368c-458a-adc8-102b40e9d467",
-                "resourcePath": "sprites\\sprSpikeHorizontal\\sprSpikeHorizontal.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e46044e4-85b0-4bed-9ae4-0efd3c422ab6",
             "Value": {
                 "id": "f95b571a-41f7-4d6b-a2e1-3243b1ad90ff",
