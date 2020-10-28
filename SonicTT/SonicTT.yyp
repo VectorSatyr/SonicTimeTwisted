@@ -22239,14 +22239,6 @@
             }
         },
         {
-            "Key": "e85c7792-4897-4dbb-9174-3393dcf94786",
-            "Value": {
-                "id": "84c2aaa1-f83e-4b48-a5be-e0896ea2100d",
-                "resourcePath": "sprites\\sprShieldEarth_Rock\\sprShieldEarth_Rock.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e8671cfe-b231-49a4-b729-313fe6e17a74",
             "Value": {
                 "id": "0dee2d86-33b2-4ed9-b0f2-0d85145fb8d8",
