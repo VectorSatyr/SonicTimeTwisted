@@ -9591,14 +9591,6 @@
             }
         },
         {
-            "Key": "62e2d12c-eeb2-4b19-8f5e-4ad907cca55b",
-            "Value": {
-                "id": "42bf121c-23cc-40ca-b466-d9f61b81f49c",
-                "resourcePath": "sprites\\sprSuperSonic\\sprSuperSonic.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "62e87b34-af8a-42d3-abe3-bdedf0ed77de",
             "Value": {
                 "id": "1513cda8-dc0c-4e68-a4d8-15bc5a2401b5",
