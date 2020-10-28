@@ -2503,14 +2503,6 @@
             }
         },
         {
-            "Key": "1cd77b7c-e88c-427c-b3e7-6a60336e744e",
-            "Value": {
-                "id": "e62ebea9-177e-47c1-8109-3d1bcce76c3e",
-                "resourcePath": "sprites\\MegaTrooperRobotnikSpr\\MegaTrooperRobotnikSpr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1ce16e3b-6e06-4f2a-b3a0-26a418924170",
             "Value": {
                 "id": "09b5c15b-0ce9-478a-aa9a-75bad42fb223",
