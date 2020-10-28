@@ -21559,14 +21559,6 @@
             }
         },
         {
-            "Key": "dfcb10cf-0b51-410a-b43f-de60f688d89b",
-            "Value": {
-                "id": "49ca12c9-6cf6-410a-b926-8be07027555f",
-                "resourcePath": "sprites\\sprKnucklesShock\\sprKnucklesShock.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "dfd98e1b-3ba5-4c38-875f-785c66b2d685",
             "Value": {
                 "id": "09464668-8d4e-4aaf-9a98-200ee4b4eb7f",
