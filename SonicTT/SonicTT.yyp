@@ -22087,14 +22087,6 @@
             }
         },
         {
-            "Key": "e5778135-0f16-4515-b258-18340efaa9ea",
-            "Value": {
-                "id": "4bd3cb95-8829-4327-a0ee-c10d77c35096",
-                "resourcePath": "sprites\\sprKnucklesEnd\\sprKnucklesEnd.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e5978b6c-b773-40c6-8f4d-e10b47fb560e",
             "Value": {
                 "id": "c1c3388d-a283-4f91-ae25-cbbe206d5dd5",
