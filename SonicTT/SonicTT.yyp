@@ -2655,14 +2655,6 @@
             }
         },
         {
-            "Key": "1eb98409-bf40-44ef-b445-008f72900503",
-            "Value": {
-                "id": "642e5c91-4411-49b0-9f58-84506fcd8767",
-                "resourcePath": "sprites\\sprEggWalkerLeg\\sprEggWalkerLeg.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1ed29078-e7f8-483a-9dd6-0d5e458969c9",
             "Value": {
                 "id": "c54e22eb-7da3-4093-a9ad-daac1fc2cf29",
