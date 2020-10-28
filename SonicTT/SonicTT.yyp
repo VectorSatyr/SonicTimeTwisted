@@ -7831,14 +7831,6 @@
             }
         },
         {
-            "Key": "50e1a967-10f2-471b-b79b-af7899f59bc6",
-            "Value": {
-                "id": "2e41f33a-9783-4e0c-8202-b5e017ff3010",
-                "resourcePath": "sprites\\sprMetalFingerWave\\sprMetalFingerWave.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "50fe96f8-e133-43d7-befd-e7d6ba50a69c",
             "Value": {
                 "id": "4247f1e9-6784-40b7-9118-119fd94cb2c4",
