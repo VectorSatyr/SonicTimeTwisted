@@ -10951,14 +10951,6 @@
             }
         },
         {
-            "Key": "721d7a0c-b049-4e2c-8938-25c5062f5383",
-            "Value": {
-                "id": "14cb4a9d-241c-48c1-9178-d4604e48f2c9",
-                "resourcePath": "sprites\\sprFlippingPlatformMask\\sprFlippingPlatformMask.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "72296367-edcd-4861-9b1f-cb1e16203e60",
             "Value": {
                 "id": "cc457f40-95b0-4223-91ca-522eafab7c48",
