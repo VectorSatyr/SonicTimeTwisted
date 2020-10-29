@@ -3887,14 +3887,6 @@
             }
         },
         {
-            "Key": "2b5a3d32-0487-41d0-abd3-290c41f881cb",
-            "Value": {
-                "id": "35f69c8e-0bfb-46c2-89bb-e5652d6200de",
-                "resourcePath": "sprites\\sprAntennaOrb\\sprAntennaOrb.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2b64cc3e-7e59-46a9-afe2-14f740abcc77",
             "Value": {
                 "id": "edf8ebdd-a12b-49fa-b4d4-c2595ec6e075",
@@ -15348,14 +15340,6 @@
                 "id": "e6b1bd99-7d41-4d5e-9755-5ee0f99ebaeb",
                 "resourcePath": "sprites\\sprAAFSpotlight\\sprAAFSpotlight.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a18c98fa-f857-4e7a-bf9b-e96749ce0e5c",
-            "Value": {
-                "id": "0102e1cb-0ffe-43a7-a626-fcd49b6fdca9",
-                "resourcePath": "views\\a18c98fa-f857-4e7a-bf9b-e96749ce0e5c.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
