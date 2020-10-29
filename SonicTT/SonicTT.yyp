@@ -2983,14 +2983,6 @@
             }
         },
         {
-            "Key": "21ec6cfa-7980-44e5-a885-6e4e25cc189e",
-            "Value": {
-                "id": "ec1744e8-66ae-4714-b75c-a02a626a7c5e",
-                "resourcePath": "sprites\\sprAAPPyramid\\sprAAPPyramid.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2208d576-7232-4045-b085-c61ba52e39a4",
             "Value": {
                 "id": "aca184f3-e07d-4da6-ab50-7eb8aed1ca40",
