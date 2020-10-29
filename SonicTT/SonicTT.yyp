@@ -5663,14 +5663,6 @@
             }
         },
         {
-            "Key": "3cb96cca-f360-4780-bdbe-e2c0a6c433aa",
-            "Value": {
-                "id": "7069c1cd-ba9c-4f36-bc05-77dda5d46f63",
-                "resourcePath": "sprites\\sprFFWaterfallBottom\\sprFFWaterfallBottom.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3cc53ea5-0f52-4603-a843-43a085e42c4c",
             "Value": {
                 "id": "56d4769e-f311-4cc3-8017-eb93564eac04",
