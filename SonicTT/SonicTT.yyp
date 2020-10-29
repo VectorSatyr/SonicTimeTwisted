@@ -21071,14 +21071,6 @@
             }
         },
         {
-            "Key": "db2e5051-23d2-48be-b2e4-78c6dcb62329",
-            "Value": {
-                "id": "2981230e-17b2-4865-970e-cba03e9f4377",
-                "resourcePath": "sprites\\sprWhaleBossFin\\sprWhaleBossFin.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "db30fa4b-48dd-4818-a6f0-411af4ab32cf",
             "Value": {
                 "id": "1481f472-5074-4975-bc6c-8632a9cd964d",
