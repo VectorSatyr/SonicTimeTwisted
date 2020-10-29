@@ -17559,14 +17559,6 @@
             }
         },
         {
-            "Key": "ba06aa14-ec38-4d45-b68c-a08a248b64f9",
-            "Value": {
-                "id": "0a1438ed-1ff6-4a4d-81f3-208c86f2bae3",
-                "resourcePath": "sprites\\sprFFBridge\\sprFFBridge.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ba11a27a-18a3-4604-8518-3d6c1f0fefa9",
             "Value": {
                 "id": "8b87f81d-3899-450d-b5af-197562c246a1",
@@ -19652,14 +19644,6 @@
                 "id": "9e035f0d-bb1f-4d9c-9603-4a4d5a09a6df",
                 "resourcePath": "scripts\\level_goto\\level_goto.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "cd34f5ae-3231-48cc-b577-cd6d16478481",
-            "Value": {
-                "id": "93383b8b-2a3c-470c-92e6-d65f07aa6a5a",
-                "resourcePath": "sprites\\sprFFFFalingSpike\\sprFFFFalingSpike.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
