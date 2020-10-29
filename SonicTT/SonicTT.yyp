@@ -7239,14 +7239,6 @@
             }
         },
         {
-            "Key": "4bdff01e-1ab6-4e5e-ba84-ca07c5d8f8df",
-            "Value": {
-                "id": "898f2ae0-6f2f-4658-a3a3-6ed898ff7ac0",
-                "resourcePath": "sprites\\sprRoboRexFrontFoot\\sprRoboRexFrontFoot.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4be2d057-a6ff-4b8a-8f49-66b7bae79069",
             "Value": {
                 "id": "2b504a8d-3a7f-456f-90b3-6b8dfd6ce76d",
