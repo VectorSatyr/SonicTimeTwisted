@@ -4311,14 +4311,6 @@
             }
         },
         {
-            "Key": "2fd649d6-f942-4041-8da4-fb8f91eb17dc",
-            "Value": {
-                "id": "d61a68d9-cbb9-4ef2-afba-8c23730ef727",
-                "resourcePath": "sprites\\sprSSZBG5\\sprSSZBG5.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2fd7a74f-8cbc-4a0b-8976-a9f9cd71df9d",
             "Value": {
                 "id": "9dc29365-4821-46f5-a689-5314a62405e1",
