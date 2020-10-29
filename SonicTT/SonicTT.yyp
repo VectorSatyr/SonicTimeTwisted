@@ -16231,14 +16231,6 @@
             }
         },
         {
-            "Key": "aa4accc5-2e4f-4231-a165-1b0af8b1d231",
-            "Value": {
-                "id": "5d2847a1-01dc-41f8-9540-44d86f526ea9",
-                "resourcePath": "sprites\\sprVultureBotBomb\\sprVultureBotBomb.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "aa55d76d-5413-4afa-83d3-d14a3fe2cf80",
             "Value": {
                 "id": "119ee4d2-a81d-4911-90a9-e6e1582a11fc",
