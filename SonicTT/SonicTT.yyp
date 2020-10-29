@@ -19071,14 +19071,6 @@
             }
         },
         {
-            "Key": "c7bdf2ad-275c-409b-8cd9-a575d9330cac",
-            "Value": {
-                "id": "69ab90ef-90ee-4ce2-b03e-afdcbeec2c14",
-                "resourcePath": "sprites\\sprAntenna\\sprAntenna.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c7dda7a7-b8a7-4318-b504-1b72c5c7224a",
             "Value": {
                 "id": "18b1d639-05ad-4808-8a24-e4a3c6328d4e",
