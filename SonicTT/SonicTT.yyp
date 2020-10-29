@@ -21175,14 +21175,6 @@
             }
         },
         {
-            "Key": "dd85021b-912d-4ec8-8d1b-546b910d25bb",
-            "Value": {
-                "id": "fdfe05cb-ef3b-4b1b-b82d-47115cf3eb0d",
-                "resourcePath": "sprites\\sprSSPlatform\\sprSSPlatform.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "dda091fd-dbcd-4ece-8163-1d33303245e6",
             "Value": {
                 "id": "4f6e99bc-ccc6-48fe-81ed-b4098cdbbf8d",

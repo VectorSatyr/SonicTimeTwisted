@@ -17,8 +17,7 @@
         "ad55997d-e914-436b-ac71-d6e6741ad85d",
         "d65444d7-4121-456c-9198-119110fb5fb2",
         "19c1ea9f-3ec3-41da-969e-754c87525770",
-        "68f33e80-2ac3-4f5c-a9e8-447575fa32f4",
-        "dd85021b-912d-4ec8-8d1b-546b910d25bb"
+        "68f33e80-2ac3-4f5c-a9e8-447575fa32f4"
     ],
     "filterType": "GMSprite",
     "folderName": "Sunken Saucer",
