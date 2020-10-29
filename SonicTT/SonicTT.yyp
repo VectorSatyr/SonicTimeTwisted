@@ -6495,14 +6495,6 @@
             }
         },
         {
-            "Key": "43de6419-014d-493f-9766-50c69c8bf5ad",
-            "Value": {
-                "id": "dc95edc5-69ce-47ea-8552-e8542995da8a",
-                "resourcePath": "sprites\\sprAAWelcome\\sprAAWelcome.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "43ded776-2367-4fe8-af1e-0272a623bb18",
             "Value": {
                 "id": "9b736fb6-1ba8-4b2c-b1b7-0ac825612221",
