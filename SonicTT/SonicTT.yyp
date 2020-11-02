@@ -7903,14 +7903,6 @@
             }
         },
         {
-            "Key": "536a3edf-9e20-4a63-9c65-0e9cb76ef538",
-            "Value": {
-                "id": "548b1ffd-4ba4-4da2-9810-603625f533eb",
-                "resourcePath": "sprites\\sprStarBG\\sprStarBG.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "537e05b2-985a-40c5-a471-d04c9e47e9a6",
             "Value": {
                 "id": "66c0be4c-86f9-4d60-b33d-74e124c46a7c",
