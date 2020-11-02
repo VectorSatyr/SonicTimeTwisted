@@ -2751,14 +2751,6 @@
             }
         },
         {
-            "Key": "2020e701-c61d-4271-a2c1-c050c61fd704",
-            "Value": {
-                "id": "ebc7d5bc-a106-40b9-a9dd-7ff09fe45b20",
-                "resourcePath": "sprites\\sprNeverLakeDarken\\sprNeverLakeDarken.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2023345b-dcc2-43c8-967e-fe5f019b7d10",
             "Value": {
                 "id": "383913f5-ab30-4c19-a34a-bd52593bfde9",
