@@ -15415,14 +15415,6 @@
             }
         },
         {
-            "Key": "a34f6b05-e836-4fcf-b518-ebe0e0ade165",
-            "Value": {
-                "id": "b12753ff-e760-469d-ac1c-0cc7952aa321",
-                "resourcePath": "sprites\\sprWindTrail\\sprWindTrail.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a35ad202-fde6-481d-908a-3f22e097a0ec",
             "Value": {
                 "id": "ff6a5fd6-0af4-4001-8005-2b8c63319f56",
