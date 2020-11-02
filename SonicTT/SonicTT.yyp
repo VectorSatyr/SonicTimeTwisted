@@ -943,14 +943,6 @@
             }
         },
         {
-            "Key": "0a8df5ef-bac0-4c4e-a202-f28349d5bea7",
-            "Value": {
-                "id": "410a92e5-cfc8-46ac-b588-9cd8fbd28c1d",
-                "resourcePath": "sprites\\sprVVPShimmerFront\\sprVVPShimmerFront.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0a92032a-60e7-4265-a274-b7d79ba318ac",
             "Value": {
                 "id": "151d6bb2-a952-4d0e-b0e1-7966b1360392",
