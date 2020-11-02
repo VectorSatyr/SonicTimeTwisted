@@ -16199,14 +16199,6 @@
             }
         },
         {
-            "Key": "aa9b02a1-2860-4c49-b6b6-bbbbbda26978",
-            "Value": {
-                "id": "7a111342-124e-4fcd-81b4-2c754a8cd97e",
-                "resourcePath": "sprites\\sprLavaTop\\sprLavaTop.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "aad12271-ddd6-456f-92de-4a011892a04a",
             "Value": {
                 "id": "368e204c-8f87-4e51-bf06-71ff07abdbf7",
