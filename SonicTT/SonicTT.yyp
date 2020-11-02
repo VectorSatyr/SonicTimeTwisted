@@ -9655,14 +9655,6 @@
             }
         },
         {
-            "Key": "648f8e0a-c2b4-47a9-a442-876b6f43252d",
-            "Value": {
-                "id": "12df2872-5191-4664-8436-d04b125e7b15",
-                "resourcePath": "sprites\\sprVVDiamonds\\sprVVDiamonds.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "64b0b4f9-8f87-4763-8196-fe486e217f97",
             "Value": {
                 "id": "c42a6387-6bed-4faf-849d-dcd458b67bfa",
