@@ -24039,14 +24039,6 @@
             }
         },
         {
-            "Key": "fcb78794-8c20-451d-8a7e-9175ccd5d181",
-            "Value": {
-                "id": "9a26c152-9e80-4f1d-9dc1-e1f94554b71a",
-                "resourcePath": "sprites\\sprVVPShimmerBack\\sprVVPShimmerBack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "fcbc7000-d811-44aa-aed0-897bbfe25a3b",
             "Value": {
                 "id": "01035cf7-c82e-4353-96a9-20c4376ee071",
