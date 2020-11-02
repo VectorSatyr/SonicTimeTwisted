@@ -21807,14 +21807,6 @@
             }
         },
         {
-            "Key": "e469dae5-7e87-4607-8e68-8a66dfed3957",
-            "Value": {
-                "id": "d9b1b8b3-61f8-41f4-8022-7d6a18a47578",
-                "resourcePath": "sprites\\sprOilFlames\\sprOilFlames.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e4757dc9-b140-4f6d-aa50-31dca7cd2e17",
             "Value": {
                 "id": "49690a9f-4cdf-4fd9-a208-1a4cafff130b",
