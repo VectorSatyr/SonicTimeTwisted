@@ -2767,14 +2767,6 @@
             }
         },
         {
-            "Key": "2031c059-98b9-4737-931f-e8128f95a63d",
-            "Value": {
-                "id": "5b3602e9-c132-445d-a30e-67271b48241f",
-                "resourcePath": "sprites\\sprVVPShimmerMiddle\\sprVVPShimmerMiddle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "203a7060-4237-451d-a0bd-4373967fe3e2",
             "Value": {
                 "id": "535ec752-0388-4715-a098-0914c9d2d690",
