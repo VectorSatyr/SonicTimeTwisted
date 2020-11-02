@@ -17039,14 +17039,6 @@
             }
         },
         {
-            "Key": "b56cd9f2-9e4b-4806-b57f-19cc7be4159b",
-            "Value": {
-                "id": "c246eb93-77df-4565-9081-65dd117b67e1",
-                "resourcePath": "sprites\\sprSonicSpinRebound\\sprSonicSpinRebound.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b592b61a-ac9f-423b-a730-1b79b059dfc1",
             "Value": {
                 "id": "aeb95dfa-5031-44b9-ace0-351b43f2232d",
