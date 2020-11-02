@@ -11791,14 +11791,6 @@
             }
         },
         {
-            "Key": "7c7fa74d-c161-4d53-941b-4bc82f84e6c3",
-            "Value": {
-                "id": "98b8e608-13d4-47e5-8edb-f5fddace5aad",
-                "resourcePath": "sprites\\sprPixelExhaust\\sprPixelExhaust.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7c80a332-3cf7-4bcc-bb6d-02bfa48a9ce6",
             "Value": {
                 "id": "846d997a-9d0c-4d3c-a7e3-d9ec9daf7d3f",
