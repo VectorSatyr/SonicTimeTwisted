@@ -13655,14 +13655,6 @@
             }
         },
         {
-            "Key": "90a0d5f8-d8ea-4d8c-ae19-f7002b7ce18f",
-            "Value": {
-                "id": "7a947e2e-359c-4e78-9844-be4f14fbaa67",
-                "resourcePath": "sprites\\sprLava\\sprLava.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "90a3c9d0-6de3-40dc-ba31-bdd7ecfd0ed2",
             "Value": {
                 "id": "6f3066ab-b7e0-4a42-bf8a-7c1f0668c2d5",
