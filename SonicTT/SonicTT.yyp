@@ -3471,14 +3471,6 @@
             }
         },
         {
-            "Key": "26b6d052-f47b-41af-aed3-6b9100231f4d",
-            "Value": {
-                "id": "d76cd729-e750-4a83-b6c4-67cea3cd6f8e",
-                "resourcePath": "sprites\\sprIntoPastClouds\\sprIntoPastClouds.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "26ba81c0-fd6f-4f1f-a9f1-6c0754ed5170",
             "Value": {
                 "id": "2ec6498c-cda7-41cb-b76e-e1859959ad6b",
