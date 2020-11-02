@@ -9087,14 +9087,6 @@
             }
         },
         {
-            "Key": "5f119181-51fb-472b-9978-40e92fe508a1",
-            "Value": {
-                "id": "01c6b4d6-a57e-48ed-8291-727f93955cee",
-                "resourcePath": "sprites\\sprPixelMask\\sprPixelMask.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5f16aa47-e771-49a8-9b31-35b94b8fc2a2",
             "Value": {
                 "id": "6457f9ed-2d2e-4eaf-934a-5ab20ca2d20c",
