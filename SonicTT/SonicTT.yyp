@@ -15583,14 +15583,6 @@
             }
         },
         {
-            "Key": "a4eddbdc-55ff-4fd9-9199-96a8e3adab2a",
-            "Value": {
-                "id": "a7af97ed-2ab3-4e43-940a-53640eb2cbfc",
-                "resourcePath": "sprites\\sprGalanikAppearEnding\\sprGalanikAppearEnding.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a4fb0eb4-635d-45f6-be4b-76f2e0adebf8",
             "Value": {
                 "id": "74d9d5ec-8ba4-4e44-ad2e-b5ba96b88b0d",
