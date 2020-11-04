@@ -1,1 +1,1 @@
-image_inex = 7;
+image_index = 7;
