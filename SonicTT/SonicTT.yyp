@@ -12007,14 +12007,6 @@
             }
         },
         {
-            "Key": "8032faf9-4a84-46cc-b968-c7574c34fbd5",
-            "Value": {
-                "id": "c93fe2bd-4a10-4e80-b346-27e9f3300858",
-                "resourcePath": "sprites\\AAZPAct1_Buildingt\\AAZPAct1_Buildingt.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8042b281-94c3-45e4-9dc4-a66a2503a06c",
             "Value": {
                 "id": "4eccecec-77fb-43f8-b8e7-ba702f0f119e",
