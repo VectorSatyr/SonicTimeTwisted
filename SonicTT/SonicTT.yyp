@@ -7255,14 +7255,6 @@
             }
         },
         {
-            "Key": "4c90a9e6-065a-49a6-9bd6-e0001e9ad5f7",
-            "Value": {
-                "id": "269449b4-3f79-42cf-818c-e2e7a5ced383",
-                "resourcePath": "sprites\\VVZFAct1_Overlay1\\VVZFAct1_Overlay1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4cc6341e-076b-41e6-ab02-ef107a28b186",
             "Value": {
                 "id": "a7b8b050-419a-49f8-ab58-ced9e67f7da0",
