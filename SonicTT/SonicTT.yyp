@@ -15855,14 +15855,6 @@
             }
         },
         {
-            "Key": "a877e2aa-58a0-4fa2-8545-f40512e5af9e",
-            "Value": {
-                "id": "5b0467a6-d42a-44a4-8410-fcf210ca9601",
-                "resourcePath": "sprites\\AAZPastAct1_Tubes1\\AAZPastAct1_Tubes1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a8780f62-2b74-427b-bb1b-5bdae3f4205f",
             "Value": {
                 "id": "f7a412d4-aeaa-4fd5-91b0-9cb84ab4f658",
