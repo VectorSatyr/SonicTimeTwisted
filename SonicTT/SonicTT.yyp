@@ -23575,14 +23575,6 @@
             }
         },
         {
-            "Key": "fa67e51a-6321-45c8-8496-f141e41e3491",
-            "Value": {
-                "id": "7bb0f6a1-2de1-4207-a321-5d0fd1e13d47",
-                "resourcePath": "sprites\\backAA1BossFloor\\backAA1BossFloor.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "fa9971c8-d246-4c32-aca3-cdaf6502c7f5",
             "Value": {
                 "id": "6d5a61e1-a684-4ea9-9fa5-a91f63ce22c7",
