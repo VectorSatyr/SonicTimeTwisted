@@ -20535,14 +20535,6 @@
             }
         },
         {
-            "Key": "d8b374ed-53a8-43bc-ad54-967f8ce57655",
-            "Value": {
-                "id": "6e911a32-2575-43ba-8954-2db7b96fd378",
-                "resourcePath": "sprites\\VVZPAct1_Walll\\VVZPAct1_Walll.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d8b82adf-c9e5-4943-822e-65c10b63899a",
             "Value": {
                 "id": "de76d3b8-3133-4c0c-b09f-7dd10f34c675",
