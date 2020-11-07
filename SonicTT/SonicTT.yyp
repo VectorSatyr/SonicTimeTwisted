@@ -10079,14 +10079,6 @@
             }
         },
         {
-            "Key": "6a64e701-821f-4b2c-ab76-c50a87a1eec2",
-            "Value": {
-                "id": "543158f2-9a43-4c4a-951d-8fe2a15ef939",
-                "resourcePath": "sprites\\backLeavesTransition\\backLeavesTransition.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6a64fc25-a717-43a5-bd8c-aca2dbfb94e0",
             "Value": {
                 "id": "45efa9c6-1c1d-4305-a249-3816209ffed7",
