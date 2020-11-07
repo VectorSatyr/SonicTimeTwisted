@@ -3447,14 +3447,6 @@
             }
         },
         {
-            "Key": "271f67cd-ba34-4e88-ac0e-8d14d04fd329",
-            "Value": {
-                "id": "724c67b5-bf18-49fc-9df1-329a70fd7e95",
-                "resourcePath": "sprites\\backAAPTiles\\backAAPTiles.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "272626e0-397f-4954-b7db-1b2829ca4e3c",
             "Value": {
                 "id": "b02a5fb4-c292-4bd7-bdfc-16d7b8778c2d",
@@ -9615,14 +9607,6 @@
             }
         },
         {
-            "Key": "65414c54-855c-43e2-baac-ec2ee064be1b",
-            "Value": {
-                "id": "903f523f-12e6-4262-a420-0579cd71bfcc",
-                "resourcePath": "tilesets\\backAAPTiles_tileset\\backAAPTiles_tileset.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "654dd0d7-2dc0-4747-a820-c6dd2bcbe324",
             "Value": {
                 "id": "a2bc98f5-23b4-4208-a0ed-3b0878e18af1",
@@ -9892,14 +9876,6 @@
                 "id": "5925ad37-4fef-4226-9c54-43d5ca4a122e",
                 "resourcePath": "sprites\\sprFinalBossFace\\sprFinalBossFace.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "683adac5-ab2d-4375-bbd7-8627e9146c8b",
-            "Value": {
-                "id": "a8e754e4-de80-41b0-bf3e-1105614b2f10",
-                "resourcePath": "views\\683adac5-ab2d-4375-bbd7-8627e9146c8b.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
