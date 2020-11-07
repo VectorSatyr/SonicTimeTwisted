@@ -20663,14 +20663,6 @@
             }
         },
         {
-            "Key": "d96bbf69-f3cc-470f-b6e5-86563937706f",
-            "Value": {
-                "id": "043c59ec-be61-4830-9132-0281abf3df27",
-                "resourcePath": "sprites\\VVZFAct1_OverlayLoop\\VVZFAct1_OverlayLoop.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d979cead-922b-4888-9766-7b80a7d50493",
             "Value": {
                 "id": "d3545900-d8ac-422b-b483-6803154640e7",
