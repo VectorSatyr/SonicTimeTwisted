@@ -22423,14 +22423,6 @@
             }
         },
         {
-            "Key": "ee80a5ae-2585-48f8-a3c2-414d28146610",
-            "Value": {
-                "id": "46911422-167a-4168-8ed6-eae5b8d4b68d",
-                "resourcePath": "sprites\\AAZPastAct1_Tubes2\\AAZPastAct1_Tubes2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ee831dc8-394b-4c9a-a2f8-507a77a88285",
             "Value": {
                 "id": "7450caf3-de8d-4660-92bb-c1c037d25141",
