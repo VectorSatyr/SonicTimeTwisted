@@ -22783,14 +22783,6 @@
             }
         },
         {
-            "Key": "f128170b-6b4a-4b42-8c93-dc61614aba84",
-            "Value": {
-                "id": "3a20243f-0dcf-4992-b37b-c31f630498ae",
-                "resourcePath": "sprites\\AAZPAct1_Overlay3\\AAZPAct1_Overlay3.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f13497e6-1196-435c-939d-5273ee0c89d7",
             "Value": {
                 "id": "b569a7d1-2995-4623-83d5-9d14cc8d4125",
