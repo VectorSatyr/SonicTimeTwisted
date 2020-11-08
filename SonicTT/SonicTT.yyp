@@ -3663,14 +3663,6 @@
             }
         },
         {
-            "Key": "29ac8aaf-7410-4aeb-a8be-e9fc361a5ffd",
-            "Value": {
-                "id": "29bc0cb0-f13c-47df-b068-f5af12a46559",
-                "resourcePath": "sprites\\backDDFTubes\\backDDFTubes.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "29c7eca1-3889-4533-b37e-5c5328e6d503",
             "Value": {
                 "id": "efcab66c-93c1-4120-85fc-134893fd19b8",
