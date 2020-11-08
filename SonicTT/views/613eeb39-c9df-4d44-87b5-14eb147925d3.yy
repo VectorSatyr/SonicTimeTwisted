@@ -6,8 +6,7 @@
     "children": [
         "5b0dcd76-4f8b-4f99-b58b-51491b16fbc9",
         "e9433055-1da5-4e13-a4a5-120a256af918",
-        "6749b179-7d91-44fa-a774-a7b1bc3f3eac",
-        "02c65bc3-c226-4c9c-83dc-5c97405ba6da"
+        "6749b179-7d91-44fa-a774-a7b1bc3f3eac"
     ],
     "filterType": "GMSprite",
     "folderName": "outro",

@@ -319,14 +319,6 @@
             }
         },
         {
-            "Key": "02c65bc3-c226-4c9c-83dc-5c97405ba6da",
-            "Value": {
-                "id": "e696bc4b-362b-4d01-a188-d955efa8ab7e",
-                "resourcePath": "sprites\\backEndingNeverLake\\backEndingNeverLake.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "02cb9290-3d8f-4f4d-87bf-ca0795701659",
             "Value": {
                 "id": "d98eb906-3564-491d-babe-da0dcf11ee99",
@@ -15828,14 +15820,6 @@
                 "id": "5c7a42b9-5dd4-4ed3-9e2d-864949316879",
                 "resourcePath": "scripts\\player_reaction_spike\\player_reaction_spike.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "a8780f62-2b74-427b-bb1b-5bdae3f4205f",
-            "Value": {
-                "id": "f7a412d4-aeaa-4fd5-91b0-9cb84ab4f658",
-                "resourcePath": "tilesets\\backEndingNeverLake_tileset\\backEndingNeverLake_tileset.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
