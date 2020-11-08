@@ -7335,14 +7335,6 @@
             }
         },
         {
-            "Key": "4e43b060-12fa-476c-bb57-932cf8080a59",
-            "Value": {
-                "id": "9ec0425c-dee1-4703-8cfe-a7e67f480852",
-                "resourcePath": "sprites\\backSSZWall\\backSSZWall.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4e56668a-3ea2-40cb-8c2b-22458b801077",
             "Value": {
                 "id": "3972f083-1e16-4de5-9d17-8f536d70af7f",
@@ -23740,14 +23732,6 @@
                 "id": "5e059d33-ac20-4465-b91e-31b06a9c1c62",
                 "resourcePath": "scripts\\@__init_background\\__init_background.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "fca3328b-2f28-45b6-904e-354fa7780209",
-            "Value": {
-                "id": "2ac5dd0a-e661-42b8-b1c6-5a2ea9b854c1",
-                "resourcePath": "tilesets\\backSSZWall_tileset\\backSSZWall_tileset.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
