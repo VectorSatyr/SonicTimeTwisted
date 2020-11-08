@@ -7639,14 +7639,6 @@
             }
         },
         {
-            "Key": "50947be4-0270-4ff3-ac91-6991c8cb91b9",
-            "Value": {
-                "id": "dd5cd950-a075-44a3-bf81-498cea178a09",
-                "resourcePath": "sprites\\backPPZPlanet\\backPPZPlanet.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "50a8df64-a8b9-41f9-86fb-b8e8386fb3e9",
             "Value": {
                 "id": "6a25adcb-94ec-4aa3-be4f-654065813b86",
