@@ -11671,14 +11671,6 @@
             }
         },
         {
-            "Key": "7cdc2970-e3bf-493b-9dcc-9cb2073425f1",
-            "Value": {
-                "id": "0a793646-49b9-408c-a5c8-01e3de8d9fa5",
-                "resourcePath": "sprites\\backRRFFarCloud\\backRRFFarCloud.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7cf6c085-60e6-4bcd-a996-8208246d4e0f",
             "Value": {
                 "id": "dfd4168a-ce90-4094-848e-935845d7c041",
