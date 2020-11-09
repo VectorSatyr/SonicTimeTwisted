@@ -10663,14 +10663,6 @@
             }
         },
         {
-            "Key": "7117d9ca-669f-4d87-853e-0a0ed8af3648",
-            "Value": {
-                "id": "f03e6d2c-376c-4400-ac18-d8016c37dfbb",
-                "resourcePath": "sounds\\DONOTDELETETRYINGTOFIXISSUE\\DONOTDELETETRYINGTOFIXISSUE.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "712e6d21-e3fd-42d3-9fec-e0fb9270c4c0",
             "Value": {
                 "id": "3f680e3e-7d2b-4f3f-a836-e6d13740a2ba",
