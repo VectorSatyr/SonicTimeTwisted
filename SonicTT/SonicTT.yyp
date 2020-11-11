@@ -16151,14 +16151,6 @@
             }
         },
         {
-            "Key": "ac72cee8-8cb7-4e15-ae8d-3c7a3e1d8cda",
-            "Value": {
-                "id": "58f122b7-616e-4a7d-93d6-d978dcf238bf",
-                "resourcePath": "sounds\\sndSpikeMove\\sndSpikeMove.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "ac85aa49-d9bb-43e2-9cd3-7d3114a91575",
             "Value": {
                 "id": "9797cd98-e499-415f-9e43-0fa1f48efbe8",
