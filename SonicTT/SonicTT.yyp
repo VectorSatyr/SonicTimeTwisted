@@ -18543,14 +18543,6 @@
             }
         },
         {
-            "Key": "c608bc1b-3f2a-4bb5-b829-184f96a97416",
-            "Value": {
-                "id": "b17c292d-2c84-49ca-bc9d-85bfeb75d6aa",
-                "resourcePath": "sounds\\sndCDBumper\\sndCDBumper.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "c62dd8e9-88e6-4fd6-9bb4-4e627bf88af6",
             "Value": {
                 "id": "2ce82d95-c8dd-4e7b-92f3-50c30af9005f",
