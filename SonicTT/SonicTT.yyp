@@ -3159,14 +3159,6 @@
             }
         },
         {
-            "Key": "23ea9369-b08a-4719-ba64-fbb02cae6799",
-            "Value": {
-                "id": "f321a3e7-e7f7-4214-ba4f-5a2931a9aab7",
-                "resourcePath": "sounds\\sndTimeWarp\\sndTimeWarp.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "23ef394c-d284-4302-86e5-cd7d0a7bbabf",
             "Value": {
                 "id": "9d52a3ba-51fe-4dad-8b2e-7a694cb20523",
