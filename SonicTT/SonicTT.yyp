@@ -13599,14 +13599,6 @@
             }
         },
         {
-            "Key": "91989dff-9ae8-4516-a397-002aa830279c",
-            "Value": {
-                "id": "e1839a0b-e44d-4ceb-b062-fee1aa0072f7",
-                "resourcePath": "sounds\\sndShield\\sndShield.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "91a9e54f-2b55-499e-80da-94f6853451d9",
             "Value": {
                 "id": "6df88049-c9c0-479f-98cf-0810332f5293",
