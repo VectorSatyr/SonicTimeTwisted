@@ -19055,14 +19055,6 @@
             }
         },
         {
-            "Key": "cacc8ae5-acae-4755-8fe0-d66eefa08319",
-            "Value": {
-                "id": "eb9dd61f-d4f7-4957-b6bc-1b426ce22a53",
-                "resourcePath": "sounds\\sndMetalFly\\sndMetalFly.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "cacea171-bbf8-4f1c-ab2b-2918a8b7009f",
             "Value": {
                 "id": "c43d8529-e490-4009-a1b0-f63957f7669f",
