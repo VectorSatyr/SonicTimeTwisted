@@ -711,14 +711,6 @@
             }
         },
         {
-            "Key": "07d1ed3b-1f16-4117-b265-2acc013c7eaf",
-            "Value": {
-                "id": "39f9bd0d-d148-4747-9754-378cd06d362d",
-                "resourcePath": "paths\\pthWallRun1\\pthWallRun1.yy",
-                "resourceType": "GMPath"
-            }
-        },
-        {
             "Key": "07fb5350-91d6-4a69-9c99-7fcf8762fa6b",
             "Value": {
                 "id": "dd420ec2-f916-4202-aacf-ed3137ca6fa0",
