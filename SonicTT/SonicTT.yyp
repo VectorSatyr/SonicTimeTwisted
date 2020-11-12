@@ -6311,14 +6311,6 @@
             }
         },
         {
-            "Key": "43ded776-2367-4fe8-af1e-0272a623bb18",
-            "Value": {
-                "id": "9b736fb6-1ba8-4b2c-b1b7-0ac825612221",
-                "resourcePath": "paths\\TTFSpikeRollerPath12\\TTFSpikeRollerPath12.yy",
-                "resourceType": "GMPath"
-            }
-        },
-        {
             "Key": "43e59b76-42aa-46ed-8cfb-818487c95ed8",
             "Value": {
                 "id": "d373e465-56b5-402d-abd6-56f05e7980e8",
