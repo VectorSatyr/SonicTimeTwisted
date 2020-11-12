@@ -4503,14 +4503,6 @@
             }
         },
         {
-            "Key": "324d48a1-2c7d-4fac-b8ae-a9f94e408b75",
-            "Value": {
-                "id": "845726b8-5f2b-47e9-b205-90fd0263a55d",
-                "resourcePath": "paths\\AAZPathKnuckles\\AAZPathKnuckles.yy",
-                "resourceType": "GMPath"
-            }
-        },
-        {
             "Key": "32701077-2a7b-4af5-a8eb-c5aba64febf9",
             "Value": {
                 "id": "07409807-a211-49c1-883a-87f88cf1467e",
