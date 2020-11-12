@@ -21,8 +21,7 @@
         "e1cb4a5d-e92e-40b0-9541-ce90efa93b9b",
         "425faa3b-f2de-4054-80d8-829880e3a7b1",
         "f022aa2e-e46c-4177-a6ee-4204d194eb01",
-        "f9166458-36fd-47e8-bc10-9b7fcb8c12be",
-        "43ded776-2367-4fe8-af1e-0272a623bb18"
+        "f9166458-36fd-47e8-bc10-9b7fcb8c12be"
     ],
     "filterType": "GMPath",
     "folderName": "Tidal Tubes",
