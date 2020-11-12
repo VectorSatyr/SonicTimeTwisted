@@ -15231,14 +15231,6 @@
             }
         },
         {
-            "Key": "a4c469a4-908f-422f-9ed2-035dbb98194a",
-            "Value": {
-                "id": "ef6e442b-9e38-4b48-866e-a22be325491f",
-                "resourcePath": "views\\a4c469a4-908f-422f-9ed2-035dbb98194a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "a4dc5dac-16a4-420f-9799-10535baa69bb",
             "Value": {
                 "id": "42b09d20-3c94-44f4-9bbb-ad073fbc5f01",
@@ -21052,14 +21044,6 @@
                 "id": "ec6aaf2c-2a6a-429a-abca-b67f1ef92919",
                 "resourcePath": "objects\\objAAShockSwingH\\objAAShockSwingH.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "e29bd18a-5f4f-4ff7-84e4-87d0f0aa3a6e",
-            "Value": {
-                "id": "fbceee70-c579-4d09-98fb-24daeaf3d4d8",
-                "resourcePath": "paths\\pathRRWallRun\\pathRRWallRun.yy",
-                "resourceType": "GMPath"
             }
         },
         {
