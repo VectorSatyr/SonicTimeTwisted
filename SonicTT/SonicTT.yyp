@@ -18591,14 +18591,6 @@
             }
         },
         {
-            "Key": "c80bba47-0cd8-4da5-aa75-0641e61c360f",
-            "Value": {
-                "id": "0a546e77-abbc-4df5-a46b-dbff700cb69e",
-                "resourcePath": "paths\\TTSpikeRollerPath2\\TTSpikeRollerPath2.yy",
-                "resourceType": "GMPath"
-            }
-        },
-        {
             "Key": "c8126044-bd1a-4a7d-ad72-4931d59a53de",
             "Value": {
                 "id": "d61c7018-01d0-42d8-9bbb-2c8b43351528",
