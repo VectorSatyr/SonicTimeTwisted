@@ -1,19 +1,4 @@
-#macro GAMEPAD_POV_Y 7
-#macro GAMEPAD_POV_X 6
-#macro GAMEPAD_AXIS_V 5
-#macro GAMEPAD_AXIS_U 7
-#macro GAMEPAD_AXIS_R 3
-#macro GAMEPAD_AXIS_Z 2
-#macro GAMEPAD_AXIS_Y 1
-#macro GAMEPAD_AXIS_X 0
-#macro EMERALDS "k9(2h@"
-#macro STATS "LDGaS"
-#macro PAST "c20n1("
-#macro FUTURE "top204"
-#macro LEVELS "9z1kj"
-#macro BIG_RINGS "y6[4hjf"
-#macro LIVES "lk[]]"
-#macro CHARACTER "k2nlKft"
+// input events
 #macro cUP 1
 #macro cDOWN 2
 #macro cLEFT 4
@@ -25,10 +10,18 @@
 #macro cACTION cA | cB | cC
 #macro cCANCEL cB
 #macro cCONFIRM cA | cSTART
-#macro BINDING_TYPE_NONE 0
-#macro BINDING_TYPE_KEY 1
-#macro BINDING_TYPE_BUTTON 2
-#macro BINDING_TYPE_AXIS 3
+
+// save data headers
+#macro EMERALDS "k9(2h@"
+#macro STATS "LDGaS"
+#macro PAST "c20n1("
+#macro FUTURE "top204"
+#macro LEVELS "9z1kj"
+#macro BIG_RINGS "y6[4hjf"
+#macro LIVES "lk[]]"
+#macro CHARACTER "k2nlKft"
+
+// save data zone keys
 #macro aAA1_f "*%sfdg"
 #macro aAA1_p "sfdg7#%"
 #macro aAA2_f "fda@%"
