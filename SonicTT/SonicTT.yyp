@@ -5991,14 +5991,6 @@
             }
         },
         {
-            "Key": "41bc818f-7836-47f0-8a5f-dc5ef5e7e98e",
-            "Value": {
-                "id": "8a9337dc-24df-42ea-8cdf-92ef4d86b10c",
-                "resourcePath": "scripts\\save_gamepad_number\\save_gamepad_number.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "41bd8d78-1860-475e-8911-031679a273fb",
             "Value": {
                 "id": "4ec209df-311f-41de-a8c0-43ded0115a68",
@@ -23755,7 +23747,6 @@
         "33e41c26-577e-4641-b289-7081ae09e2a2",
         "125b0373-0863-4619-a3b6-4e693c839a79",
         "ceb1489b-cc4f-4834-ba16-1fff34a2f486",
-        "41bc818f-7836-47f0-8a5f-dc5ef5e7e98e",
         "df347a6a-01fb-4817-b345-b0ed52631805",
         "3824d835-e128-480c-8efd-6c2b898d5470",
         "16ecddb3-66e6-4fb1-b694-02664591bde4",
