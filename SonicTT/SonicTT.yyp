@@ -15591,14 +15591,6 @@
             }
         },
         {
-            "Key": "a907bc01-e980-490a-84f9-57a7b079bfda",
-            "Value": {
-                "id": "b5463156-62e0-466d-998e-21b8b1e0c210",
-                "resourcePath": "scripts\\reset_persistance\\reset_persistance.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a90f3896-c724-4400-8971-2c0f6b128434",
             "Value": {
                 "id": "af6d80ec-2cb8-441e-8ac1-64e492999d9b",
@@ -23800,7 +23792,6 @@
         "89c62194-5dd8-4d61-8fd5-e5c35015d346",
         "6d8eb087-c630-4c78-8ecc-4738ffdb2b85",
         "76a56fcf-78c1-471b-b62b-6250924293da",
-        "a907bc01-e980-490a-84f9-57a7b079bfda",
         "53b7ba97-8418-4ad7-97a6-93aa12735fea",
         "294598ba-98ff-4522-b331-4760c156fa6f",
         "cc93910a-df46-4034-83d9-41ea1d5e93f9",
