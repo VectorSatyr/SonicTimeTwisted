@@ -823,14 +823,6 @@
             }
         },
         {
-            "Key": "0972d9ae-0f4e-46d6-a971-479b5079b444",
-            "Value": {
-                "id": "90464288-057a-49ce-8387-725c54b3f7f3",
-                "resourcePath": "scripts\\BossNew\\BossNew.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "097407ba-782b-4281-af4d-1b4cd45c6dda",
             "Value": {
                 "id": "ffbd681c-aa28-4f97-93f6-cb7381c05712",
@@ -23765,7 +23757,6 @@
         "d50105bf-7b40-434b-9a20-270bb3f4050a",
         "3e172dc1-9751-41f9-9657-6e15abf0da64",
         "ef2b8b52-f036-4f2f-b46d-51df9053faff",
-        "0972d9ae-0f4e-46d6-a971-479b5079b444",
         "482e4ae5-ca2b-4481-966d-fe238b7783a8",
         "cd4c5266-8d94-4779-8dbc-0b0b44855557",
         "f313c805-3bad-4bdc-b8b9-0f14df4e1a9e",
