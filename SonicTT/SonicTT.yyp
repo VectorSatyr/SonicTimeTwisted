@@ -6711,14 +6711,6 @@
             }
         },
         {
-            "Key": "482e4ae5-ca2b-4481-966d-fe238b7783a8",
-            "Value": {
-                "id": "60b52686-a328-4bc9-96b5-1b4e1e3924bf",
-                "resourcePath": "scripts\\BossHandUpdate\\BossHandUpdate.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "4831de69-8a80-4d49-b45c-77ab1a435b72",
             "Value": {
                 "id": "0ded211f-f8f6-4491-85b4-32ebd192de0a",
@@ -23757,7 +23749,6 @@
         "d50105bf-7b40-434b-9a20-270bb3f4050a",
         "3e172dc1-9751-41f9-9657-6e15abf0da64",
         "ef2b8b52-f036-4f2f-b46d-51df9053faff",
-        "482e4ae5-ca2b-4481-966d-fe238b7783a8",
         "cd4c5266-8d94-4779-8dbc-0b0b44855557",
         "f313c805-3bad-4bdc-b8b9-0f14df4e1a9e",
         "b76cd9c6-2b09-4a15-9a10-c3772131bf20",
