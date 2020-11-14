@@ -4967,14 +4967,6 @@
             }
         },
         {
-            "Key": "3824d835-e128-480c-8efd-6c2b898d5470",
-            "Value": {
-                "id": "e9bbc715-a52e-40a5-a740-c32ebb7e9b91",
-                "resourcePath": "scripts\\fix_bad_gamepad_axis\\fix_bad_gamepad_axis.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "38667204-b9dc-4286-a91e-6b5b290e7afa",
             "Value": {
                 "id": "a7061b79-cf24-442c-b08a-c2cb1a8eb17e",
@@ -23748,7 +23740,6 @@
         "125b0373-0863-4619-a3b6-4e693c839a79",
         "ceb1489b-cc4f-4834-ba16-1fff34a2f486",
         "df347a6a-01fb-4817-b345-b0ed52631805",
-        "3824d835-e128-480c-8efd-6c2b898d5470",
         "16ecddb3-66e6-4fb1-b694-02664591bde4",
         "bdfd9050-f190-423d-81a3-2a6ebb999d79",
         "2c259914-53ba-4b11-b351-ecd053e4359b",
