@@ -19847,14 +19847,6 @@
             }
         },
         {
-            "Key": "d6ab9eb5-2d73-406e-8c78-b542747b55cf",
-            "Value": {
-                "id": "0ab7ea04-7aba-4193-b977-8889df26512e",
-                "resourcePath": "scripts\\lerp_warp\\lerp_warp.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "d6b9b73a-1ba7-4823-866e-67b7a48144fb",
             "Value": {
                 "id": "ef6a9ffa-681d-4c2f-a61f-23e2d215d4ae",
@@ -23754,7 +23746,6 @@
         "b76cd9c6-2b09-4a15-9a10-c3772131bf20",
         "b8927192-16ef-43e0-8b8d-6e9ae0387999",
         "cc73ad4c-ba8c-43e7-af97-c9b9f0a18882",
-        "d6ab9eb5-2d73-406e-8c78-b542747b55cf",
         "4c07ac13-20ea-4446-9275-661f74339b7f",
         "85ad2499-fdbd-4382-a395-aef7846aa265",
         "2a63abc3-5b7e-4264-b248-739f6117cede",
