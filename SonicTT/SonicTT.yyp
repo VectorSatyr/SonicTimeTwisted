@@ -21511,14 +21511,6 @@
             }
         },
         {
-            "Key": "e9579ddc-4e92-4a7c-a495-e3d761822c55",
-            "Value": {
-                "id": "b1136fc3-2eee-48e7-b88c-16ca35b7108e",
-                "resourcePath": "scripts\\player_update_bounds_final_boss\\player_update_bounds_final_boss.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "e96379cc-11eb-4e7c-a220-cebd3cdc81ee",
             "Value": {
                 "id": "7f848c26-8742-4ba2-89f2-b67c31af49cc",
@@ -23776,7 +23768,6 @@
         "3a004cc8-5768-49bf-a094-78d498f7ed74",
         "3bdd4cac-321a-46f9-b3d0-fe6e21aa62fa",
         "40b518d4-7841-4c8f-acb6-418b5ae544b5",
-        "e9579ddc-4e92-4a7c-a495-e3d761822c55",
         "ff35cbf6-6435-4b21-91c8-e5d4a9d5637e",
         "22f5d75c-6141-4f38-aa36-a541755ed9f1",
         "9ef66b25-de85-4600-b3cb-e35676ec45df",
