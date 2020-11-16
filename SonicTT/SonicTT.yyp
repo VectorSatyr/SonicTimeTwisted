@@ -2871,14 +2871,6 @@
             }
         },
         {
-            "Key": "2208d576-7232-4045-b085-c61ba52e39a4",
-            "Value": {
-                "id": "aca184f3-e07d-4da6-ab50-7eb8aed1ca40",
-                "resourcePath": "scripts\\player_state_wall_run\\player_state_wall_run.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "22143e8c-df8d-4558-9387-b5a4375d8bff",
             "Value": {
                 "id": "e6cce003-dc88-49b9-8038-d715c8751580",
@@ -23874,7 +23866,6 @@
         "ad03069a-1aef-4568-8cbb-7743634a7c72",
         "72fea432-9237-4058-89bb-efdc5e5a98de",
         "64ea11bc-9da0-480b-8976-8ee0a379fef4",
-        "2208d576-7232-4045-b085-c61ba52e39a4",
         "f6e7372b-a309-40d0-8c7a-be6d7c3dba2e",
         "c5844a4e-298f-4c92-9ddd-4076f571782c",
         "5ab44393-1528-4e2e-8e3c-646898fce370",
