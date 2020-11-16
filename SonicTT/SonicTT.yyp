@@ -7335,14 +7335,6 @@
             }
         },
         {
-            "Key": "4f7bacff-7bbb-4d3f-9f48-a3a628c52314",
-            "Value": {
-                "id": "ebde81db-ad87-4781-92ed-8e36e4a2a0a0",
-                "resourcePath": "scripts\\player_reaction_rhinobot\\player_reaction_rhinobot.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "4f7c6175-b7b4-444b-8966-da5c92273cba",
             "Value": {
                 "id": "4a27eb12-efa4-40a6-9a9b-bfe7a7ce27b0",
@@ -23815,7 +23807,6 @@
         "656acd79-e226-4966-a22e-3631b8ade09f",
         "c42c907e-bdb3-48e3-8835-3e3e8bb4d2e4",
         "bb884335-30a6-4b1a-9573-986c4a3f1865",
-        "4f7bacff-7bbb-4d3f-9f48-a3a628c52314",
         "6fbf469d-6f33-40e6-921a-16745cfbd629",
         "fd73c7e1-e68c-45e2-a38b-0b7c6dd4e1c2",
         "8f355a52-056c-446b-88af-3b110fec5efb",
