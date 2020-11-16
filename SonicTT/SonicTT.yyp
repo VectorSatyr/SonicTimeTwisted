@@ -10711,14 +10711,6 @@
             }
         },
         {
-            "Key": "747340ca-2b34-43dd-9c77-fc096888eb6c",
-            "Value": {
-                "id": "37795356-4b24-486d-bc18-9ae830594d47",
-                "resourcePath": "scripts\\player_reaction_start_FFF2\\player_reaction_start_FFF2.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "74785c2e-1fb5-4895-88fd-130e6496011c",
             "Value": {
                 "id": "3670d9eb-ab45-4186-8467-47bd424993a9",
@@ -23827,7 +23819,6 @@
         "bfc03698-5c49-4608-8247-a2a6a5bad55b",
         "46ad1b9e-117a-4577-8fe8-88eb07ac8b48",
         "ccdc7c76-49fb-4bee-ab50-22bec85960e8",
-        "747340ca-2b34-43dd-9c77-fc096888eb6c",
         "fc5709b4-bcee-4bc7-98db-efe01123a12c",
         "0e324f89-3e77-4903-97a0-c37e9cfa8f8f",
         "a3fa2634-fbd8-4049-9f93-989b224649e5",
