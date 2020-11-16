@@ -16863,14 +16863,6 @@
             }
         },
         {
-            "Key": "b8d4f138-281c-4243-a650-6fceb465b2f9",
-            "Value": {
-                "id": "e2f8c2ad-6c2f-4b78-84db-69808f419d0a",
-                "resourcePath": "scripts\\player_reaction_TT1p_start\\player_reaction_TT1p_start.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "b8f86944-1348-40c1-8e73-d00b18a54bcd",
             "Value": {
                 "id": "95bd67ed-9cc9-4de2-b088-43211da14f68",
@@ -23825,7 +23817,6 @@
         "6bc6f745-17a1-490f-9f57-47c869ab42ab",
         "58a68616-3073-479c-80f5-8d966db33e9f",
         "f0dfe4d5-ac10-4b67-a6ed-e89c1f028903",
-        "b8d4f138-281c-4243-a650-6fceb465b2f9",
         "1136d67d-faec-4b8e-81cd-468093f17ce3",
         "71a91025-69f7-4e8c-9b52-a540258af692",
         "2a798e9e-a61e-48f3-ad5b-27e84e2d311b",
