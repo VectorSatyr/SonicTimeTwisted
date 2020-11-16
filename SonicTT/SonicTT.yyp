@@ -21199,14 +21199,6 @@
             }
         },
         {
-            "Key": "e6f1ca59-53ab-4cf9-af7b-9a6f2fa779d3",
-            "Value": {
-                "id": "b13039d2-78c7-44ce-a119-9ce437a72a47",
-                "resourcePath": "scripts\\draw_billboard_xyz\\draw_billboard_xyz.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "e73dfa12-d7cc-4e55-ba36-b79e4b5bc3d2",
             "Value": {
                 "id": "f6e30d65-2a72-4966-84d7-951790633f4f",
@@ -23906,7 +23898,6 @@
         "55041f4a-b918-48ae-bc7f-19d3028613d3",
         "5e3b47a2-1de9-430e-9c77-447a2c4f3f16",
         "a9302823-3701-45d6-93eb-be9a246349dd",
-        "e6f1ca59-53ab-4cf9-af7b-9a6f2fa779d3",
         "3a972b46-3fec-4730-b68d-155bcfb42f69",
         "ee831dc8-394b-4c9a-a2f8-507a77a88285",
         "d36a4020-bf8f-4e25-90ba-fd7ec2b5bec9",
