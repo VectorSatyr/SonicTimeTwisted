@@ -19943,14 +19943,6 @@
             }
         },
         {
-            "Key": "d7da5954-5dbb-44a7-9d56-709b3e0e8c81",
-            "Value": {
-                "id": "04e38eac-4eea-485b-8475-2a164cc4c051",
-                "resourcePath": "scripts\\player_reaction_board_exit\\player_reaction_board_exit.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "d801b48e-26e9-4b73-ae55-798c49dc5aea",
             "Value": {
                 "id": "ca1ee62b-94f4-4b23-87f5-b02db1685b57",
@@ -23835,7 +23827,6 @@
         "bfc03698-5c49-4608-8247-a2a6a5bad55b",
         "46ad1b9e-117a-4577-8fe8-88eb07ac8b48",
         "ccdc7c76-49fb-4bee-ab50-22bec85960e8",
-        "d7da5954-5dbb-44a7-9d56-709b3e0e8c81",
         "747340ca-2b34-43dd-9c77-fc096888eb6c",
         "fc5709b4-bcee-4bc7-98db-efe01123a12c",
         "0e324f89-3e77-4903-97a0-c37e9cfa8f8f",
