@@ -20263,14 +20263,6 @@
             }
         },
         {
-            "Key": "db5369c2-5cac-470e-b165-761dc95829e6",
-            "Value": {
-                "id": "69a839d0-d5ba-499b-bb6a-afa5e9c57fb8",
-                "resourcePath": "scripts\\player_reaction_cutscene\\player_reaction_cutscene.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "db71598b-af46-4ba2-9e35-c6eae4281c47",
             "Value": {
                 "id": "d7a06bd1-d9b8-4070-a2c3-e92e457e7ae1",
@@ -23830,7 +23822,6 @@
         "6db68c20-6683-4ee5-9e67-70d6f9ce6bc9",
         "772d0fd1-9781-4525-8ebb-c3570d078c40",
         "e339aa3c-d68d-4f24-95a1-37a9b6ab31ef",
-        "db5369c2-5cac-470e-b165-761dc95829e6",
         "a3e9944d-04bb-494a-a5f0-6a8604955de8",
         "5ee96b54-1f6f-4a7a-bb2e-e0c5c4cc2a7a",
         "33965210-3c32-4b26-96b3-6504aadc7ecc",
