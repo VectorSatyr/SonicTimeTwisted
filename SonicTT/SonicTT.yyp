@@ -11159,14 +11159,6 @@
             }
         },
         {
-            "Key": "797f9a40-fd53-4161-88c3-926899a476d7",
-            "Value": {
-                "id": "12fa3c02-5a17-4da5-b314-dbf4df30e1c5",
-                "resourcePath": "scripts\\player_reaction_wall_run\\player_reaction_wall_run.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "79a4f3f6-dae1-4c4f-bd64-8c69e2658281",
             "Value": {
                 "id": "5745e787-3a29-4fa9-b30d-b3bee73af549",
@@ -23831,7 +23823,6 @@
         "50c08750-fbb1-4b82-beaf-1344fad5b4eb",
         "76ac77a3-4724-41e9-b5e5-5dedd08f47ba",
         "3f5e9c38-b68d-4696-8ed5-c21224e60ca9",
-        "797f9a40-fd53-4161-88c3-926899a476d7",
         "c77a688c-4baf-4013-9967-78039fad33d6",
         "f16d024c-2f56-4bd2-89e9-b5f7f3b4d8aa",
         "4373baf2-8eb9-4590-ac9f-676c6f71689f",
