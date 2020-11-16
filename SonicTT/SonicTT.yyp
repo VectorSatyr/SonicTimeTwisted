@@ -11351,14 +11351,6 @@
             }
         },
         {
-            "Key": "7b82a29c-dd99-49fc-aa28-fa2ddba22277",
-            "Value": {
-                "id": "5f4315ea-7c2e-4e70-8f9d-2ad8c8a0a163",
-                "resourcePath": "scripts\\player_reaction_tubewater\\player_reaction_tubewater.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "7b927bcb-6164-4d23-aa91-7c4b312e8bbd",
             "Value": {
                 "id": "8a7db905-f8f7-4d7e-a9ab-7a1ce6bd4229",
@@ -23829,7 +23821,6 @@
         "615fb37c-b5a6-41ef-8195-57a29d41dd8e",
         "3c87c3fd-dfb7-4f8e-9853-dbb31841d9af",
         "3606f67a-1845-4b29-b4a7-bec30d7e4463",
-        "7b82a29c-dd99-49fc-aa28-fa2ddba22277",
         "40d3918b-0503-4159-a100-e681c5674701",
         "6bc6f745-17a1-490f-9f57-47c869ab42ab",
         "58a68616-3073-479c-80f5-8d966db33e9f",
