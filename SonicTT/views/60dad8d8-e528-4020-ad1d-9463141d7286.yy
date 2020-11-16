@@ -10,8 +10,7 @@
         "6268111b-85b1-4f7b-a8cf-703b1cb1667b",
         "6db68c20-6683-4ee5-9e67-70d6f9ce6bc9",
         "772d0fd1-9781-4525-8ebb-c3570d078c40",
-        "e339aa3c-d68d-4f24-95a1-37a9b6ab31ef",
-        "db5369c2-5cac-470e-b165-761dc95829e6"
+        "e339aa3c-d68d-4f24-95a1-37a9b6ab31ef"
     ],
     "filterType": "GMScript",
     "folderName": "Sunken Saucer",
