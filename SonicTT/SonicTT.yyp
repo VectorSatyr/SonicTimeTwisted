@@ -15735,14 +15735,6 @@
             }
         },
         {
-            "Key": "ab527d2a-3868-4ae6-aef0-f6e5a74e26eb",
-            "Value": {
-                "id": "3751a43a-fbee-4866-9220-f5bd5bf74bbb",
-                "resourcePath": "scripts\\player_reaction_sand_lift\\player_reaction_sand_lift.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "ab685cf3-3a94-4fde-b26f-d2f267cb3713",
             "Value": {
                 "id": "22271515-817e-44d2-8ab9-4b72e04e0322",
@@ -23820,7 +23812,6 @@
         "1136d67d-faec-4b8e-81cd-468093f17ce3",
         "71a91025-69f7-4e8c-9b52-a540258af692",
         "2a798e9e-a61e-48f3-ad5b-27e84e2d311b",
-        "ab527d2a-3868-4ae6-aef0-f6e5a74e26eb",
         "96bd09c3-aab5-4337-b027-0b0d78194db3",
         "b282327e-cfb6-4e38-9c70-f18146d6d586",
         "d5daae58-d6bc-4285-8e8b-f1e25f29130c",
