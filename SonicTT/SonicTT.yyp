@@ -23255,14 +23255,6 @@
             }
         },
         {
-            "Key": "fd9a0f13-72e9-43f8-97fb-e37082262ed3",
-            "Value": {
-                "id": "cef2f43e-9dd4-4f48-9340-291a1f34758a",
-                "resourcePath": "shaders\\shdShockwave\\shdShockwave.yy",
-                "resourceType": "GMShader"
-            }
-        },
-        {
             "Key": "fda2a0d1-cd59-43f1-b859-5fdbdb4fd341",
             "Value": {
                 "id": "ef34a1e4-7688-4e7c-834f-3301da0ee86d",
