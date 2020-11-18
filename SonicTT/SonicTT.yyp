@@ -5223,14 +5223,6 @@
             }
         },
         {
-            "Key": "3a8b640f-3c0b-4cc2-9dcc-64c4ea292188",
-            "Value": {
-                "id": "6bdec222-b9f6-47b4-9dee-96f7bc811f2b",
-                "resourcePath": "timelines\\animSonicElectrified\\animSonicElectrified.yy",
-                "resourceType": "GMTimeline"
-            }
-        },
-        {
             "Key": "3a972b46-3fec-4730-b68d-155bcfb42f69",
             "Value": {
                 "id": "80d49856-f1b5-4e0c-9a97-2d93982bdc49",
