@@ -1999,14 +1999,6 @@
             }
         },
         {
-            "Key": "17b4f7e3-dfc9-4785-9344-9f7212af9b0d",
-            "Value": {
-                "id": "42091ae2-aacf-4ad2-84af-349a029bb091",
-                "resourcePath": "timelines\\animFlower\\animFlower.yy",
-                "resourceType": "GMTimeline"
-            }
-        },
-        {
             "Key": "17bdbedf-1444-4050-862c-80a940249531",
             "Value": {
                 "id": "4eccd3b2-f6cf-442e-843f-48b2ad830633",
