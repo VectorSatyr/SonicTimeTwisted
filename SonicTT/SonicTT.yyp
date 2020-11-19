@@ -7863,14 +7863,6 @@
             }
         },
         {
-            "Key": "55b5ed65-88f4-4cec-a394-dedb8ff79173",
-            "Value": {
-                "id": "0104bd2d-ab44-4e8a-bef7-0cfd3b91a373",
-                "resourcePath": "objects\\objGolemSparks\\objGolemSparks.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "55b7f393-f196-4ca6-9e9c-f1f54694fcc2",
             "Value": {
                 "id": "23bebe20-7b4e-42a9-94f2-b1868ee34d20",
