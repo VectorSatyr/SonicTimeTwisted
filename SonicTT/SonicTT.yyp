@@ -8447,14 +8447,6 @@
             }
         },
         {
-            "Key": "5bfc5c52-b96f-497e-aeb9-96eef6657086",
-            "Value": {
-                "id": "5cffb82d-cc85-40ae-bb5e-ef22da3389e0",
-                "resourcePath": "objects\\objUFOAttackPP\\objUFOAttackPP.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5c1a1a23-818e-410f-a106-f2a5d02a5b31",
             "Value": {
                 "id": "ccbdd33f-68d1-4ac3-8583-e04c1f208200",
