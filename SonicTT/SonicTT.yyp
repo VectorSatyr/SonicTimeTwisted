@@ -7263,14 +7263,6 @@
             }
         },
         {
-            "Key": "4f610bf9-7983-41ec-b35e-82a07c79f53f",
-            "Value": {
-                "id": "04ce829d-91b5-47b8-9c9e-6fda95b16057",
-                "resourcePath": "objects\\objFinalBossFireballExhaust\\objFinalBossFireballExhaust.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4f7c6175-b7b4-444b-8966-da5c92273cba",
             "Value": {
                 "id": "4a27eb12-efa4-40a6-9a9b-bfe7a7ce27b0",
