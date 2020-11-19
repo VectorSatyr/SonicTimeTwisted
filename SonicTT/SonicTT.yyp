@@ -12503,14 +12503,6 @@
             }
         },
         {
-            "Key": "8a1d1ce0-8b12-4af8-81c3-6d795b2bca0e",
-            "Value": {
-                "id": "cc850947-3712-431a-b34c-c51e8d03d502",
-                "resourcePath": "objects\\objUFOExplosion\\objUFOExplosion.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8a384189-e3bb-48e6-8362-2576490d67d8",
             "Value": {
                 "id": "8c2e6ceb-37a7-46b4-a7c8-2abd0c21ddd9",
