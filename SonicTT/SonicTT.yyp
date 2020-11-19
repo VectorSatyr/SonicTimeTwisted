@@ -4143,14 +4143,6 @@
             }
         },
         {
-            "Key": "30527909-9ab5-4685-9081-ed2ba4a003e3",
-            "Value": {
-                "id": "93ba82d9-dba7-468f-8679-099b1d2a4a1d",
-                "resourcePath": "objects\\objExampleCollapsingPlatformPiece\\objExampleCollapsingPlatformPiece.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3080e46d-187c-47fd-9bfc-86250c911fe5",
             "Value": {
                 "id": "f3cf5505-3644-473c-9013-e18861fdbe94",
@@ -14596,14 +14588,6 @@
                 "id": "d2e2f5fa-0bb4-4019-9527-f8ab8f5f0ede",
                 "resourcePath": "sprites\\sprShieldFlameAction\\sprShieldFlameAction.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a1219257-b1bf-49d6-ab1e-d1e6e3205d21",
-            "Value": {
-                "id": "d9d4bc46-b639-490c-ae16-57afd8ca62d1",
-                "resourcePath": "views\\a1219257-b1bf-49d6-ab1e-d1e6e3205d21.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
