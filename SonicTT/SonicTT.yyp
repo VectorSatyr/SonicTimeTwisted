@@ -295,14 +295,6 @@
             }
         },
         {
-            "Key": "02a67fc4-b2f2-4015-9443-63c6082e2e50",
-            "Value": {
-                "id": "b1c0ed99-0d93-47ed-9a87-dc4863e5086d",
-                "resourcePath": "sprites\\SparkSpr\\SparkSpr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "02b54188-3164-43b9-bbdc-dc80c4dcebe2",
             "Value": {
                 "id": "29c77eea-0920-464b-9945-a9571d1d837f",
