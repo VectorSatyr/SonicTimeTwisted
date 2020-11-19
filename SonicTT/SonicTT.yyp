@@ -12183,14 +12183,6 @@
             }
         },
         {
-            "Key": "86a5ad6b-3f8b-4fc6-a926-1a6674ac1fde",
-            "Value": {
-                "id": "1366e6d2-8bee-4be7-b441-7d7e233a83cc",
-                "resourcePath": "objects\\objMetalClone\\objMetalClone.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "86ae5c2a-a054-4797-801b-718230565da9",
             "Value": {
                 "id": "bfa0006c-f79a-4145-80b6-239a563152cb",
