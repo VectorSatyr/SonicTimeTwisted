@@ -18103,14 +18103,6 @@
             }
         },
         {
-            "Key": "c6732a43-f841-4385-b52d-68ec60928cda",
-            "Value": {
-                "id": "cf6c27bf-b29b-467e-8404-41a45a9f3ac7",
-                "resourcePath": "sprites\\sprFinalBossExhaust\\sprFinalBossExhaust.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c6b0efe3-2a3f-4d6b-a6a1-75082894f913",
             "Value": {
                 "id": "7ee5d09b-3a9a-4d0e-93cb-df6916c2ef3f",
