@@ -623,14 +623,6 @@
             }
         },
         {
-            "Key": "06fa706c-a217-4293-ad83-6759b8152e2f",
-            "Value": {
-                "id": "d84aa5b4-74ee-48a8-ba37-33d21a66cc71",
-                "resourcePath": "objects\\objExampleCollapsingPlatform\\objExampleCollapsingPlatform.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "07105b9f-6a5b-4f01-9829-3d139da20cc0",
             "Value": {
                 "id": "e7d8c0ff-107d-4bfe-bae7-650bbd773fa1",
