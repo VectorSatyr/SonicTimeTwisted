@@ -8703,14 +8703,6 @@
             }
         },
         {
-            "Key": "5f70614d-43d4-4a59-90f4-e6df2da16630",
-            "Value": {
-                "id": "6f3e6fa7-954b-43f1-b1a9-379bfa08343b",
-                "resourcePath": "sprites\\sprExamplePushable\\sprExamplePushable.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5f730bd0-d751-40df-a206-5e734eccb982",
             "Value": {
                 "id": "c7434d34-67cc-4eb0-87d9-551ab5d90be3",
