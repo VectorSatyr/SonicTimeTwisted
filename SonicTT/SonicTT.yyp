@@ -3695,14 +3695,6 @@
             }
         },
         {
-            "Key": "2bdac193-110e-4c3d-8526-ba5218e4769f",
-            "Value": {
-                "id": "ed74bc11-0136-4b79-9d81-2038bad9263f",
-                "resourcePath": "sprites\\sprFinalBossExhaustAdd\\sprFinalBossExhaustAdd.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2bded404-75a3-4cf0-a033-626ea19a6ad4",
             "Value": {
                 "id": "7f85d953-fab4-4eec-9c1c-2540241dc54d",
