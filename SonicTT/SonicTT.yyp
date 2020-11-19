@@ -15999,14 +15999,6 @@
             }
         },
         {
-            "Key": "b1754d82-d69f-4dcc-b9f2-9a5c27f67767",
-            "Value": {
-                "id": "db267800-0e2d-4e22-aae6-10759f0426b2",
-                "resourcePath": "objects\\objExamplePushable\\objExamplePushable.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b17a9f5d-5cf0-447b-bc48-c5ed695322aa",
             "Value": {
                 "id": "54b371fb-6481-4cb2-a4b9-e223ed3e2eba",
