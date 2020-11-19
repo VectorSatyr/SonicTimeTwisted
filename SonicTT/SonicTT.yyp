@@ -5807,14 +5807,6 @@
             }
         },
         {
-            "Key": "40b2b817-4474-4515-9fbb-4fcda99543fd",
-            "Value": {
-                "id": "efe79c51-1474-404d-a42b-1129b1e5849b",
-                "resourcePath": "objects\\Object3D\\Object3D.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "40b518d4-7841-4c8f-acb6-418b5ae544b5",
             "Value": {
                 "id": "4ea93dde-5ad6-4996-bad9-ae86ea3b9015",
