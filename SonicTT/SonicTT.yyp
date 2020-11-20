@@ -18895,14 +18895,6 @@
             }
         },
         {
-            "Key": "cecb66b6-f6af-427a-b397-d1e4978d413c",
-            "Value": {
-                "id": "2d930e8f-d1f6-4f91-9824-f90488358907",
-                "resourcePath": "objects\\objWallbot\\objWallbot.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ced64fc1-6009-4305-b097-b789d2100a97",
             "Value": {
                 "id": "29402079-a7e9-463c-8396-6891c7dcc07d",
