@@ -11735,14 +11735,6 @@
             }
         },
         {
-            "Key": "830741cc-e92d-487d-b7dc-21f261a11616",
-            "Value": {
-                "id": "00757537-b1fe-4d9a-bdbe-bf5b39cc4a9c",
-                "resourcePath": "objects\\objPenguin\\objPenguin.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "830db19a-834a-459f-b5f0-bc97656d3cdd",
             "Value": {
                 "id": "5f071b28-234a-451a-8ce5-9c0d9fa38210",
