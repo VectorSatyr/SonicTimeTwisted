@@ -9903,14 +9903,6 @@
             }
         },
         {
-            "Key": "6ca3657a-40dd-44f8-a454-71b914b599ce",
-            "Value": {
-                "id": "c23d9d14-127f-46a3-8947-500891695a6d",
-                "resourcePath": "objects\\objVutureBot\\objVutureBot.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6d04d986-179f-4243-a697-6db097773159",
             "Value": {
                 "id": "f3798acd-24f7-4049-94d9-f0324503e3a8",
