@@ -8351,14 +8351,6 @@
             }
         },
         {
-            "Key": "5b9f5f80-5a60-4ee9-a79a-d403950a5ef0",
-            "Value": {
-                "id": "8da419d6-a121-4c0d-a44e-50ee15f7d02e",
-                "resourcePath": "objects\\obMoleGunGun\\obMoleGunGun.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5ba81d00-0e6f-41c4-9e9f-5e85c9a24e9c",
             "Value": {
                 "id": "01167188-faf1-4f2f-9ffd-de0e1a0c2409",
