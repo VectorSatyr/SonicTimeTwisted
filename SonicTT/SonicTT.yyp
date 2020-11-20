@@ -16591,14 +16591,6 @@
             }
         },
         {
-            "Key": "b84faccf-405b-426f-afe9-e49df2ddbf8e",
-            "Value": {
-                "id": "a19c17a1-9925-44ff-b514-b4f1c7c49377",
-                "resourcePath": "sprites\\sprPenguin\\sprPenguin.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b8927192-16ef-43e0-8b8d-6e9ae0387999",
             "Value": {
                 "id": "5da1837e-9eef-42ff-97de-4e1425e807d7",
