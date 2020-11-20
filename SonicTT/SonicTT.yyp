@@ -21207,14 +21207,6 @@
             }
         },
         {
-            "Key": "e9bbea9a-2819-4329-8a84-2da22f8ecc53",
-            "Value": {
-                "id": "e51ae4dd-298a-4aa2-845c-67e2d4f7124f",
-                "resourcePath": "sprites\\sprBombBadnik\\sprBombBadnik.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e9de6a75-4993-4c31-a265-0aefb189e6a3",
             "Value": {
                 "id": "e14d497c-7dc0-4974-b166-0523a228bb4f",
