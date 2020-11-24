@@ -7567,14 +7567,6 @@
             }
         },
         {
-            "Key": "539603f9-8f61-41d3-95b5-835fc1a53ee6",
-            "Value": {
-                "id": "574697bd-11c5-44a1-8bbf-98dea1c1d9e9",
-                "resourcePath": "objects\\objSnowBlowerHTop\\objSnowBlowerHTop.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "53a49c68-2d87-4429-b832-2a00d27ebc90",
             "Value": {
                 "id": "4dd68603-7f1b-4aef-a3eb-be42910947c7",
