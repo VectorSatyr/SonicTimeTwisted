@@ -11311,14 +11311,6 @@
             }
         },
         {
-            "Key": "7ddf7d64-bbf1-42ff-88c8-ddf882f1ef2a",
-            "Value": {
-                "id": "029d2e3b-6955-48be-b142-9294adae7543",
-                "resourcePath": "objects\\objFFSnowEmitter\\objFFSnowEmitter.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7df64b21-5b3e-4f8e-8cf1-596e0d1ff621",
             "Value": {
                 "id": "a236583a-01a5-4fd4-8809-0cf93081dbc0",
@@ -19803,14 +19795,6 @@
             "Value": {
                 "id": "85b18e95-3658-46f8-9b56-f384c8863d05",
                 "resourcePath": "views\\da0155ce-c462-45f7-99f3-89d11e07f440.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "da044e7d-2359-4e3d-96fd-21842d50d8bc",
-            "Value": {
-                "id": "1e55461c-524f-4dfd-87e9-56834fe11c98",
-                "resourcePath": "views\\da044e7d-2359-4e3d-96fd-21842d50d8bc.yy",
                 "resourceType": "GMFolder"
             }
         },
