@@ -19743,14 +19743,6 @@
             }
         },
         {
-            "Key": "d94f5e85-a060-4eeb-a5b7-06013db8e53c",
-            "Value": {
-                "id": "5023a23e-4aba-401b-9077-3acc8b528d5c",
-                "resourcePath": "sprites\\sprSnowBlowerHTop\\sprSnowBlowerHTop.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d950cb4e-b834-466c-b0fd-b1756b406ab8",
             "Value": {
                 "id": "fe80bf1d-4cce-40e8-b729-4f6fc5a413e6",
