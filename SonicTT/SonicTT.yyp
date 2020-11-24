@@ -4751,14 +4751,6 @@
             }
         },
         {
-            "Key": "362aa1ec-d909-4eee-bf83-eee281149fab",
-            "Value": {
-                "id": "28c9755e-e580-4ae4-9e57-7b2799984fc9",
-                "resourcePath": "sprites\\sprAASmasherMask\\sprAASmasherMask.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "364a04a8-00d1-4378-b1aa-31855c678adb",
             "Value": {
                 "id": "f42a35a7-af86-44e5-bb6d-34b4694d2dfa",
