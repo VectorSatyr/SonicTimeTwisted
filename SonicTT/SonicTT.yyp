@@ -6511,14 +6511,6 @@
             }
         },
         {
-            "Key": "472b0a25-b23a-455b-b6bf-68cf6a7057e7",
-            "Value": {
-                "id": "536a027c-d91c-449a-a733-1957ba2fbf66",
-                "resourcePath": "views\\472b0a25-b23a-455b-b6bf-68cf6a7057e7.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "4783ea37-18dd-428b-aa67-aad4149b09a9",
             "Value": {
                 "id": "a782825d-81f6-41a0-88e9-e6101c99b779",
@@ -15348,14 +15340,6 @@
                 "id": "c5df21ab-0b7f-4c9e-8532-a54e2f8c2a68",
                 "resourcePath": "sprites\\sprMoleYoyoHand\\sprMoleYoyoHand.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "aafb6aab-10ab-4e23-b94e-3dd2ec130c61",
-            "Value": {
-                "id": "344d67aa-eb13-4f44-8314-9973bc61662b",
-                "resourcePath": "paths\\DDPRockPath2\\DDPRockPath2.yy",
-                "resourceType": "GMPath"
             }
         },
         {
