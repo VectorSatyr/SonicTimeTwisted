@@ -17695,14 +17695,6 @@
             }
         },
         {
-            "Key": "c343b603-1a9e-4e78-812d-fbd35e5dea8e",
-            "Value": {
-                "id": "fa70e8bb-466f-4f0e-a94a-25b967391b72",
-                "resourcePath": "objects\\object178\\object178.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c364c319-7ded-4bdc-8970-21708fa54464",
             "Value": {
                 "id": "4600b404-de52-4ccf-a8e0-848a8e70a6b2",
