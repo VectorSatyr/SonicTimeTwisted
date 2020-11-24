@@ -22591,14 +22591,6 @@
             }
         },
         {
-            "Key": "fa9971c8-d246-4c32-aca3-cdaf6502c7f5",
-            "Value": {
-                "id": "6d5a61e1-a684-4ea9-9fa5-a91f63ce22c7",
-                "resourcePath": "objects\\objRollingRockBarrior\\objRollingRockBarrior.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "fa9f6aae-671f-4504-b100-1775bff9a943",
             "Value": {
                 "id": "e22c0be1-e11f-45aa-a39f-e172ff7768ea",
