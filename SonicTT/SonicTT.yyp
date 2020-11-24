@@ -12623,14 +12623,6 @@
             }
         },
         {
-            "Key": "8cf70d19-6196-429f-89f7-dab741564f7f",
-            "Value": {
-                "id": "263f7f8b-f07c-4c93-a1ea-5169029672bc",
-                "resourcePath": "sprites\\sprAASmasher\\sprAASmasher.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8d1adb2b-809c-4706-80a9-bad3b0519e87",
             "Value": {
                 "id": "cf540cd4-5e51-416d-879c-4dc3e95e9c57",
