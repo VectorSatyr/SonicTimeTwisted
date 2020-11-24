@@ -839,14 +839,6 @@
             }
         },
         {
-            "Key": "0a10640f-8b79-4603-b06b-d8777dd0f09c",
-            "Value": {
-                "id": "2661d015-f2d4-48ee-b933-6d2b621ddde0",
-                "resourcePath": "objects\\objSnowParticle\\objSnowParticle.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0a469fe1-2bef-44ca-861d-bbfe547ecefb",
             "Value": {
                 "id": "49cb16f8-2cb6-4628-bb17-ceb7059a1d4a",
