@@ -1239,14 +1239,6 @@
             }
         },
         {
-            "Key": "0f1472ff-e8b4-4351-b07b-10d6442b0219",
-            "Value": {
-                "id": "323a4220-9ed6-497f-a968-2c940422ad88",
-                "resourcePath": "sprites\\sprFFSnowParticle\\sprFFSnowParticle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0f1739b0-0b7b-479c-8292-7f4a5f61683d",
             "Value": {
                 "id": "f617b12f-629c-4071-b5a9-c7232fd8c12a",
