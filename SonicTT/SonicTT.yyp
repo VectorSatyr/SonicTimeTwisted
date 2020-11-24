@@ -12983,14 +12983,6 @@
             }
         },
         {
-            "Key": "90d3668d-0ba8-4bed-bd21-b8393060aaa1",
-            "Value": {
-                "id": "1f4096e7-2976-40e3-bb96-49b721324675",
-                "resourcePath": "objects\\objAASmasher\\objAASmasher.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "90eebbfb-c01a-40c8-9d98-715d63288cf6",
             "Value": {
                 "id": "4d9a6408-37fa-4006-bea5-59e01d7fbd7a",
