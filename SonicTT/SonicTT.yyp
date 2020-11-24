@@ -12103,14 +12103,6 @@
             }
         },
         {
-            "Key": "87116821-3d20-4579-9a73-ddb63a590205",
-            "Value": {
-                "id": "912b5d5e-2c76-4654-876d-399ce8bbfc45",
-                "resourcePath": "objects\\objSnowBlowerH\\objSnowBlowerH.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "87145cff-0b6b-46a4-b96b-8f9bb5813f32",
             "Value": {
                 "id": "75da4dbc-6000-45b0-aef9-7c56d69440d0",
