@@ -1991,14 +1991,6 @@
             }
         },
         {
-            "Key": "183981ab-5733-4e9d-8b57-94e835f96679",
-            "Value": {
-                "id": "e3372cf3-a200-4095-ad4e-1267fe079fc0",
-                "resourcePath": "objects\\objGeneralTrigger\\objGeneralTrigger.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "18a6ed73-2729-46d6-9c44-4e305dfed42b",
             "Value": {
                 "id": "8518b2eb-678b-4095-b5b8-872de3f50d09",
