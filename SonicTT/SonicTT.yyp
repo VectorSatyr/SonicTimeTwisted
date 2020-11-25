@@ -2567,14 +2567,6 @@
             }
         },
         {
-            "Key": "1f9dc574-8485-441d-b09c-fb191b04ab83",
-            "Value": {
-                "id": "9e225cfc-f3ab-486b-b187-d2140759b9ef",
-                "resourcePath": "objects\\obj3DShadow\\obj3DShadow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1facebc0-080c-48ae-aa18-cefdf15dab63",
             "Value": {
                 "id": "d4b45d47-0105-48dc-ace6-9a6e7cf74052",
