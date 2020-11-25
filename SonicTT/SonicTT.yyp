@@ -11359,14 +11359,6 @@
             }
         },
         {
-            "Key": "7f7cbfb3-f948-4e61-94dc-cb0c1de99674",
-            "Value": {
-                "id": "81b4dca7-6b0a-4424-826d-be47e485ddfc",
-                "resourcePath": "sprites\\sprIntroSonicRunFoward\\sprIntroSonicRunFoward.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7f96c01a-0767-429b-a7da-d016561e8665",
             "Value": {
                 "id": "16ad2f12-f01a-4898-af38-3efd23bb30c2",
