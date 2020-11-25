@@ -399,14 +399,6 @@
             }
         },
         {
-            "Key": "03da752d-a999-4e82-94f7-d9240a0108f9",
-            "Value": {
-                "id": "9bc28f8d-0d61-4a35-bb68-c81fa8ca0958",
-                "resourcePath": "objects\\objLogo\\objLogo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "04112abc-08d9-46ff-b106-a068d6736026",
             "Value": {
                 "id": "250d524c-94f5-416f-8ffb-4e069c3f96e6",
