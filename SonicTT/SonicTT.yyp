@@ -14895,14 +14895,6 @@
             }
         },
         {
-            "Key": "a68eeb42-27dc-4753-8d2e-cebaa112e811",
-            "Value": {
-                "id": "d6c5f656-f9ca-43d4-b7be-a6230ded906b",
-                "resourcePath": "objects\\objIntroMetalFly\\objIntroMetalFly.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a69d1b2f-2785-4122-8362-ce40a881588f",
             "Value": {
                 "id": "675fdb33-bb92-4a25-b10c-50857ea43dd0",
