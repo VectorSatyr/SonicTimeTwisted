@@ -11455,14 +11455,6 @@
             }
         },
         {
-            "Key": "816f0f47-2101-46c8-8fc6-e8dd02b0fff2",
-            "Value": {
-                "id": "4e035a19-564e-4f8d-b055-801497076df2",
-                "resourcePath": "sprites\\sprIntroMetalFly\\sprIntroMetalFly.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8173c6d9-6003-4ddd-9ea4-d7be56e00110",
             "Value": {
                 "id": "c840a93b-c8e0-4ced-98fc-6569629099e9",
