@@ -8079,14 +8079,6 @@
             }
         },
         {
-            "Key": "58e957b6-f64f-4a16-b3ee-ba313f6eb04d",
-            "Value": {
-                "id": "08a0f6cc-a999-4235-be56-e6b4b6cd7347",
-                "resourcePath": "objects\\objSSLargeSpike\\objSSLargeSpike.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5900ac44-20ef-474c-bc05-748d5c5905e6",
             "Value": {
                 "id": "0a516d49-f409-4ed7-9b50-6d804edf4c67",
