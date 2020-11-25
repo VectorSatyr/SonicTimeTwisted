@@ -6303,14 +6303,6 @@
             }
         },
         {
-            "Key": "45af3a8b-3091-4a55-9d71-fb32be133673",
-            "Value": {
-                "id": "9f7614a8-b741-4b1d-ad55-72048be2b828",
-                "resourcePath": "objects\\objSwitch\\objSwitch.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "45afeb64-8f04-4ea0-a635-f07489a7c589",
             "Value": {
                 "id": "ea8296b8-8ebb-4d3e-b7ca-6e9e9fe6f3d0",
