@@ -20391,14 +20391,6 @@
             }
         },
         {
-            "Key": "e282c372-feea-4f63-8038-c5546b90605b",
-            "Value": {
-                "id": "e4b22eab-ef66-40ea-87df-45e1eb1784f6",
-                "resourcePath": "objects\\objIntroSonicRunForward\\objIntroSonicRunForward.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e2974a60-4bc2-4377-bb1d-9e7fc8964403",
             "Value": {
                 "id": "df0df1e3-1525-466c-8e77-5c1222ce5841",
