@@ -22167,14 +22167,6 @@
             }
         },
         {
-            "Key": "f5a25b00-a8e2-4340-9f5c-9c480065768a",
-            "Value": {
-                "id": "7e47045d-1fb5-4fd6-ad7f-d188d2d213a7",
-                "resourcePath": "objects\\objNebula\\objNebula.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f5b4730a-7fa1-4cef-a527-d773f1710f71",
             "Value": {
                 "id": "58d20688-ff39-4f8c-a44b-c6850142a36a",
