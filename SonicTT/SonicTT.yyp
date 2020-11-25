@@ -17591,14 +17591,6 @@
             }
         },
         {
-            "Key": "c3a5c2e0-9825-4906-b587-d916b65e44d9",
-            "Value": {
-                "id": "2ba18cda-3ecf-4f97-a35e-665b14b2a139",
-                "resourcePath": "objects\\objInputDummy\\objInputDummy.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c3d87753-3fff-49ae-af29-bff4b0dab238",
             "Value": {
                 "id": "a6b42455-67d9-49e0-89c0-2d12aea9f6f8",
