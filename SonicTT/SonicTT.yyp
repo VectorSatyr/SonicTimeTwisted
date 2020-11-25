@@ -831,14 +831,6 @@
             }
         },
         {
-            "Key": "09fd92c7-2529-4c24-8ee8-7d11d83a7714",
-            "Value": {
-                "id": "114d1079-aca8-4c10-820b-e8c78a685a13",
-                "resourcePath": "objects\\objSpikeball\\objSpikeball.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0a469fe1-2bef-44ca-861d-bbfe547ecefb",
             "Value": {
                 "id": "49cb16f8-2cb6-4628-bb17-ceb7059a1d4a",
