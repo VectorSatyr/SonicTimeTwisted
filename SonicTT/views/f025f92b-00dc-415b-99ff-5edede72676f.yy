@@ -5,7 +5,8 @@
     "name": "f025f92b-00dc-415b-99ff-5edede72676f",
     "children": [
         "71600b8e-fbba-4318-977e-9182ab5b8eca",
-        "abb18480-4495-4146-b1f2-7d8948c22014"
+        "abb18480-4495-4146-b1f2-7d8948c22014",
+        "0f1472ff-e8b4-4351-b07b-10d6442b0219"
     ],
     "filterType": "GMSprite",
     "folderName": "Snow Blower",
