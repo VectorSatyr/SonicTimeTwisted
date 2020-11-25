@@ -15663,14 +15663,6 @@
             }
         },
         {
-            "Key": "af4dd737-8cc6-4493-8260-e1dfb7a6e967",
-            "Value": {
-                "id": "139646fd-d255-4e81-b867-f6a4eec30581",
-                "resourcePath": "objects\\objEndingTransition\\objEndingTransition.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "af5d6802-4ff2-4f85-aa03-6c49f03adba0",
             "Value": {
                 "id": "e6229e12-edde-4bed-9c4c-2c6ae5a21b11",
