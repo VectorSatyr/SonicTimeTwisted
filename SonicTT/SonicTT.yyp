@@ -21215,14 +21215,6 @@
             }
         },
         {
-            "Key": "ec7ae10c-2ab1-4c6d-83e8-9d7ae314724d",
-            "Value": {
-                "id": "d25fb151-c44c-417f-b5ae-2cfd5e14d469",
-                "resourcePath": "objects\\objEndingClouds\\objEndingClouds.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "eca4ab70-17a1-4c78-b36b-1da91e5b632f",
             "Value": {
                 "id": "235325df-9235-42b5-af4c-55911c3535ec",
