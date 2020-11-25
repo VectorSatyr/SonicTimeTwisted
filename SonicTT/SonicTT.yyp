@@ -10943,14 +10943,6 @@
             }
         },
         {
-            "Key": "7a329083-747a-40bf-a9b7-b19abd6887b2",
-            "Value": {
-                "id": "9a44799f-2595-4d7d-b760-3c410795ddca",
-                "resourcePath": "objects\\objSSOrbinaut\\objSSOrbinaut.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7a505aef-ef8e-4339-b651-b2872eeae699",
             "Value": {
                 "id": "db6449d4-905b-4097-9c22-9c0aa8868ab1",
