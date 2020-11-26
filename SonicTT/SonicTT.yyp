@@ -5167,14 +5167,6 @@
             }
         },
         {
-            "Key": "3ad23edd-8d1f-4ded-a045-9af987b50b0a",
-            "Value": {
-                "id": "3b3abb5d-7eba-4bfc-b3fd-b6ebe51147c7",
-                "resourcePath": "objects\\objThanksControl\\objThanksControl.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3ad9666b-8d14-4db7-a073-03ccf46c46ec",
             "Value": {
                 "id": "1863ef48-e679-4508-be19-ee558c46fc3d",
