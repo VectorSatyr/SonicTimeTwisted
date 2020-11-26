@@ -1375,14 +1375,6 @@
             }
         },
         {
-            "Key": "10f5051f-cd87-4a38-bb54-2b9508e0489e",
-            "Value": {
-                "id": "40fdeb20-e11e-4ab4-b8c9-fb001411b530",
-                "resourcePath": "rooms\\Thanks\\Thanks.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "10f9a0c0-3975-46f9-a49d-22041b12dde1",
             "Value": {
                 "id": "6f863d82-7850-4195-8987-56bf82c6552b",
