@@ -21303,14 +21303,6 @@
             }
         },
         {
-            "Key": "eeaa41a3-db87-4c9e-b38b-ba531fef2ae9",
-            "Value": {
-                "id": "8023583b-ef96-436a-a065-eb7110893043",
-                "resourcePath": "extensions\\GetFocus\\GetFocus.yy",
-                "resourceType": "GMExtension"
-            }
-        },
-        {
             "Key": "eeb50824-1654-4b98-8347-71045c322d12",
             "Value": {
                 "id": "7203de30-aad6-4628-912c-2fe5065370dc",
