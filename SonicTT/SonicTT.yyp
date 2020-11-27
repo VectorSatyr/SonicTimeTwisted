@@ -13175,14 +13175,6 @@
             }
         },
         {
-            "Key": "94f22dd0-5421-476e-8ce4-d71a8db8a1ca",
-            "Value": {
-                "id": "b5c2fc83-53eb-4c4a-b3d4-5ea82d28fb56",
-                "resourcePath": "notes\\compatibility_report_280920_1450375037.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "95036e44-c6d5-47a8-8773-c56813fbfa7a",
             "Value": {
                 "id": "dcfe4b5b-1e0a-4ee8-81ed-03178bedf7a7",
@@ -20020,14 +20012,6 @@
                 "id": "1ead4dc6-031a-476b-b0fa-98bb35a57ad8",
                 "resourcePath": "sprites\\backDDFCross\\backDDFCross.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "dee95120-f367-4bf1-922c-7814fcd6675f",
-            "Value": {
-                "id": "6d9d66b2-d0f3-477d-b8ba-d98aacbac7fa",
-                "resourcePath": "notes\\notes.yy",
-                "resourceType": "GMNotes"
             }
         },
         {
