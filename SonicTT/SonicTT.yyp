@@ -15551,14 +15551,6 @@
             }
         },
         {
-            "Key": "ae906675-c110-4fbc-a9ef-a16daed627d7",
-            "Value": {
-                "id": "7a4a29cf-1053-480e-bd94-f46adc465a9c",
-                "resourcePath": "extensions\\SFML_Input\\SFML_Input.yy",
-                "resourceType": "GMExtension"
-            }
-        },
-        {
             "Key": "af0844c7-9522-4ae0-b196-f783d6065d96",
             "Value": {
                 "id": "629f77ba-d057-4925-9f96-f5dd5638618d",
