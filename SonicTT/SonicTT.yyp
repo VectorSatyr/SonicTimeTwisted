@@ -13943,14 +13943,6 @@
             }
         },
         {
-            "Key": "9c86d90e-9dfc-44fc-8371-f36d7de1adc0",
-            "Value": {
-                "id": "f1a9991b-1c06-4cae-8358-08be4c2f6e29",
-                "resourcePath": "datafiles_yy\\GMXInput.dll.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "9c8c2332-bfc5-4a9f-b29e-f0fd0d08e4e5",
             "Value": {
                 "id": "78aa5102-1d23-47e4-b701-1b5fc6dbda1f",
