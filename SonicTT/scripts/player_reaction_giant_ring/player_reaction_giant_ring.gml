@@ -1,72 +1,53 @@
-// player_reaction_giant_ring(local_id)
+/// player_reaction_giant_ring(local_id)
+var local_id = argument0;
 
-if objProgram.in_past {
+var warping = false;
 
-    ds_list_add(objProgram.ring_past_list,argument0.tag)
-    // do we have all the emeralds?
-        if objProgram.special_past_current_level < 7
-        {
-            // go to special stage
-                special_level_go_to();
-                visible = 0;
-                with objTailsEffect instance_destroy();
-                with shield visible = false;
-                state=player_state_standby;
-                xspeed = 0;
-                yspeed = 0;
-                objProgram.temp_spawn_tag = argument0.tag;
-                //objProgram.spawn_tag = 
-                objProgram.temp_spawn_time = objLevel.timer;
-                objProgram.temp_shield = shield_type;
-                
-        }
-        else
-        {
-            player_get_rings(50);
-        }
+with (objProgram)
+{
+	// remember this
+	ds_list_add((in_past) ? ring_past_list : ring_future_list, local_id.tag);
 
-    } else {
-    
-        ds_list_add(objProgram.ring_future_list,argument0.tag)
-        
-        if objProgram.special_future_current_level < 7
-        {
-            // go to special stage
-                special_level_go_to();
-                visible = 0;
-                with objTailsEffect instance_destroy();
-                with shield visible = false;
-                state=player_state_standby;
-                xspeed = 0;
-                yspeed = 0;
-                
-                objProgram.temp_spawn_tag = argument0.tag;
-                //objProgram.spawn_tag = 
-                objProgram.temp_spawn_time = objLevel.timer;
-                
-        }
-        else
-        {
-            // collect 50 rings
-            player_get_rings(50);
-            
-            // ring sparkle
-            //part_particles_create(objLevel.particles, argument0.x, argument0.y, objResources.sparkle, 1);
-           
-        }
-    }
+	// current special stage number
+	var level_id = (in_past) ? special_past_current_level : special_future_current_level;
+	if (level_id < 7)
+	{
+		// enter next special stage
+		temp_spawn_tag = local_id.tag;
+		temp_spawn_time = objLevel.timer;
+		temp_shield = other.shield_type;
+		var level = ds_list_find_value(
+			(in_past) ? special_past_list : special_future_list, level_id
+		);
+		transition_to(objLevelToSS, level, 20);
+		global.special_level_music_played = false;
+		warping = true;
+	}
+}
 
-// destroy ring
-     with argument0 {
-     
-        reaction_script=noone;
-        sprite_index = sprGiantRingDisapear;
-        image_index=0;
-        image_speed=1.5;
-        
-     }
+if (warping)
+{
+	// dissapear
+	state = player_state_standby;
+	xspeed = 0;
+	yspeed = 0;
+	visible = false;
+	with (shield) visible = false;
+}
+else
+{
+	// gain 50 rings instead
+	player_get_rings(50);
+}
 
-     // audio
-     audio_play_sound(sndEnterSpecialStage,1,false);
-// not a hard collision
-return false;
+with (local_id)
+{
+	reaction_script = noone;
+	sprite_index = sprGiantRingDisapear;
+	image_index = 0;
+	image_speed = 1.5;
+}
+
+audio_play_sound(sndEnterSpecialStage, 1, false);
+
+return false; // 'soft' collision

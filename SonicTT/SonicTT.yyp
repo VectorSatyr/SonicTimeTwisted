@@ -12071,14 +12071,6 @@
             }
         },
         {
-            "Key": "88b8ea4f-8da1-4f8d-9075-559b81e080b0",
-            "Value": {
-                "id": "25f78bbd-ca1d-4dd8-99ca-60b81ee1eef0",
-                "resourcePath": "scripts\\special_level_go_to\\special_level_go_to.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "88c1130f-97e9-4808-a7e3-44eb8a3cb645",
             "Value": {
                 "id": "b4f2b0bd-4cc3-4ce0-afa2-88fc77f45f44",
@@ -22988,7 +22980,6 @@
         "9bb6c5c8-e599-4571-b357-ddcdc440c947",
         "b7fa29e9-57f8-42e7-b863-8bbe953b20d9",
         "8cbb0665-11db-43bb-b6b6-a26e13fd5352",
-        "88b8ea4f-8da1-4f8d-9075-559b81e080b0",
         "e4ff9b41-7d66-45c6-8aa6-9e919e8e1c95",
         "2dee6613-126e-4530-890c-ef95fa2c7359",
         "0b75a118-4684-4f39-8af6-fdf83ef5fb33",
