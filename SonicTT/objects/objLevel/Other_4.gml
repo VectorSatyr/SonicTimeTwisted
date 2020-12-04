@@ -54,7 +54,10 @@ if spawn_id>-1
             __view_set( e__VW.XView, 0, player[0].x-213 )
             __view_set( e__VW.YView, 0, player[0].y-120 )
         }
-        with player[0].camera {
+
+    }
+
+         with player[0].camera {
         
             bottom = other.spawn_id.bottom;
             top = other.spawn_id.top;
@@ -62,9 +65,7 @@ if spawn_id>-1
             right = other.spawn_id.right;
         
         }
-    }
-    
-    
+
     // run start script
     if spawn_id.start_script != noone
         script_execute(spawn_id.start_script);
