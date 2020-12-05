@@ -91,7 +91,7 @@ result = ((a and b) or not (c xor d));
 
 * If you need to create a surface, prefer creating it once in a create event, then re-creating it at the _last possible moment_ (ie. in the draw event before targetting or rendering it) if it no longer exists.
 
-* If resources need to be cleaned up when an object is destroyed, remember to also destroy that object in the _Room End_ event.
+* If resources need to be cleaned up when an object is destroyed, prefer using the Clean Up event for that purpose.
 
 ## Questions?
 
