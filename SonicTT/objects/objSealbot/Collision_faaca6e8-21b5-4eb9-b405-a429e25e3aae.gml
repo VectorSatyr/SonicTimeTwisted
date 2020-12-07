@@ -1,10 +1,9 @@
-if state != 0 {
-    hspeed = 0;
-    facing = -facing;
-    
-    // set to neutral state
-    state = 0;
-    image_index = 0;
-    alarm[0] = 60;
+/// @description Force turn
+if (state != "turning")
+{
+	state = "turning";
+	x_speed = 0;
+	wall_sign = 0;
+	cliff_sign = 0;
+	timer = 10;
 }
-

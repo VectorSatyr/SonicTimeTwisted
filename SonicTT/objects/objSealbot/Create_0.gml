@@ -1,30 +1,18 @@
-action_inherited();
-/// Initialize
+/// @description Initialize
+event_inherited();
 image_speed = 0;
-remove = 0;
-offscreen_enabled = true;
-
-// state machine
-state = 0;
-frozen = false;
-
-// physics
-hspeed = 2;
-facing = 1;
-wall_facing = 0;
-cliff_facing = 0;
-offset_x = (bbox_right-bbox_left)*0.5;
-offset_y = (bbox_bottom-y);
-
-// other
+state = "patrolling";
+timer = 30;
+facing_sign = 1;
+wall_sign = 0;
+cliff_sign = 0;
+x_radius = (bbox_right - xstart) + 1;
+y_radius = (bbox_bottom - ystart) + 1;
+x_speed = 2;
 speed_cap = 3;
 acceleration = 0.1;
-deceleration = 3/29;
-range_x = 75;
-range_y = 30;
-
-//animation
-timeline_index = animSealbotIdle;
-timeline_loop = false;
-timeline_running = true;
-
+deceleration = 3 / 29;
+patrol_range_x = 75;
+patrol_range_y = 30;
+charging_speed = 5;
+freeze_ox = 0;

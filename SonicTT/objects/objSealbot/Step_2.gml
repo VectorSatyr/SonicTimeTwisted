@@ -1,33 +1,37 @@
-var __b__;
-__b__ = action_if_variable(frozen, false, 0);
-if __b__
+/// @description Collide (and animate)
+if (frozen)
 {
-{
-__b__ = action_if_variable(state, 4, 1);
-if __b__
-{
-/// Movement and collision
-
-// reset collision data
-wall_facing = 0;
-cliff_facing = 0;
-
-// wall collision
-if collision_ray(offset_x, 0, 0, objSolid)
-{
-    x -= hspeed;
-    wall_facing = sign(hspeed);
+	freeze_ox = (alarm[0] > 0 and alarm[0] < 45) ? (-1 + (((90 - alarm[0]) div 4) mod 2) * 2) : 0;
 }
 else
 {
-    // upward slope
-    while collision_box(offset_x, offset_y, 0, objSolid) y -= 1;
+	image_xscale = facing_sign;
 
-    // downward slope
-    for (var i=0; i<offset_y*2; i+=1) if collision_ray(offset_x, offset_y+1+i, 0, objSolid) break;
-    if (i<offset_y*2) y += i; else {x -= hspeed; cliff_facing = sign(hspeed);}
-}
+	wall_sign = 0;
+	cliff_sign = 0;
 
-}
-}
+	x += x_speed;
+
+	if (collision_ray(x_radius, 0, 0, objSolid))
+	{
+		wall_sign = sign(x_speed);
+		x -= x_speed;
+	}
+	else
+	{
+		while (collision_box(x_radius, y_radius, 0, objSolid)) --y;
+		for (var oy = 0; oy < y_radius * 2; ++oy)
+		{
+			if (collision_ray(x_radius, y_radius + 1 + oy, 0, objSolid))
+			{
+				y += oy;
+				break;
+			}
+		}
+		if (oy >= y_radius * 2)
+		{
+			cliff_sign = sign(x_speed);
+			x -= x_speed;
+		}
+	}
 }
