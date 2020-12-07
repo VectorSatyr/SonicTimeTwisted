@@ -1,72 +1,104 @@
-var __b__;
-__b__ = action_if_variable(frozen, false, 0);
-if __b__
+/// @description Patrol
+if (not frozen)
 {
-/// Enemy behavoir
+	var in_range = false;
 
-// reverse at walls and cliffs
-if facing==wall_facing or facing==cliff_facing
-{
-    hspeed = 0;
-    facing = -facing;
-    
-    // set to neutral state
-    state = 0;
-    image_index = 0;
-    alarm[0] = 60;
+	if (state != "turning" and (facing_sign == wall_sign or facing_sign == cliff_sign))
+	{
+		state = "turning";
+		x_speed = 0;
+		wall_sign = 0;
+		cliff_sign = 0;
+		timer = 10;
+	}
+	else
+	{
+		switch (state)
+		{
+		case "patrolling":
+			var x1 = x - patrol_range_x;
+			var y1 = y - patrol_range_y;
+			var x2 = x + patrol_range_x;
+			var y2 = y + patrol_range_y;
+			with (objPlayer)
+			{
+				if (point_in_rectangle(x, y, x1, y1, x2, y2))
+				{
+					diff = sign(x - other.x);
+					in_range = (diff == other.facing_sign);
+				}
+			}
+			if (in_range)
+			{
+				state = "charging";
+				x_speed = 0;
+				timer = 30;
+				event_user(1); // charge
+				break;
+			}
+			--timer;
+			if (timer <= 0)
+			{
+				state = "braking";
+				timer = 0;
+			}
+			else if (abs(x_speed) < speed_cap)
+			{
+				x_speed = max(abs(x_speed) + acceleration, speed_cap) * facing_sign;
+			}
+			break;
+
+		case "braking":
+			if (x_speed == 0)
+			{
+				state = "turning";
+				x_speed = 0;
+				wall_sign = 0;
+				cliff_sign = 0;
+				timer = 10;
+			}
+			if (abs(x_speed) > 0)
+			{
+				x_speed -= min(abs(x_speed), deceleration) * sign(x_speed);
+			}
+			break;
+
+		case "turning":
+			--timer;
+			if (timer <= 0)
+			{
+				state = "patrolling";
+				facing_sign = -facing_sign;
+				timer = 60;
+				event_user(0); // idle
+			}
+			break;
+
+		case "charging":
+			--timer;
+			if (timer <= 0)
+			{
+				state = "dashing";
+				timer = 120;
+				x_speed = charging_speed * facing_sign;
+				event_user(3); // dashing
+			}
+			break;
+		case "dashing":
+			var diff;
+			with (objPlayer)
+			{
+				diff = sign(x - other.x);
+				in_range = (diff == other.facing_sign);
+			}
+			--timer;
+			if (not in_range or timer <= 0)
+			{
+				state = "braking";
+				timer = 0;
+				event_user(2); // rise
+			}
+			break;
+		}
+	}
 }
-
-// chase players
-if (state!=4) and instance_exists(objPlayer)
-{
-    // must be within range and directly in front
-    if point_distance(objPlayer.x, 0, x, 0)<range_x and point_distance(objPlayer.y, 0, y, 0)<range_y and (facing xor (objPlayer.x<x))
-    {
-        // charge if we're not already charging
-        if state!=3 {state = 3; if abs(hspeed)<4 {timeline_position = 0; timeline_index = animSealbotCharge; hspeed = 0; alarm[0] = 30;}}
-    }
-    else if state==3 and alarm[0]<=0
-    {
-        // stop charging
-        state = 0;
-        image_index = 0;
-        hspeed = 5*facing;
-        alarm[0] = 40;
-    }
-}
-
-// state machine
-switch state
-{
-case 0: // normal
-    // brake after a short period
-    if not alarm[0] {state = 1; /*timeline_position = 0; timeline_index = animSealbotIdle;*/ break;}
-
-    // accelerate
-    if abs(hspeed)<speed_cap hspeed = max(abs(hspeed)+acceleration, speed_cap)*facing;
-    break;
-
-case 1: // braking
-    // turn around on complete stop
-    if hspeed==0 {state = 2; facing = -facing; timeline_position = 0; timeline_index = animSealbotCharge; alarm[0] = 10; break;}
-
-    // decelerate
-    if abs(hspeed)>0 hspeed -= min(abs(hspeed), deceleration)*sign(hspeed);
-    break;
-
-case 2: // turning
-    if not alarm[0] {state = 0; timeline_position = 0; timeline_index = animSealbotIdle; alarm[0] = 60;}
-    break;
-
-case 3: // charging
-    if not alarm[0] hspeed = 4*facing; 
-    break;
-
-case 4: // jumping
-    if not alarm[0] and collision_box(offset_x, offset_y+1, 0, objSolid) {state = 0; vspeed = 0; gravity = 0;}
-    break;
-}
-
-/* */
-}
-/*  */

@@ -5687,6 +5687,14 @@
             }
         },
         {
+            "Key": "40178cd0-07d1-4a98-a1b7-3a188cb765d2",
+            "Value": {
+                "id": "f27b230a-0b01-4ae7-b4e7-0ca9749ac45c",
+                "resourcePath": "timelines\\animSealbotDash\\animSealbotDash.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "403024af-ace9-46b2-a8c5-d064d76f6b33",
             "Value": {
                 "id": "e6c97ca1-b7b1-43c6-82c7-4b21c27d6b0d",
@@ -16087,14 +16095,6 @@
             }
         },
         {
-            "Key": "b69bc66b-60c5-4240-859a-1f35ab242963",
-            "Value": {
-                "id": "fc46b731-0298-4589-944c-a2f36095a0bb",
-                "resourcePath": "views\\b69bc66b-60c5-4240-859a-1f35ab242963.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "b6a97b1b-04e6-45ca-a440-b42e4bea7f3f",
             "Value": {
                 "id": "d2025d72-1bbb-47ae-aa75-eae3f3c10dfb",
@@ -17516,6 +17516,14 @@
                 "id": "59d48f10-e240-4bb7-a5ed-94e16d451a33",
                 "resourcePath": "views\\c4507524-d808-48a2-a447-0596c9db7510.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c4656e56-68bf-43a8-b05c-d6f5f3fc1fa0",
+            "Value": {
+                "id": "cf30dff3-b1c8-4f3c-994f-33464794dc24",
+                "resourcePath": "timelines\\animSealbotRise\\animSealbotRise.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -20804,14 +20812,6 @@
                 "id": "e82d1696-2187-4ddb-a753-1ecddb9dfd2d",
                 "resourcePath": "sprites\\dd1_p_2\\dd1_p_2.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e9095779-2e5c-47eb-b607-6724e95fe0ad",
-            "Value": {
-                "id": "e7b0c048-ebf7-49e1-a04f-8b0cc0aa5e69",
-                "resourcePath": "timelines\\animSealbotIdle\\animSealbotIdle.yy",
-                "resourceType": "GMTimeline"
             }
         },
         {
