@@ -1,6 +1,12 @@
-action_inherited();
-image_speed = 0.5;
+/// @description Initialize
+event_inherited();
+image_speed = 0;
 remove = 0;
 reaction_script = player_reaction_ring;
-player_id = noone;
 depth_mask = 3;
+parent_id = noone;
+x_speed = 0;
+y_speed = 0;
+follow_speed = 0.12;
+rebound_speed = 0.48;
+speed_cap = 32;
