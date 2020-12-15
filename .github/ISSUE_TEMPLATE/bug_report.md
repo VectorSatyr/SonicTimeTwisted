@@ -1,11 +1,15 @@
 ---
 name: Bug report
 about: Report any bugs or issues found
-title: "[Environment] [Issue location] Issue description"
-labels: bug
+title: "[Issue location] Issue description"
+labels: bug, windows
 assignees: ''
 
 ---
+
+**DELETE THIS**
+Make sure to appropriately label the issue using the **Labels** provided. Add any of the red labels to categorize the type of issue being reported, and any of the light green labels to specify which platforms the issue is relevant to.
+**DELETE THIS**
 
 **Environment (please complete the following information):**
  - Device: [e.g. PC; iPhone6]
