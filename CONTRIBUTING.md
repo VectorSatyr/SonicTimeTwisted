@@ -41,7 +41,7 @@ Do this once you have a collection of closely related commits and you're ready t
 
 ## Bug Reporting and Feature Requests
 
-Use the templates provided to detail the bug or feature. Make sure the bug or feature being submitted hasn't already been submitted in the past by checking all _closed_ issues in the database. Also, when submitting a bug report, try to label the bug with the type of issue being reported (any of the red labels available)
+Use the templates provided to detail the bug or feature. Make sure the bug or feature being submitted hasn't already been submitted in the past by checking all _closed_ issues in the database. Also, when submitting a bug report, try to label the bug with the type of issue being reported (any of the red labels available,) as well as the relevant platforms (any of the light green labels available.)
 
 If you are planning to implement a fix or new feature, make sure to assign the associated issue to yourself; this signals to other contributors that the ticket is being handled and prevents changes from clashing in the future.
 
