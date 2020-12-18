@@ -1,8 +1,4 @@
-frozen = false;
+/// @description Thaw
 hspeed = -4;
-/// Release debris
-with instance_create(x-12, y-8, objShieldIceBlockDebris) {depth = other.depth-1; hspeed = -2; vspeed = -4;}
-with instance_create(x+12, y-8, objShieldIceBlockDebris) {depth = other.depth-1; hspeed = 2; vspeed = -4; image_index = 1;}
-with instance_create(x-12, y+8, objShieldIceBlockDebris) {depth = other.depth-1; hspeed = -2; vspeed = -2; image_index = 2;}
-with instance_create(x+12, y+8, objShieldIceBlockDebris) {depth = other.depth-1; hspeed = 2; vspeed = -2; image_index = 3;}
-
+frozen = false;
+sprite_explosion_create(sprShieldIceBlock, 0, x - 24, y - 16, 2, 2, 2, 4);
