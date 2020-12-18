@@ -7207,6 +7207,14 @@
             }
         },
         {
+            "Key": "502278ac-0cd6-40fa-b013-8fe8296021de",
+            "Value": {
+                "id": "578d7ecf-fb5c-4c73-b358-095e98359a7f",
+                "resourcePath": "objects\\objSpriteDebris\\objSpriteDebris.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "50243f27-6301-4c50-ad65-546e30beecdf",
             "Value": {
                 "id": "dc50098a-18c7-45f0-a96a-0fccd7238cee",
@@ -19655,6 +19663,14 @@
             }
         },
         {
+            "Key": "da9be263-80fe-4031-acf5-7ffd5692f1d1",
+            "Value": {
+                "id": "63e77490-6a2c-4885-9896-96e277613294",
+                "resourcePath": "scripts\\sprite_explosion_create\\sprite_explosion_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dad43c10-1540-4426-b812-36d7502218ae",
             "Value": {
                 "id": "f1087ec2-ded7-4d9e-97bd-9000924319c8",
@@ -23027,6 +23043,7 @@
         "89c62194-5dd8-4d61-8fd5-e5c35015d346",
         "6d8eb087-c630-4c78-8ecc-4738ffdb2b85",
         "76a56fcf-78c1-471b-b62b-6250924293da",
+        "da9be263-80fe-4031-acf5-7ffd5692f1d1",
         "53b7ba97-8418-4ad7-97a6-93aa12735fea",
         "294598ba-98ff-4522-b331-4760c156fa6f",
         "cc93910a-df46-4034-83d9-41ea1d5e93f9",
