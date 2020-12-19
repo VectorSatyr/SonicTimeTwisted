@@ -1,14 +1,18 @@
-var __b__;
-__b__ = action_if_variable(was_removed, false, 0);
-if __b__
+/// @description Clean up
+if (not was_removed)
 {
-/// Release flower spark
-
-// explosion
-instance_create(x+44, y-28, objExplosionSpecial);
-//part_particles_create(objLevel.particles, x, y, objResources.explosion1, 1);
-
-// flower spark
-instance_create(x, y, objFlowerSpark);
-
+	instance_destroy(head);
+	instance_create_depth(
+		x + center_ox, y + center_oy, depth - 1, objExplosionSpecial
+	);
+	instance_create_depth(
+		x + center_ox, y + center_oy, depth, objFlowerSpark
+	);
+	if (frozen)
+	{
+		sprite_explosion_create(
+			sprShieldIceBlock, 0, x + center_ox - 24, y + center_oy - 16, 
+			2, 2, 2, 4
+		);
+	}
 }

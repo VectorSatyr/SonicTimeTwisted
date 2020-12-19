@@ -1,93 +1,76 @@
-var __b__;
-__b__ = action_if_variable(frozen, false, 0);
-if __b__
+/// @description Extend
+if (not frozen)
 {
-switch state {
+	switch (state)
+	{
+	case "watching":
+		--timer;
+		if (timer <= 0) 
+		{
+			state = "lowering";
+			timer = 0;
+			event_user(1);
+		}
+		break;
 
-// Do nothing
-case 0:
+	case "lowering":
+		if (image_index >= 3)
+		{
+			state = "drilling";
+			timer = 0;
+			event_user(2);
+		}
+		break;
 
-
-
-break;
-
-// Start Drilling
-case 1:
-
-    image_speed = .5;
-    
-    if image_index >= 3 {
-    
-        state = 2;
-        fire_debris =0;
-        image_speed=.05;
-    }
-    
-
-break;
-
-// Drill
-case 2:
-    
-    
-    if fire_debris == 0 {
-    with instance_create(x+16,y+6,objOstrichDibris) {
-        audio_play_sound(sndRockSmash,5,0);
-        sprite_index = sprOstrichDebris;
-        image_index = 1;
-        image_speed = 0;
-        direction = 60;
-        speed = 2;
-        gravity= .15;
-        remove=2;
-
-    }
-    
-    with instance_create(x+16,y+6,objOstrichDibris) {
-    
-        sprite_index = sprOstrichDebris;
-        image_index = 0;
-        image_speed = 0;
-        direction = 120;
-        speed = 2;
-        gravity= .15;
-        remove=2;
-
-    }
-    }
-    
-    fire_debris +=1;
-    if fire_debris == 18{
-        
-        fire_debris =0;
-    
+	case "drilling":
+		--timer;
+		if (timer <= 0)
+		{
+			timer = 18;
+			audio_play_sound(sndRockSmash, 5, 0);
+			with (instance_create_depth(
+				x + debris_ox, y + debris_oy, depth - 2, objOstrichDibris
+			))
+			{
+		        image_index = 1;
+		        direction = 60;
+		    }
+			with (instance_create_depth(
+				x + debris_ox, y + debris_oy, depth - 2, objOstrichDibris
+			))
+			{
+		        image_index = 0;
+		        direction = 120;
+		    }
+		}
+        if (image_index >= 8)
+		{
+			state = "searching";
+			timer = 30;
+			event_user(3);
         }
+		break;
 
-        if image_index >= 8 {
-            
-            fire_debris =1;
-            image_speed =0;
-            state=2.5;
-            alarm[1]=30;
-            
-        }
-    
-break;
+	case "searching":
+		--timer;
+		if (timer <= 0)
+		{
+			head = instance_create_depth(
+				x + head_ox - irandom(head_range), y, depth + 3, objOstrichHead
+			);
+			head.owner = id;
+			state = "";
+			timer = 0;
+		}
+		break;
 
-case 3:
-
-    image_speed = -.325;
-    
-    if image_index < 1 {
-    
-        image_speed =0;
-        image_index =0;
-        alarm[0]=180;
-        state = 0;
-    
-    }
-
-break;
-}
-
+	case "emerging":
+		if (image_index < 1)
+		{
+			event_user(0);
+			state = "watching";
+			timer = 180;
+		}
+		break;
+	}
 }

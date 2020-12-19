@@ -1,8 +1,5 @@
-var __b__;
-__b__ = action_if_variable(destroy, true, 0);
-if __b__
+/// @description Clean up
+if (not was_removed)
 {
-{
-action_inherited();
-}
+	instance_create_depth(x, y, depth - 1, objExplosionSpecial);
 }
