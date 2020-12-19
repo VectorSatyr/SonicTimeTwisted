@@ -1,13 +1,7 @@
-var __b__;
-__b__ = action_if_variable(frozen, false, 0);
-if __b__
-{
-/// activate start drilling
-state=1;
-
-
-}
-else
-{
-action_set_alarm(10, 0);
-}
+/// @description Thaw
+if (timeline_index != -1) timeline_running = true;
+frozen = false;
+with (head) frozen = false;
+sprite_explosion_create(
+	sprShieldIceBlock, 0, x + center_ox - 24, y + center_oy - 16, 2, 2, 2, 4
+);

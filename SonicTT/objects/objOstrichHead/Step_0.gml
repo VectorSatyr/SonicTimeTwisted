@@ -1,47 +1,45 @@
-if y < ystart-40 {
+if (not frozen)
+{
+	y += y_speed;
+	--timer;
+	if (timer <= 0)
+	{
+		timer = 18;
+		with (instance_create_depth(
+			x, ystart + debris_oy, depth - 2, objOstrichDibris
+		))
+		{
+		    image_index = 1;
+		    direction = 60;
+		}
+		with (instance_create_depth(
+			x, ystart + debris_oy, depth - 2, objOstrichDibris
+		))
+		{
+		    image_index = 0;
+		    direction = 120;
+		}
+	}
+	switch (state)
+	{
+	case "rising":
+		if (y < ystart + neck_oy)
+		{
+			y_speed = 1;
+			state = "receding";
+		}
+		break;
 
-    vspeed = 1;
-
+	case "receding":
+		if (y >= ystart)
+		{
+			with (owner)
+			{
+				state = "emerging";
+				event_user(4);
+			}
+			instance_destroy();
+		}
+		break;
+	}
 }
-
-if vspeed == 1 && y > ystart {
-       
-    with ostrichHandle state = 3;
-    destroy=false;
-    instance_destroy();
-
-}
-
-if fire_debris == 0 {
-    with instance_create(x,ystart+6,objOstrichDibris) {
-    
-        sprite_index = sprOstrichDebris;
-        image_index = 1;
-        image_speed = 0;
-        direction = 60;
-        speed = 2;
-        gravity= .15;
-        remove=2;
-
-    }
-    
-    with instance_create(x,ystart+6,objOstrichDibris) {
-    
-        sprite_index = sprOstrichDebris;
-        image_index = 0;
-        image_speed = 0;
-        direction = 120;
-        speed = 2;
-        gravity= .15;
-        remove=2;
-
-    }
-    }
-    
-    fire_debris +=1;
-    if fire_debris == 18{
-        
-        fire_debris =0;
-    
-        }
-

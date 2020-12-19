@@ -5783,6 +5783,14 @@
             }
         },
         {
+            "Key": "41458835-7391-4452-9f65-a53060e54723",
+            "Value": {
+                "id": "d10819ea-389c-450c-89ad-c149b4c2baa5",
+                "resourcePath": "timelines\\animOstrichLower\\animOstrichLower.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "41580f2f-5ae7-4507-88f1-607c04ced315",
             "Value": {
                 "id": "b6a3f4c7-80f0-4d65-bc4d-a1b1fd1726d8",
@@ -6172,6 +6180,14 @@
                 "id": "9ccc39ad-a660-4159-a079-defb3479c036",
                 "resourcePath": "sprites\\sprTitleBannerLeft\\sprTitleBannerLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "44805066-06af-429b-8487-376667b9cc6d",
+            "Value": {
+                "id": "d9206d07-920b-4b05-84fe-c2c066b6893f",
+                "resourcePath": "views\\44805066-06af-429b-8487-376667b9cc6d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -12087,6 +12103,14 @@
             }
         },
         {
+            "Key": "88b7f4e1-60be-4062-96e2-4665b9c4bbf6",
+            "Value": {
+                "id": "5b1a619f-5896-4502-9b1c-a0854aa3d4f8",
+                "resourcePath": "views\\88b7f4e1-60be-4062-96e2-4665b9c4bbf6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "88c1130f-97e9-4808-a7e3-44eb8a3cb645",
             "Value": {
                 "id": "b4f2b0bd-4cc3-4ce0-afa2-88fc77f45f44",
@@ -12783,6 +12807,14 @@
             }
         },
         {
+            "Key": "9059ed40-6159-48ec-91e9-235aa6654230",
+            "Value": {
+                "id": "b413d8b0-9044-4547-b078-41fbf7b7effa",
+                "resourcePath": "views\\9059ed40-6159-48ec-91e9-235aa6654230.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "90798c13-8ab3-44af-8889-8280c9438e8d",
             "Value": {
                 "id": "56474058-f39d-4fe0-9835-2f111ed841c8",
@@ -12900,6 +12932,14 @@
                 "id": "169d8c8a-a976-4ada-ac93-e27ed75432e4",
                 "resourcePath": "sprites\\sprTailsRotate\\sprTailsRotate.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "913a8f84-08d0-4f22-afc1-622a4d4d074c",
+            "Value": {
+                "id": "c8f49002-fd83-4cdd-9567-3289aaded271",
+                "resourcePath": "views\\913a8f84-08d0-4f22-afc1-622a4d4d074c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -15268,6 +15308,14 @@
                 "id": "8073ff04-476e-47e4-957f-b831f64d06cc",
                 "resourcePath": "scripts\\TailsSpecialAnimation\\TailsSpecialAnimation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ab4fc555-b449-41dd-b250-a3daa3202b24",
+            "Value": {
+                "id": "a22d96dc-89c3-4927-a395-ef6abdae02e3",
+                "resourcePath": "timelines\\animOstrichRise\\animOstrichRise.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -18724,6 +18772,14 @@
                 "id": "e4214aea-0b44-402f-a94f-6b94d3760e48",
                 "resourcePath": "sprites\\sprMetalThrow\\sprMetalThrow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d0743b01-2959-4541-a8de-0aaaf9942246",
+            "Value": {
+                "id": "9f9f9c67-ae03-4e55-9bd7-1bcdcb668a84",
+                "resourcePath": "timelines\\animOstrichDrill\\animOstrichDrill.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

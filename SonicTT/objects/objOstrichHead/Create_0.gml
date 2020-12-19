@@ -1,6 +1,10 @@
-action_inherited();
-image_speed=0;
-fire_debris =0;
-destroy=true;
-vspeed = -1;
-
+/// @description Initialize
+event_inherited();
+image_speed = 0;
+y_speed = -1;
+owner = noone;
+state = "rising";
+timer = 0;
+frozen = false;
+debris_oy = 6;
+neck_oy = -40;
