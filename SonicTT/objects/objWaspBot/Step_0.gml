@@ -1,17 +1,13 @@
-if frozen exit;
-switch mode
+/// @description Hover
+if (not frozen and mode > 0)
 {
-    case 1: x = floor(xstart+cos(objScreen.image_index*time)*distance); break;
-    case 2: x = floor(xstart+sin(objScreen.image_index*time)*distance); break;
-    case 3: y = floor(ystart+cos(objScreen.image_index*time)*distance); break;
-    case 4: y = floor(ystart+sin(objScreen.image_index*time)*distance); break;
+	++hover_angle;
+	var offset = hover_angle / hover_speed;
+	switch (mode)
+	{
+    case 1: x = floor(xstart + (cos(offset) * hover_distance)); break;
+    case 2: x = floor(xstart + (sin(offset) * hover_distance)); break;
+    case 3: y = floor(ystart + (cos(offset) * hover_distance)); break;
+    case 4: y = floor(ystart + (sin(offset) * hover_distance)); break;
+	}
 }
-
-
-with objLevel.player[0] {
-
-    if x > other.x
-        other.image_xscale=-1;
-    else other.image_xscale=1;
-}
-
