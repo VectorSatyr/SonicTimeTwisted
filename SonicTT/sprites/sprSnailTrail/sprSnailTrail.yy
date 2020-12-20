@@ -150,7 +150,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 32,
+    "height": 8,
     "layers": [
         {
             "id": "328a3824-4094-48b7-b1c1-d8266f0fe931",
@@ -164,7 +164,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 1,
     "originLocked": false,
     "playbackSpeed": 1,
     "playbackSpeedType": 1,
