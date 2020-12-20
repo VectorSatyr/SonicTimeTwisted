@@ -7138,7 +7138,7 @@
             "Key": "4f5436bf-529a-4149-8774-f64ac9435e89",
             "Value": {
                 "id": "1bfdb9c8-8bae-45b3-8925-dae951a24246",
-                "resourcePath": "timelines\\animWhalebot\\animWhalebot.yy",
+                "resourcePath": "timelines\\animWhalebotPastFly\\animWhalebotPastFly.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -7531,6 +7531,14 @@
             "Value": {
                 "id": "9a6afeda-3407-447f-b97c-ac69894800d7",
                 "resourcePath": "views\\53dd8194-1a91-4bb1-afa3-827fd0514beb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "53e8d373-4809-490c-aa73-d97fa88ed43b",
+            "Value": {
+                "id": "efacbe89-c5be-4909-b2d7-5b978e3f42f7",
+                "resourcePath": "views\\53e8d373-4809-490c-aa73-d97fa88ed43b.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -8060,6 +8068,14 @@
                 "id": "bbc53be2-22a0-4495-bd4f-38abbd2eae19",
                 "resourcePath": "scripts\\player_reaction_AA_shock_bumper\\player_reaction_AA_shock_bumper.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "58b7c05f-95c5-4bc9-b684-af3e35b0cf22",
+            "Value": {
+                "id": "fe87af55-a899-4225-983e-ad585702276c",
+                "resourcePath": "timelines\\animWhalebotFutureFly\\animWhalebotFutureFly.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

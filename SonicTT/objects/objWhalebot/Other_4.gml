@@ -1,6 +1,3 @@
-if objProgram.in_past {
-
-    sprite_index=sprWhalebotPast;
-
-}
-
+/// @description Match time period
+with (objProgram) other.past_version = in_past;
+event_user(0);

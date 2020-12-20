@@ -1,8 +1,7 @@
-/// @description  Freeze enemy
-alarm[1] = 180;
-hspeed = 0;
+/// @description Freeze
+alarm[0] = 180;
+if (timeline_index != -1) timeline_running = false;
 frozen = true;
-
-// destroy icicle
-with other instance_destroy();
-
+audio_stop_sound(propeller_sound);
+propeller_sound = -1;
+instance_destroy(other);
