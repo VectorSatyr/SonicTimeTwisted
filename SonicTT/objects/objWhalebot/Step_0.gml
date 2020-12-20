@@ -1,35 +1,41 @@
-var __b__;
-__b__ = action_if_variable(frozen, false, 0);
-if __b__
+/// @description Fly
+if (not frozen)
 {
-/// Enemy behavior
-var offset = 0;
+	x += x_speed;
+	switch (state)
+	{
+	case "advancing":
+		var distance = 0;
+		with (instance_nearest(x, y, objPlayer)) distance = x - other.x;
+		if (abs(distance) > patrol_x and sign(x_speed) != sign(distance))
+		{
+			turning_sign = -sign(x_speed);
+			state = "turning";
+			timer = 6;
+			event_user(1);
+		}
+		break;
 
-// check x distance fromm player
-with instance_nearest(x, y, objPlayer) offset = x - other.x;
-
-// turn around if too far
-if abs(offset) > 96 and (image_xscale != sign(offset)) and (turning == 0)
-{
-    turning = -sign(hspeed);
-    image_index = 5;
-    timeline_running = false;
-    alarm[0] = 6;
-}
-
-// reverse speed on turning
-if (turning != 0)
-{
-    hspeed += 0.25 * turning;
-    if (abs(hspeed) >= max_speed) and (sign(hspeed) == turning) {hspeed = max_speed * turning; turning = 0;}
-}
-
-if sprite_index == sprWhalebotPast && objLevel.started == true{
-    
-    if !audio_is_playing(sndPropeller)
-    audio_play_sound(sndPropeller,4,0);
-    
-    }
-    
-
+	case "turning":
+		x_speed += deceleration * turning_sign;
+		if (timer > 0)
+		{
+			--timer
+			if (timer <= 0) event_user(0);
+		}
+		if (sign(x_speed) == turning_sign and abs(x_speed) >= max_speed)
+		{
+			x_speed = max_speed * turning_sign;
+			turning_sign = 0;
+			state = "advancing";
+		}
+		break;
+	}
+	if (
+		past_version and objLevel.started and 
+		not audio_is_playing(sndPropeller)
+	)
+	{
+		propeller_sound = audio_play_sound(sndPropeller, 4, 0);
+	}
 }

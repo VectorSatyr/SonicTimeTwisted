@@ -1,14 +1,13 @@
-action_inherited();
-/// Initialize
-hspeed = -4;
+/// @description Initialize
+event_inherited();
 image_speed = 0;
 image_xscale = -1;
-reaction_script = player_reaction_enemy;
-
-// physics
+past_version = false;
+state = "advancing";
+timer = 0;
 max_speed = 4;
-turning = 0;
-
-
-action_timeline_set(animWhalebot, 0, 0, 1);
-action_set_hspeed(-3);
+x_speed = -max_speed;
+deceleration = 0.25;
+turning_sign = image_xscale;
+patrol_x = 96;
+propeller_sound = -1;
