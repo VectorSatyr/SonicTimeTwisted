@@ -1,22 +1,16 @@
-var __b__;
-__b__ = action_if_variable(frozen, false, 0);
-if __b__
+/// @description 
+if (not frozen)
 {
-{
-//Animation
-image_xscale = Dir;
-
-if(Dir = -1)
-hsp = -1
-
-if(Dir = 1)
-hsp = +1
-
-x += hsp
-
-
-if x > xstart + span || x < xstart -span
-    Dir*=-1;
-
+	x += x_speed;
+	if (x > xstart + span or x < xstart - span)
+	{
+		facing_sign = -facing_sign;
+		x_speed = -x_speed;
+	}
 }
+--trail_timer;
+if (trail_timer <= 0)
+{
+	trail_timer = 20;
+	instance_create_depth(x, y + trail_oy, -10, objSnailTrail);
 }

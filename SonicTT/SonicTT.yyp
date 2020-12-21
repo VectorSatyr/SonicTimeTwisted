@@ -13575,6 +13575,14 @@
             }
         },
         {
+            "Key": "988d2883-e426-4b67-85fc-1929bbe433f0",
+            "Value": {
+                "id": "5874d121-e467-4088-a5bd-f06abc492ad6",
+                "resourcePath": "timelines\\animSnailbotCrawl\\animSnailbotCrawl.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "98916ea1-0954-496c-9ba0-956c85aa287b",
             "Value": {
                 "id": "4b37bb4b-827f-4955-bf9a-0483000d4290",
