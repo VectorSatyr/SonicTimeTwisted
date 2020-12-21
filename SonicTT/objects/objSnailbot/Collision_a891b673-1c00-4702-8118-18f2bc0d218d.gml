@@ -1,7 +1,5 @@
-/// @description  Freeze enemy
+/// @description Freeze
 alarm[0] = 180;
+if (timeline_index != -1) timeline_running = false;
 frozen = true;
-
-// destroy icicle
-with other instance_destroy();
-
+instance_destroy(other);
