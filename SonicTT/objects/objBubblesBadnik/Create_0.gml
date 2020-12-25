@@ -1,13 +1,7 @@
-action_inherited();
-/// Initialize
+/// @description Initialize
+event_inherited();
 image_speed = 0;
-offscreen_enabled = true;
-
-alarm[0]=164;
-
-bubble_id=instance_create(x,y,objBubblesRegion);
-bubble_id.visible=false;
-
-gain = 1;
-frozen = false;
-
+state = "resting";
+timer = 164;
+region = instance_create_depth(x, y, -8, objBubblesRegion);
+shake_sound = noone;

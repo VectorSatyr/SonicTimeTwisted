@@ -6967,6 +6967,14 @@
             }
         },
         {
+            "Key": "4d932764-16fb-4897-b25f-35e736b4f7b1",
+            "Value": {
+                "id": "39830c04-3d6d-4e93-ba25-01cf0d50cab6",
+                "resourcePath": "views\\4d932764-16fb-4897-b25f-35e736b4f7b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4da0c16e-084e-4309-a17b-5a31df885613",
             "Value": {
                 "id": "4abc03c5-517b-4888-9f93-ab431a22121c",
@@ -12087,6 +12095,14 @@
             }
         },
         {
+            "Key": "8821da3c-b6ec-46ba-8488-5bca49432922",
+            "Value": {
+                "id": "ab5d5c8b-4130-48c6-8ca7-e1c259911b21",
+                "resourcePath": "timelines\\animBubblesCalm\\animBubblesCalm.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "882b53ea-8c3e-44bb-9352-32ce09673e4c",
             "Value": {
                 "id": "eec56d8f-8f45-44a0-95b9-296f3b33d242",
@@ -13188,6 +13204,14 @@
                 "id": "e0dd0d22-c606-46ad-a743-5403ea8903b4",
                 "resourcePath": "objects\\objFFSwingWheel\\objFFSwingWheel.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "949bbdcf-eac1-4f9c-8823-7615f609a367",
+            "Value": {
+                "id": "3ba25b58-761d-4171-a3be-cc2b04271ac7",
+                "resourcePath": "timelines\\animBubblesRage\\animBubblesRage.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

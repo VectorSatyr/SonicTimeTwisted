@@ -1,10 +1,5 @@
-bubble_id.visible = true;
-bubble_id.allow_collision = true;
-gain = 1;
-audio_play_sound(sndBubblesShake, 4, 0);
-
-
-alarm[1]=300;
-image_index = 1;
-image_speed = .2;
-
+/// @description Thaw
+frozen = false;
+state = "resting";
+timer = 1;
+sprite_explosion_create(sprShieldIceBlock, 0, x - 24, y - 16, 2, 2, 2, 4);
