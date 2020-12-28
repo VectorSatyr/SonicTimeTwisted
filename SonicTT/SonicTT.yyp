@@ -14351,14 +14351,6 @@
             }
         },
         {
-            "Key": "a070291a-2092-4e89-bc14-4390a7902918",
-            "Value": {
-                "id": "12be4eb2-c8fe-435b-b21e-bdf9171bdd78",
-                "resourcePath": "objects\\objShieldIceBlockDebris\\objShieldIceBlockDebris.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a0752f96-a42c-430d-a3a3-5050a23e8949",
             "Value": {
                 "id": "8ae13821-1b96-4eb7-bbc2-041a7f063009",
