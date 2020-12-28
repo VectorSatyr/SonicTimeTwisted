@@ -2047,14 +2047,6 @@
             }
         },
         {
-            "Key": "19eaf68b-0160-4cfa-8683-85171ab704e7",
-            "Value": {
-                "id": "d37c67f5-60f5-41bb-9b65-9923a3c8daa2",
-                "resourcePath": "sprites\\sprShieldIceBlockDebris\\sprShieldIceBlockDebris.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "19fa477a-e0af-4b77-acad-58a7f8c6fdad",
             "Value": {
                 "id": "8a2ea66b-89e5-49fe-8745-7b46d3313ffe",
