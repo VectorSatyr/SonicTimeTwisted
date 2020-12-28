@@ -1,45 +1,40 @@
-/// @description  player_reaction_catakiller(local_id)
+/// @description player_reaction_catakiller(local_id)
+var local_id = argument0;
 
-// scatter orbs
-with argument0.parent_id
+var result = false;
+
+with (local_id.parent_id)
 {
-    // break free if frozen
-    if frozen
-    {
-        frozen = false;
-        alarm[1] = -1;
+	// break free, if frozen
+	if (frozen and alarm[1] > 0) alarm[1] = 1;
 
-        // release debris
-        with instance_create(x-12, y-8, objShieldIceBlockDebris) {depth = other.depth-1; hspeed = -2; vspeed = -4;}
-        with instance_create(x+12, y-8, objShieldIceBlockDebris) {depth = other.depth-1; hspeed = 2; vspeed = -4; image_index = 1;}
-        with instance_create(x-12, y+8, objShieldIceBlockDebris) {depth = other.depth-1; hspeed = -2; vspeed = -2; image_index = 2;}
-        with instance_create(x+12, y+8, objShieldIceBlockDebris) {depth = other.depth-1; hspeed = 2; vspeed = -2; image_index = 3;}
-    }
+	// bounce
+	speed = 4;
+	direction = irandom(60) + 60;
+	gravity = 0.21875;
+	if (not bouncing) alarm[0] = 120;
+	bouncing = true;
+	jump_action = true;
 
-    // bounce
-    if not bouncing alarm[0] = 120;
-    bouncing = true;
-    gravity = 0.21875;
-    speed = 4;
-    direction = floor(random(60)+60);
-    jump_action = true;
-
-    // bounce orbs, too
-    for (i=0; i<3; i+=1)
-    {
-        with orb[i] {
-        speed = 4;
-        alarm[0] = 120;
-        gravity = 0.21875;
-        direction = floor(random(60)+60);
-        remove = 2;
-        
-        }
-        orb[i] = noone;
-    }
+	// scatter orbs
+	for (var n = 0; n < 3; ++n)
+	{
+		with (orb[n])
+		{
+			alarm[0] = 120;
+			speed = 4;
+			direction = irandom(60) + 60;
+			gravity = 0.21875;
+			remove = 2;
+		}
+		orb[n] = noone;
+	}
 }
 
-// get hurt
-if !(abs(xspeed)>=6 && character_id==3){
-    return player_reaction_harmful(argument0);
+// take damage, UNLESS we're charging through as Knuckles
+if (not (abs(xspeed) >= 6 and character_id == 3))
+{
+	result = player_reaction_harmful(local_id);
 }
+
+return result;
