@@ -6583,6 +6583,14 @@
             }
         },
         {
+            "Key": "48a25ba7-6489-4275-b376-32d333fc25b6",
+            "Value": {
+                "id": "a82f152d-5a13-4ac7-8250-ae655ba4347a",
+                "resourcePath": "objects\\objCrumblingFloorPiece\\objCrumblingFloorPiece.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "48bda6ee-9bdc-425f-bb97-92053e816f38",
             "Value": {
                 "id": "b6cb8bc2-eae4-404f-a42b-7c5c1de80d47",
@@ -13047,6 +13055,14 @@
             }
         },
         {
+            "Key": "9218a136-f576-47a4-961c-26e696f5cdb1",
+            "Value": {
+                "id": "0fd2d5a1-4689-419a-b387-2b1cc911bccc",
+                "resourcePath": "objects\\objCrumblingFloor\\objCrumblingFloor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9228fb7a-a232-4c0f-9a43-e0beb060f8ee",
             "Value": {
                 "id": "754d6c6c-6f9e-4b5f-8235-89e75ed6cbc9",
@@ -17772,6 +17788,14 @@
                 "id": "ca1e42a4-f739-4e25-9936-903f2278988c",
                 "resourcePath": "scripts\\player_transform\\player_transform.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c626def7-e7d5-43ec-a578-70f7e02138a7",
+            "Value": {
+                "id": "97a8f0a0-690d-477e-8a1e-dd654be9bdde",
+                "resourcePath": "views\\c626def7-e7d5-43ec-a578-70f7e02138a7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
