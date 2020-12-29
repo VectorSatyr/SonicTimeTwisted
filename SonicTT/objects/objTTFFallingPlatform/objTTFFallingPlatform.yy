@@ -5,26 +5,6 @@
     "name": "objTTFFallingPlatform",
     "eventList": [
         {
-            "id": "b0d620f1-0f33-4430-a9d2-12bb20748c94",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "b3c9e561-4eff-49d0-b60d-fc1df4ae48fb"
-        },
-        {
-            "id": "5c67a4bc-6517-42d7-a12c-a51873b784e1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "b3c9e561-4eff-49d0-b60d-fc1df4ae48fb"
-        },
-        {
             "id": "42ca49db-942b-47f8-8438-888dd4273b34",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -37,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "9b06c4e8-604a-40f5-be40-a126d8eac82e",
+    "parentObjectId": "9218a136-f576-47a4-961c-26e696f5cdb1",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
