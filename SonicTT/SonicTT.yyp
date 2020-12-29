@@ -11327,14 +11327,6 @@
             }
         },
         {
-            "Key": "7ef6be3e-4dce-4cd0-b726-7d812c27d440",
-            "Value": {
-                "id": "b542443d-d194-43d6-8b38-a153ee866cf5",
-                "resourcePath": "sprites\\sprTTFFFallingPlatformPieces\\sprTTFFFallingPlatformPieces.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7ef71e55-19aa-445d-8ae2-0542714dd726",
             "Value": {
                 "id": "f4b26ec8-f7fb-43fa-aab5-8ccf1458e05b",
