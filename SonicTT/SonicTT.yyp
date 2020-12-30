@@ -14087,14 +14087,6 @@
             }
         },
         {
-            "Key": "9d23675e-6093-4c1b-9191-0038f459c34b",
-            "Value": {
-                "id": "b2e1cc91-3a50-4822-b130-52fb284959da",
-                "resourcePath": "objects\\objExampleBreakableDebris\\objExampleBreakableDebris.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9d25129d-fe4b-4206-8ed1-2cd1067d6ce9",
             "Value": {
                 "id": "b8db19b0-cf6f-45c6-a36f-ebc3f7c6a0c8",
