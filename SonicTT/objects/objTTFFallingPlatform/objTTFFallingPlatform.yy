@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "objTTFFallingPlatform",
     "eventList": [
-        {
-            "id": "42ca49db-942b-47f8-8438-888dd4273b34",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "b3c9e561-4eff-49d0-b60d-fc1df4ae48fb"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
