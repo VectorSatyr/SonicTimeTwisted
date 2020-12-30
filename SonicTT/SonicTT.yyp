@@ -14543,14 +14543,6 @@
             }
         },
         {
-            "Key": "a2a0f9d2-6e70-48c8-974f-f95fd47db95e",
-            "Value": {
-                "id": "b042f36c-8b64-4c98-98b8-1ca0fb5fe472",
-                "resourcePath": "sprites\\sprExampleBreakableDebris\\sprExampleBreakableDebris.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a2b97254-8d52-4388-a412-64e9364f9ed5",
             "Value": {
                 "id": "a60ff2f8-bbce-4959-b07f-f62810cf2570",
