@@ -1,4 +1,4 @@
-action_inherited();
-reaction_script = player_reaction_breakable;
-debris = sprExampleBreakableDebris;
+/// @description Initialize
+event_inherited();
 image_speed = 0;
+reaction_script = player_reaction_breakable;
