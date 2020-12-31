@@ -21631,14 +21631,6 @@
             }
         },
         {
-            "Key": "f0cdf5cd-26cc-41ea-88d1-6cee937a1f49",
-            "Value": {
-                "id": "65734eff-c71b-4ba1-b2a3-116d712e1fa2",
-                "resourcePath": "sprites\\sprVVDiamond\\sprVVDiamond.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f0dfe4d5-ac10-4b67-a6ed-e89c1f028903",
             "Value": {
                 "id": "38f65366-5908-43ac-83dd-17764373dc7a",
