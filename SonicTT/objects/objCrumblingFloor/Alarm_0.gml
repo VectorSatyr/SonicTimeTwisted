@@ -14,6 +14,7 @@ for (row = 0; row < total_rows; ++row)
 			objCrumblingFloorPiece
 		);
 		ind.sprite_index = sprite_index;
+		ind.image_index = image_index;
 		ind.through = (row == 0);
 		ind.normal = 0;
 		if (row > 0) ind.depth_mask = 0;
