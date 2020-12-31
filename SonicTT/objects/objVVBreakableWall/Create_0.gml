@@ -1,10 +1,8 @@
-action_inherited();
-reaction_script = player_reaction_breakable_nobounce;
+/// @description Initialize
+event_inherited();
+image_index = (objProgram.in_past) ? 1 : 0;
 image_speed = 0;
-if objProgram.in_past image_index = 1;
+reaction_script = player_reaction_breakable_nobounce;
 facing = 1;
-i=0;
-debris=sprVVDiamond;
-ox = 2;
-oy = 5;
-
+debris_columns = 4;
+debris_rows = 4;

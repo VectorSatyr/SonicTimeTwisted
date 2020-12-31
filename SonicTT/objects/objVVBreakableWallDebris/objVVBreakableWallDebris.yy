@@ -5,26 +5,6 @@
     "name": "objVVBreakableWallDebris",
     "eventList": [
         {
-            "id": "2f90692c-0710-4dbe-aab8-3a18ab5ead47",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8bf9a346-c321-49e1-af0f-d48ecf647214"
-        },
-        {
-            "id": "113da0a8-65c5-4f3d-9eca-2ade19d83d7d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 2,
-            "m_owner": "8bf9a346-c321-49e1-af0f-d48ecf647214"
-        },
-        {
             "id": "b8da24ea-22db-45fa-b16a-8098f97eeb97",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -37,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "9b06c4e8-604a-40f5-be40-a126d8eac82e",
+    "parentObjectId": "502278ac-0cd6-40fa-b013-8fe8296021de",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
