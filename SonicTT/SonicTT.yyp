@@ -3975,14 +3975,6 @@
             }
         },
         {
-            "Key": "2f535d73-4454-45f7-8b10-2f77364acb81",
-            "Value": {
-                "id": "f60d8c1d-cdfa-4084-a455-7a5ed74c98c8",
-                "resourcePath": "objects\\objBreakableRockBits\\objBreakableRockBits.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2f8759c6-71e8-47d9-bdd4-387e9fcaf33d",
             "Value": {
                 "id": "bd28720d-ba9a-4f2e-9fe0-87072ade18d4",
@@ -9844,14 +9836,6 @@
                 "id": "db87f522-8b5f-4f46-b5e5-439d4825ccf8",
                 "resourcePath": "timelines\\animShieldBubbleAction\\animShieldBubbleAction.yy",
                 "resourceType": "GMTimeline"
-            }
-        },
-        {
-            "Key": "6d20aea0-af70-44ce-91c1-2460ecc0d3f3",
-            "Value": {
-                "id": "80cf94fa-d858-4ce8-84e4-3267b1c59b2d",
-                "resourcePath": "views\\6d20aea0-af70-44ce-91c1-2460ecc0d3f3.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
