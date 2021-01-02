@@ -1,7 +1,6 @@
-action_inherited();
-gravity_direction = 270;
-gravity=.2;
+/// @description Initialize
+event_inherited();
 speed = 2;
-
-direction=random(90)+45;
-
+direction = 45 + random(90);
+gravity = 0.21875;
+remove = 2;
