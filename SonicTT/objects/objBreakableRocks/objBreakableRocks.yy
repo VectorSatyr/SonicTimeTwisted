@@ -4,40 +4,11 @@
     "mvc": "1.0",
     "name": "objBreakableRocks",
     "eventList": [
-        {
-            "id": "872f5d92-feaa-4de9-ba26-d7c31e5c266f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e51356bf-c3e2-47f3-84ca-fac229e1377a"
-        },
-        {
-            "id": "ed95b838-5dba-4f4c-9c26-afc53acb3562",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "e51356bf-c3e2-47f3-84ca-fac229e1377a"
-        },
-        {
-            "id": "5d7378d6-17ef-4cc1-8148-51c26488570e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "e51356bf-c3e2-47f3-84ca-fac229e1377a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "9b06c4e8-604a-40f5-be40-a126d8eac82e",
+    "parentObjectId": "9218a136-f576-47a4-961c-26e696f5cdb1",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
