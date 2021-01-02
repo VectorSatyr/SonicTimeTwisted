@@ -21103,14 +21103,6 @@
             }
         },
         {
-            "Key": "eb45c810-fa11-4bbd-8b55-03abc9ba922f",
-            "Value": {
-                "id": "5b4a5665-dff1-43a8-bbfe-32f8fe5da17f",
-                "resourcePath": "sprites\\sprFallingBlocks\\sprFallingBlocks.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "eb5a6cf8-b96b-4c9c-97e1-dd413cbcacb9",
             "Value": {
                 "id": "dfe18723-f965-457e-86c1-21cba9991a7a",
