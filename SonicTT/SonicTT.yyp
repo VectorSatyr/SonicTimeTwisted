@@ -18127,14 +18127,6 @@
             }
         },
         {
-            "Key": "c9c79b74-f18c-407c-a04e-f44930073fc1",
-            "Value": {
-                "id": "599bf93a-acdd-4ee2-ab42-83c5de9da060",
-                "resourcePath": "sprites\\sprBreakableRockBits\\sprBreakableRockBits.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c9ca3c74-d365-48d3-a27a-2e8c2ec27e00",
             "Value": {
                 "id": "cb4564db-8220-4a89-a70b-582319439169",
