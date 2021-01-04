@@ -6,6 +6,6 @@ cell_width = 16;
 cell_height = 16;
 timed_delay_per_column = 2;
 timed_delay_per_row = 5;
-total_columns = sprite_width div cell_width;
-total_rows = sprite_height div cell_height;
+total_columns = abs(sprite_width div cell_width);
+total_rows = abs(sprite_height div cell_height);
 reverse = (sign(image_xscale) == -1);
