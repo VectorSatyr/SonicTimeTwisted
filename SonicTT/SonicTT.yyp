@@ -7239,6 +7239,14 @@
             }
         },
         {
+            "Key": "5037f0bd-4387-4a57-a516-c8972286a48e",
+            "Value": {
+                "id": "3952fbea-7788-4659-a4c3-5691037a85fa",
+                "resourcePath": "timelines\\animGalanikFireballFade\\animGalanikFireballFade.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "504d33fb-9256-4010-9dce-796a98e17af4",
             "Value": {
                 "id": "5e795039-2665-4d92-b9f8-6f08ec910319",
@@ -8908,6 +8916,14 @@
                 "id": "6b20a4e8-fe39-4516-9c1c-20513b2be4f3",
                 "resourcePath": "objects\\objPPBackEarth\\objPPBackEarth.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6256ed7c-edfc-4674-844b-1bda6dd0ca23",
+            "Value": {
+                "id": "d9dc7921-2060-4437-b726-ab36d4a1eafd",
+                "resourcePath": "timelines\\animGalanikFireballGrow\\animGalanikFireballGrow.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
