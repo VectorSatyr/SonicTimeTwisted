@@ -2503,14 +2503,6 @@
             }
         },
         {
-            "Key": "1ef678ac-1ed2-41a0-80b2-abd18acf8127",
-            "Value": {
-                "id": "211edd5a-bd4d-4261-a142-fa90f6be8fd9",
-                "resourcePath": "sprites\\sprFFCollapsingPartsRight\\sprFFCollapsingPartsRight.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1f201f8e-28d3-4f41-89fc-b5942a0bb297",
             "Value": {
                 "id": "c044e83d-5378-48d3-badb-51ab77db4f61",
