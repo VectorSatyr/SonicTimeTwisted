@@ -1,5 +1,2 @@
-
-ypos+=ysp;
-y=floor(ypos);
-
-
+/// @description Fall
+y += y_speed;
