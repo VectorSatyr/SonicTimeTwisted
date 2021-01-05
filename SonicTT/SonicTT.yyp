@@ -4327,14 +4327,6 @@
             }
         },
         {
-            "Key": "331c925c-f691-40e5-a496-54cab96112b7",
-            "Value": {
-                "id": "9d51613b-7623-49a8-996f-cdf2d79f3a44",
-                "resourcePath": "views\\331c925c-f691-40e5-a496-54cab96112b7.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "33229318-1f44-4cc7-93bd-b31350ea9019",
             "Value": {
                 "id": "823d9692-47c8-4269-a2b1-91944f8240af",
@@ -14283,14 +14275,6 @@
             "Value": {
                 "id": "2819a34c-4e33-473f-9d0c-d4572ed9c6ae",
                 "resourcePath": "objects\\objDustCloud\\objDustCloud.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9fcab35d-8982-4440-b899-db236e71aac3",
-            "Value": {
-                "id": "9970567d-a1f5-480b-bbde-ebedfc56402e",
-                "resourcePath": "objects\\objFFCollapsingPlatformPiece\\objFFCollapsingPlatformPiece.yy",
                 "resourceType": "GMObject"
             }
         },
