@@ -9663,14 +9663,6 @@
             }
         },
         {
-            "Key": "6b8ab010-5ad7-44fc-bd19-1f2e26205d2d",
-            "Value": {
-                "id": "9110fcea-7672-4ffa-95a8-79beb573ae85",
-                "resourcePath": "sprites\\sprFFFCollapsingPartsRight\\sprFFFCollapsingPartsRight.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6b8e489a-2a3c-4f7b-a929-d0828cf474fc",
             "Value": {
                 "id": "d80eb096-6b1c-4a22-a5f0-9b592063cecb",
