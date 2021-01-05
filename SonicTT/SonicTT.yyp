@@ -639,14 +639,6 @@
             }
         },
         {
-            "Key": "078de6c7-5fb5-4851-9167-a848e9b9b8b9",
-            "Value": {
-                "id": "e9fec63e-107d-4d22-98ee-7db1111bbc59",
-                "resourcePath": "sprites\\sprRRBreakableColumnPiece\\sprRRBreakableColumnPiece.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "078e6f44-b73a-4c71-865e-4bada05c5090",
             "Value": {
                 "id": "7171952a-8970-4729-aba7-72e955b14a47",
