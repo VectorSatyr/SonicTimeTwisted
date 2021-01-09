@@ -18311,14 +18311,6 @@
             }
         },
         {
-            "Key": "cbeff116-9770-4095-8c67-0e82927c7d01",
-            "Value": {
-                "id": "0de22e97-89a7-4cec-8798-740959750706",
-                "resourcePath": "scripts\\angle_distance\\angle_distance.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "cbf16d8f-5d85-4767-a8c1-98a5b54889e3",
             "Value": {
                 "id": "8ce55fca-9c70-4500-b9e3-e4c2f7e78cab",
@@ -23015,7 +23007,6 @@
         "50a8df64-a8b9-41f9-86fb-b8e8386fb3e9",
         "996fb39c-9284-41e9-a3c0-bed549a5731b",
         "c07b076b-88f0-4f62-ae72-d97ffd17fa85",
-        "cbeff116-9770-4095-8c67-0e82927c7d01",
         "c817e726-2943-4ac2-9d49-9d356f9095c6",
         "808ca89f-a76b-4db9-9133-a21bac10766e",
         "ffa7b7ad-6e4d-4c6d-bfdb-dfc273f2b214",
