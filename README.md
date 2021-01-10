@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/VectorSatyr/SonicTimeTwisted/blob/master/.github/TimeTwistedLogo.png" alt="Sonic Time Twisted Logo" width="536px" height="274px"/></p>
+<p align="center"><img src="https://github.com/VectorSatyr/SonicTimeTwisted/blob/master/images/TimeTwistedLogo.png" alt="Sonic Time Twisted Logo" width="536px" height="274px"/></p>
 
 ## What is this?
 
